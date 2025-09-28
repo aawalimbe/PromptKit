@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold; fill: #2c3e50; }
+      .section { font-family: 'Arial', sans-serif; font-size: 14px; font-weight: bold; fill: #34495e; }
+      .code { font-family: 'Courier New', monospace; font-size: 12px; font-weight: bold; fill: #e74c3c; }
+      .description { font-family: 'Arial', sans-serif; font-size: 10px; fill: #2c3e50; }
+      .header-bg { fill: #ecf0f1; stroke: #bdc3c7; stroke-width: 2; }
+      .cell-bg { fill: #ffffff; stroke: #ecf0f1; stroke-width: 1; }
+      .section-bg { fill: #f8f9fa; stroke: #dee2e6; stroke-width: 1; }
+    </style>
+  </defs>
+  
+  <!-- Header -->
+  <rect x="20" y="20" width="760" height="100" class="header-bg" rx="10"/>
+  <text x="400" y="60" text-anchor="middle" class="title">Testers Dictionary</text>
+  <text x="400" y="85" text-anchor="middle" class="section">PromptKit Reference Card</text>
+  <text x="400" y="105" text-anchor="middle" class="description">Use codes with : followed by your content</text>
+  
+  <!-- Content Grid -->
+  <rect x="30" y="140" width="740" height="25" class="section-bg" rx="5"/>
+  <text x="40" y="157" class="section">Testers</text>
+  <rect x="30" y="175" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="190" class="code">test:</text>
+  <text x="35" y="205" class="description">Create comprehensive test cases with scenarios</text>
+  <rect x="276" y="175" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="190" class="code">unit:</text>
+  <text x="281" y="205" class="description">Write unit tests with assertions and coverage</text>
+  <rect x="522" y="175" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="190" class="code">int:</text>
+  <text x="527" y="205" class="description">Design integration tests for system components</text>
+  <rect x="30" y="245" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="260" class="code">func:</text>
+  <text x="35" y="275" class="description">Create functional tests for user workflows</text>
+  <rect x="276" y="245" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="260" class="code">perf:</text>
+  <text x="281" y="275" class="description">Develop performance tests with benchmarks</text>
+  <rect x="522" y="245" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="260" class="code">load:</text>
+  <text x="527" y="275" class="description">Design load testing with stress scenarios</text>
+  <rect x="30" y="315" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="330" class="code">sec:</text>
+  <text x="35" y="345" class="description">Create security tests for vulnerabilities</text>
+  <rect x="276" y="315" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="330" class="code">ui:</text>
+  <text x="281" y="345" class="description">Develop user interface tests</text>
+  <rect x="522" y="315" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="330" class="code">api:</text>
+  <text x="527" y="345" class="description">Test API endpoints and responses</text>
+  <rect x="30" y="385" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="400" class="code">db:</text>
+  <text x="35" y="415" class="description">Test database operations and integrity</text>
+  <rect x="276" y="385" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="400" class="code">auto:</text>
+  <text x="281" y="415" class="description">Create automated test scripts</text>
+  <rect x="522" y="385" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="400" class="code">man:</text>
+  <text x="527" y="415" class="description">Design manual testing procedures</text>
+  <rect x="30" y="455" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="470" class="code">reg:</text>
+  <text x="35" y="485" class="description">Develop regression test suites</text>
+  <rect x="276" y="455" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="470" class="code">smok:</text>
+  <text x="281" y="485" class="description">Create smoke tests for basic functionality</text>
+  <rect x="522" y="455" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="470" class="code">edge:</text>
+  <text x="527" y="485" class="description">Test edge cases and boundary conditions</text>
+  <rect x="30" y="525" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="540" class="code">data:</text>
+  <text x="35" y="555" class="description">Test data validation and processing</text>
+  <rect x="276" y="525" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="540" class="code">flow:</text>
+  <text x="281" y="555" class="description">Test user flows and navigation</text>
+  <rect x="522" y="525" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="540" class="code">comp:</text>
+  <text x="527" y="555" class="description">Test cross-browser compatibility</text>
+  <rect x="30" y="595" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="610" class="code">mob:</text>
+  <text x="35" y="625" class="description">Test mobile device compatibility</text>
+  <rect x="276" y="595" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="610" class="code">acc:</text>
+  <text x="281" y="625" class="description">Test accessibility compliance</text>
+  <rect x="522" y="595" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="610" class="code">mock:</text>
+  <text x="527" y="625" class="description">Create mock data and test datasets</text>
+  <rect x="30" y="665" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="680" class="code">env:</text>
+  <text x="35" y="695" class="description">Set up and manage test environments</text>
+  <rect x="276" y="665" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="680" class="code">tool:</text>
+  <text x="281" y="695" class="description">Configure testing tools and frameworks</text>
+  <rect x="522" y="665" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="680" class="code">report:</text>
+  <text x="527" y="695" class="description">Generate test reports and metrics</text>
+  <rect x="30" y="735" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="750" class="code">trace:</text>
+  <text x="35" y="765" class="description">Track test traceability and coverage</text>
+  <rect x="276" y="735" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="750" class="code">exec:</text>
+  <text x="281" y="765" class="description">Execute tests and manage schedules</text>
+  <rect x="522" y="735" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="750" class="code">test+auto:</text>
+  <text x="527" y="765" class="description">Test cases + automation</text>
+  <rect x="30" y="805" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="820" class="code">func+ui:</text>
+  <text x="35" y="835" class="description">Functional + UI tests</text>
+  <rect x="276" y="805" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="820" class="code">perf+load:</text>
+  <text x="281" y="835" class="description">Performance + load tests</text>
+
+  <!-- Footer -->
+  <text x="400" y="980" text-anchor="middle" class="description">
+    Generated from: .\07-Software Development Pipeline\Testers\testers.md | PromptKit - AI Prompt Shorthand System
+  </text>
+</svg>

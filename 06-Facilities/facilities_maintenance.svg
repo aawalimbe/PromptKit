@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="760" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold; fill: #2c3e50; }
+      .section { font-family: 'Arial', sans-serif; font-size: 14px; font-weight: bold; fill: #34495e; }
+      .code { font-family: 'Courier New', monospace; font-size: 12px; font-weight: bold; fill: #e74c3c; }
+      .description { font-family: 'Arial', sans-serif; font-size: 10px; fill: #2c3e50; }
+      .header-bg { fill: #ecf0f1; stroke: #bdc3c7; stroke-width: 2; }
+      .cell-bg { fill: #ffffff; stroke: #ecf0f1; stroke-width: 1; }
+      .section-bg { fill: #f8f9fa; stroke: #dee2e6; stroke-width: 1; }
+    </style>
+  </defs>
+  
+  <!-- Header -->
+  <rect x="20" y="20" width="760" height="100" class="header-bg" rx="10"/>
+  <text x="400" y="60" text-anchor="middle" class="title">Facilities Dictionary</text>
+  <text x="400" y="85" text-anchor="middle" class="section">PromptKit Reference Card</text>
+  <text x="400" y="105" text-anchor="middle" class="description">Use codes with : followed by your content</text>
+  
+  <!-- Content Grid -->
+  <rect x="30" y="140" width="740" height="25" class="section-bg" rx="5"/>
+  <text x="40" y="157" class="section">Facilities & Maintenance</text>
+  <rect x="30" y="175" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="190" class="code">fm.main:</text>
+  <text x="35" y="205" class="description">Establish maintenance procedures with preventiv...</text>
+  <rect x="276" y="175" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="190" class="code">fm.fac:</text>
+  <text x="281" y="205" class="description">Design facility management with operations, opt...</text>
+  <rect x="522" y="175" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="190" class="code">fm.uti:</text>
+  <text x="527" y="205" class="description">Create utility management with energy, water, a...</text>
+  <rect x="30" y="245" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="260" class="code">fm.sec:</text>
+  <text x="35" y="275" class="description">Establish facility security with access control...</text>
+  <rect x="276" y="245" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="260" class="code">fm.cle:</text>
+  <text x="281" y="275" class="description">Design cleaning procedures with standards, sche...</text>
+  <rect x="522" y="245" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="260" class="code">fm.rep:</text>
+  <text x="527" y="275" class="description">Create repair procedures with prioritization, s...</text>
+  <rect x="30" y="315" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="330" class="code">fm.upg:</text>
+  <text x="35" y="345" class="description">Establish upgrade planning with assessment, bud...</text>
+  <rect x="276" y="315" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="330" class="code">fm.spa:</text>
+  <text x="281" y="345" class="description">Design space management with allocation, optimi...</text>
+  <rect x="522" y="315" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="330" class="code">fm.equ:</text>
+  <text x="527" y="345" class="description">Create equipment management with inventory, mai...</text>
+  <rect x="30" y="385" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="400" class="code">fm.ven:</text>
+  <text x="35" y="415" class="description">Establish vendor management with selection, con...</text>
+  <rect x="276" y="385" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="400" class="code">fm.bud:</text>
+  <text x="281" y="415" class="description">Create facility budgeting with planning, tracki...</text>
+  <rect x="522" y="385" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="400" class="code">fm.com:</text>
+  <text x="527" y="415" class="description">Ensure facility compliance with codes, regulati...</text>
+  <rect x="30" y="455" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="470" class="code">fm.team:</text>
+  <text x="35" y="485" class="description">Design facilities team management with roles, c...</text>
+  <rect x="276" y="455" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="470" class="code">fm.data:</text>
+  <text x="281" y="485" class="description">Create facilities data management with collecti...</text>
+  <rect x="522" y="455" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="470" class="code">fm.temp:</text>
+  <text x="527" y="485" class="description">Establish facilities template management with s...</text>
+  <rect x="30" y="525" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="540" class="code">fm.track:</text>
+  <text x="35" y="555" class="description">Design facilities tracking system with metrics,...</text>
+  <rect x="276" y="525" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="540" class="code">fm.plan:</text>
+  <text x="281" y="555" class="description">Create facilities planning with design, expansi...</text>
+  <rect x="522" y="525" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="540" class="code">fm.proj:</text>
+  <text x="527" y="555" class="description">Establish facilities project management with pl...</text>
+  <rect x="30" y="595" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="610" class="code">fm.main+fm.equ:</text>
+  <text x="35" y="625" class="description">Maintenance procedures + equipment management</text>
+  <rect x="276" y="595" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="610" class="code">fm.fac+fm.spa:</text>
+  <text x="281" y="625" class="description">Facility management + space management</text>
+  <rect x="522" y="595" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="610" class="code">fm.sec+fm.com:</text>
+  <text x="527" y="625" class="description">Facility security + compliance</text>
+
+  <!-- Footer -->
+  <text x="400" y="740" text-anchor="middle" class="description">
+    Generated from: .\06-Facilities\facilities_maintenance.md | PromptKit - AI Prompt Shorthand System
+  </text>
+</svg>
