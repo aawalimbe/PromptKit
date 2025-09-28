@@ -1,3 +1,9 @@
+# General Dictionary - Copy & Paste Ready
+
+**Instructions:** Copy the codes below and paste into your AI tool's custom instructions or system prompt. Use codes with a colon (:) followed by your content.
+
+**⚠️ Important:** These codes are **input-only** - they expand into full instructions but are **not displayed** in the AI's response. Only the processed content appears in the output.
+
 ## 📘 General Dictionary (Comprehensive)
 
 ### **Corrections & Improvements**
@@ -8,6 +14,8 @@
 * `sp:` → Fix spelling only
 * `pf:` → Proofread full text
 * `co:` → Concise version (remove filler words)
+* `fx:` → Fix any errors in the text
+* `im:` → Improve the overall quality
 
 ### **Summarization & Restructuring**
 
@@ -27,6 +35,7 @@
 * `cmp:` → Compare differences/similarities
 * `qa:` → Generate questions & answers from text
 * `tf:` → Teach as if for a test (quiz format)
+* `hlp:` → Help me understand this topic
 
 ### **Formatting & Styling**
 
@@ -70,3 +79,23 @@
 * `soc:` → Social media–friendly version
 * `pr:` → Press-release style
 * `pit:` → Pitch-style version (convincing tone)
+
+---
+
+## 🔗 **Code Combinations**
+
+You can combine codes using `+` to chain multiple instructions:
+
+* `cp+sm:` → Correct professionally + summarize
+* `pf+cl:` → Proofread + make clearer
+* `es+exm:` → Explain simply + give examples
+* `st+fr:` → Change style + format neatly
+* `im+hl:` → Improve + highlight key points
+
+## 📝 **Usage Examples**
+
+* `cg: This sentence need fixing.` → Correct grammar
+* `cp+sm: The following text...` → Professional correction + summary
+* `es: Machine learning` → Simple explanation
+* `st: Make this more casual` → Style change
+* `eml: Convert this to email` → Email format

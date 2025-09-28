@@ -21,6 +21,8 @@ Prompting today is messy:
 * **Customization**: Add your own codes, department dictionaries, or personal shorthand.
 * **Efficiency**: Faster prompting, fewer tokens.
 
+**⚠️ Important:** These codes are **input-only** - they expand into full instructions but are **not displayed** in the AI's response. Only the processed content appears in the output.
+
 PromptKit is both a **system** (the rules for creating and using codes) and a **kit** (ready-to-use dictionaries for general users, students, and office departments).
 
 ---
@@ -61,6 +63,27 @@ PromptKit is both a **system** (the rules for creating and using codes) and a **
 
 * Add the dictionary in the **system prompt**.
 * Or preprocess your input with a simple script that expands codes into full instructions before sending them.
+
+### **Troubleshooting**
+
+**Codes not working?**
+- Ensure codes end with `:` (colon)
+- Check that your AI tool supports custom instructions
+- Try restarting your AI session
+
+**Codes showing in response?**
+- This shouldn't happen - codes are input-only
+- Check that you've properly set up custom instructions
+- The AI should only show the processed content, not the codes
+
+**Want to combine codes?**
+- Use `+` to chain codes: `cp+sm: [text]`
+- Order matters: `cp+sm` = correct professionally, then summarize
+
+**Need help?**
+- Check the [Issues](https://github.com/aawalimbe/PromptKit/issues) page
+- Join our community discussions
+- Submit feature requests
 
 ---
 
@@ -103,12 +126,38 @@ int: Data Analyst role
 
 → Generates interview-style questions
 
-**Workplace Example**
+**Workplace Examples**
 
 ```
 hr.jd: Draft a job description for a sales manager
 mkt.sm: Summarize social media engagement data
 fin.rep: Generate a financial report summary
+```
+
+**Real-World Use Cases**
+
+**Content Creation:**
+```
+cp+st: Make this email more professional and formal
+sm+hl: Summarize this meeting notes and highlight action items
+```
+
+**Academic Writing:**
+```
+pf+cl: Proofread and clarify this research paper abstract
+ex+exm: Explain machine learning concepts with real examples
+```
+
+**Business Communication:**
+```
+eml: Convert this message into a professional email
+pr: Create a pitch for our new product launch
+```
+
+**Learning & Development:**
+```
+tk: Test my understanding of React hooks
+im: Review my code and suggest improvements
 ```
 
 ---
@@ -123,6 +172,102 @@ PromptKit was made open source to:
 * Build a **common language of prompting** that’s simple, flexible, and efficient.
 
 Prompting should feel like second nature — not a chore.
+
+---
+
+## 🚀 Quick Start Guide
+
+### **For Students**
+1. Copy the **Student Dictionary** codes from `students/students.md`
+2. Paste into ChatGPT Custom Instructions
+3. Try: `qz: Python basics` or `int: Data Analyst role`
+
+### **For Professionals**
+1. Start with **General Dictionary** codes from `general/general.md`
+2. Add to your AI tool's system prompt
+3. Try: `cp+sm: [your text]` for professional correction + summary
+
+### **For Teams**
+1. Choose relevant codes from both dictionaries
+2. Create a shared custom dictionary
+3. Standardize across your organization
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions to make PromptKit better for everyone!
+
+### **How to Contribute**
+1. **Fork** the repository
+2. **Add new codes** to existing dictionaries or create new ones
+3. **Test** your codes with real examples
+4. **Submit** a pull request with clear descriptions
+
+### **Code Guidelines**
+- Keep codes **short** (2-4 characters)
+- Make them **memorable** and **intuitive**
+- Include **clear examples** in your submission
+- Follow existing naming patterns
+
+### **What We're Looking For**
+- **Specialized dictionaries** (HR, Marketing, Finance, etc.)
+- **Language-specific** codes
+- **Industry-specific** prompt patterns
+- **Integration examples** with popular tools
+
+---
+
+## 🔧 Integration Guides
+
+### **With Popular Tools**
+
+**Notion AI:**
+- Add codes to your Notion AI system prompt
+- Use in AI blocks: `cg: [text to correct]`
+
+**Obsidian:**
+- Create a template with common codes
+- Use with AI plugins for note-taking
+
+**VS Code:**
+- Add to GitHub Copilot custom instructions
+- Use in AI-powered code comments
+
+**Slack/Discord:**
+- Add to AI bot system prompts
+- Use for quick text improvements
+
+### **API Integration**
+```python
+# Example: Preprocess prompts before sending to API
+def expand_prompt_codes(text, dictionary):
+    for code, instruction in dictionary.items():
+        text = text.replace(f"{code}:", f"{instruction}:")
+    return text
+```
+
+---
+
+## 📈 Roadmap
+
+### **Coming Soon**
+- [ ] **Web Interface** - Browse and search codes online
+- [ ] **Browser Extension** - Quick access in any text field
+- [ ] **Mobile App** - Use codes on the go
+- [ ] **Team Collaboration** - Shared dictionaries for organizations
+
+### **Planned Features**
+- [ ] **Code Validation** - Test codes before adding
+- [ ] **Usage Analytics** - Track popular codes
+- [ ] **AI Integration** - Auto-suggest codes based on context
+- [ ] **Multi-language Support** - Codes in different languages
+
+### **Community Requests**
+- [ ] **HR Dictionary** - Recruitment and employee management
+- [ ] **Marketing Dictionary** - Content creation and campaigns
+- [ ] **Finance Dictionary** - Reports and analysis
+- [ ] **Legal Dictionary** - Document review and drafting
 
 ---
 
