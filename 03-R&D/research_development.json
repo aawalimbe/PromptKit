@@ -1,0 +1,305 @@
+{
+  "promptkit_dictionary": {
+    "title": "R&D Dictionary",
+    "version": "1.0",
+    "description": "Structured PromptKit dictionary for R&D Dictionary",
+    "source_file": ".\\03-R&D\\research_development.md",
+    "total_codes": 21,
+    "instructions": {
+      "for_llm": [
+        "These are shorthand codes that expand into full instructions when used with a colon (:)",
+        "Codes are input-only - they should not be displayed in responses",
+        "When a code is used, replace it with the full instruction from the description",
+        "Maintain the context and intent of the original code",
+        "Provide comprehensive, actionable responses based on the code's purpose"
+      ],
+      "for_users": [
+        "Use codes with a colon (:) followed by your content",
+        "Example: 'cg: This text needs correction'",
+        "Codes can be combined with + for multiple instructions",
+        "Example: 'cp+sm: Long document to correct and summarize'"
+      ]
+    },
+    "sections": {
+      "Research & Development": {
+        "description": "Codes related to research & development",
+        "code_count": 21,
+        "codes": [
+          {
+            "code": "rd.res",
+            "description": "Design research methodology with hypothesis, experiments, and validation",
+            "usage_examples": [
+              "rd.res: [Your content here]",
+              "rd.res: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rd.res: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design research methodology with hypothesis, experiments, and validation"
+            }
+          },
+          {
+            "code": "rd.lab",
+            "description": "Establish laboratory procedures with safety, protocols, and documentation",
+            "usage_examples": [
+              "rd.lab: [Your content here]",
+              "rd.lab: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rd.lab: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish laboratory procedures with safety, protocols, and documentation"
+            }
+          },
+          {
+            "code": "rd.exp",
+            "description": "Create experiment design with controls, variables, and measurement",
+            "usage_examples": [
+              "rd.exp: [Your content here]",
+              "rd.exp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rd.exp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create experiment design with controls, variables, and measurement"
+            }
+          },
+          {
+            "code": "rd.ana",
+            "description": "Develop data analysis framework with statistical methods and insights",
+            "usage_examples": [
+              "rd.ana: [Your content here]",
+              "rd.ana: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rd.ana: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop data analysis framework with statistical methods and insights"
+            }
+          },
+          {
+            "code": "rd.pat",
+            "description": "Conduct patent research with prior art analysis and filing strategies",
+            "usage_examples": [
+              "rd.pat: [Your content here]",
+              "rd.pat: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rd.pat: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Conduct patent research with prior art analysis and filing strategies"
+            }
+          },
+          {
+            "code": "rd.pub",
+            "description": "Establish publication process with peer review, submission, and dissemination",
+            "usage_examples": [
+              "rd.pub: [Your content here]",
+              "rd.pub: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rd.pub: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish publication process with peer review, submission, and dissemination"
+            }
+          },
+          {
+            "code": "rd.coll",
+            "description": "Design collaboration tools with version control, sharing, and communication",
+            "usage_examples": [
+              "rd.coll: [Your content here]",
+              "rd.coll: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rd.coll: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design collaboration tools with version control, sharing, and communication"
+            }
+          },
+          {
+            "code": "rd.fund",
+            "description": "Create funding strategy with grants, proposals, and budget management",
+            "usage_examples": [
+              "rd.fund: Q4 marketing budget proposal",
+              "rd.fund: Annual IT infrastructure budget"
+            ],
+            "instructions": {
+              "input_format": "rd.fund: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create funding strategy with grants, proposals, and budget management"
+            }
+          },
+          {
+            "code": "rd.pro",
+            "description": "Design prototyping process with rapid development and iteration",
+            "usage_examples": [
+              "rd.pro: REST API for user management",
+              "rd.pro: Payment gateway integration"
+            ],
+            "instructions": {
+              "input_format": "rd.pro: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design prototyping process with rapid development and iteration"
+            }
+          },
+          {
+            "code": "rd.val",
+            "description": "Establish validation procedures with testing, verification, and compliance",
+            "usage_examples": [
+              "rd.val: User login functionality",
+              "rd.val: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "rd.val: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish validation procedures with testing, verification, and compliance"
+            }
+          },
+          {
+            "code": "rd.ip",
+            "description": "Create intellectual property management with protection and licensing",
+            "usage_examples": [
+              "rd.ip: [Your content here]",
+              "rd.ip: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rd.ip: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create intellectual property management with protection and licensing"
+            }
+          },
+          {
+            "code": "rd.tran",
+            "description": "Design technology transfer with commercialization and licensing",
+            "usage_examples": [
+              "rd.tran: [Your content here]",
+              "rd.tran: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rd.tran: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design technology transfer with commercialization and licensing"
+            }
+          },
+          {
+            "code": "rd.bud",
+            "description": "Create research budget planning with allocation, tracking, and optimization",
+            "usage_examples": [
+              "rd.bud: Q4 marketing budget proposal",
+              "rd.bud: Annual IT infrastructure budget"
+            ],
+            "instructions": {
+              "input_format": "rd.bud: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create research budget planning with allocation, tracking, and optimization"
+            }
+          },
+          {
+            "code": "rd.tim",
+            "description": "Establish research timeline with milestones, deadlines, and project planning",
+            "usage_examples": [
+              "rd.tim: [Your content here]",
+              "rd.tim: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rd.tim: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish research timeline with milestones, deadlines, and project planning"
+            }
+          },
+          {
+            "code": "rd.team",
+            "description": "Design research team management with roles, collaboration, and coordination",
+            "usage_examples": [
+              "rd.team: [Your content here]",
+              "rd.team: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rd.team: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design research team management with roles, collaboration, and coordination"
+            }
+          },
+          {
+            "code": "rd.equ",
+            "description": "Create research equipment management with procurement, maintenance, and lifecycle",
+            "usage_examples": [
+              "rd.equ: [Your content here]",
+              "rd.equ: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rd.equ: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create research equipment management with procurement, maintenance, and lifecycle"
+            }
+          },
+          {
+            "code": "rd.data",
+            "description": "Establish research data management with storage, security, and sharing",
+            "usage_examples": [
+              "rd.data: [Your content here]",
+              "rd.data: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rd.data: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish research data management with storage, security, and sharing"
+            }
+          },
+          {
+            "code": "rd.eth",
+            "description": "Design research ethics framework with compliance, review, and approval",
+            "usage_examples": [
+              "rd.eth: [Your content here]",
+              "rd.eth: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rd.eth: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design research ethics framework with compliance, review, and approval"
+            }
+          },
+          {
+            "code": "rd.res+rd.exp",
+            "description": "Research methodology + experiment design",
+            "usage_examples": [
+              "rd.res+rd.exp: [Your content here]",
+              "rd.res+rd.exp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rd.res+rd.exp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Research methodology + experiment design"
+            }
+          },
+          {
+            "code": "rd.pat+rd.ip",
+            "description": "Patent research + IP management",
+            "usage_examples": [
+              "rd.pat+rd.ip: [Your content here]",
+              "rd.pat+rd.ip: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rd.pat+rd.ip: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Patent research + IP management"
+            }
+          },
+          {
+            "code": "rd.fund+rd.pro",
+            "description": "Funding strategy + prototyping",
+            "usage_examples": [
+              "rd.fund+rd.pro: Digital transformation strategy",
+              "rd.fund+rd.pro: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "rd.fund+rd.pro: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Funding strategy + prototyping"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

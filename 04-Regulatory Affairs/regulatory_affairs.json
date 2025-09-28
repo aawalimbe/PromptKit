@@ -1,0 +1,305 @@
+{
+  "promptkit_dictionary": {
+    "title": "Regulatory Affairs Dictionary",
+    "version": "1.0",
+    "description": "Structured PromptKit dictionary for Regulatory Affairs Dictionary",
+    "source_file": ".\\04-Regulatory Affairs\\regulatory_affairs.md",
+    "total_codes": 21,
+    "instructions": {
+      "for_llm": [
+        "These are shorthand codes that expand into full instructions when used with a colon (:)",
+        "Codes are input-only - they should not be displayed in responses",
+        "When a code is used, replace it with the full instruction from the description",
+        "Maintain the context and intent of the original code",
+        "Provide comprehensive, actionable responses based on the code's purpose"
+      ],
+      "for_users": [
+        "Use codes with a colon (:) followed by your content",
+        "Example: 'cg: This text needs correction'",
+        "Codes can be combined with + for multiple instructions",
+        "Example: 'cp+sm: Long document to correct and summarize'"
+      ]
+    },
+    "sections": {
+      "Regulatory Affairs": {
+        "description": "Codes related to regulatory affairs",
+        "code_count": 21,
+        "codes": [
+          {
+            "code": "ra.com",
+            "description": "Ensure regulatory compliance with standards, audits, and certification",
+            "usage_examples": [
+              "ra.com: [Your content here]",
+              "ra.com: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.com: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Ensure regulatory compliance with standards, audits, and certification"
+            }
+          },
+          {
+            "code": "ra.sub",
+            "description": "Create regulatory submissions with documentation and approval processes",
+            "usage_examples": [
+              "ra.sub: [Your content here]",
+              "ra.sub: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.sub: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create regulatory submissions with documentation and approval processes"
+            }
+          },
+          {
+            "code": "ra.app",
+            "description": "Design approval processes with timelines, requirements, and strategies",
+            "usage_examples": [
+              "ra.app: [Your content here]",
+              "ra.app: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.app: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design approval processes with timelines, requirements, and strategies"
+            }
+          },
+          {
+            "code": "ra.mon",
+            "description": "Establish regulatory monitoring with updates, changes, and impact analysis",
+            "usage_examples": [
+              "ra.mon: [Your content here]",
+              "ra.mon: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.mon: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish regulatory monitoring with updates, changes, and impact analysis"
+            }
+          },
+          {
+            "code": "ra.doc",
+            "description": "Generate regulatory documentation with standards, templates, and procedures",
+            "usage_examples": [
+              "ra.doc: [Your content here]",
+              "ra.doc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.doc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Generate regulatory documentation with standards, templates, and procedures"
+            }
+          },
+          {
+            "code": "ra.aud",
+            "description": "Create regulatory audit framework with preparation, execution, and remediation",
+            "usage_examples": [
+              "ra.aud: [Your content here]",
+              "ra.aud: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.aud: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create regulatory audit framework with preparation, execution, and remediation"
+            }
+          },
+          {
+            "code": "ra.risk",
+            "description": "Identify regulatory risks with assessment, mitigation, and contingency planning",
+            "usage_examples": [
+              "ra.risk: [Your content here]",
+              "ra.risk: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.risk: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Identify regulatory risks with assessment, mitigation, and contingency planning"
+            }
+          },
+          {
+            "code": "ra.tra",
+            "description": "Design regulatory training with compliance, updates, and certification",
+            "usage_examples": [
+              "ra.tra: [Your content here]",
+              "ra.tra: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.tra: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design regulatory training with compliance, updates, and certification"
+            }
+          },
+          {
+            "code": "ra.comm",
+            "description": "Establish regulatory communication with agencies, stakeholders, and updates",
+            "usage_examples": [
+              "ra.comm: [Your content here]",
+              "ra.comm: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.comm: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish regulatory communication with agencies, stakeholders, and updates"
+            }
+          },
+          {
+            "code": "ra.qual",
+            "description": "Create quality systems with standards, procedures, and validation",
+            "usage_examples": [
+              "ra.qual: [Your content here]",
+              "ra.qual: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.qual: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create quality systems with standards, procedures, and validation"
+            }
+          },
+          {
+            "code": "ra.rec",
+            "description": "Design record keeping with documentation, retention, and retrieval",
+            "usage_examples": [
+              "ra.rec: [Your content here]",
+              "ra.rec: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.rec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design record keeping with documentation, retention, and retrieval"
+            }
+          },
+          {
+            "code": "ra.rep",
+            "description": "Establish reporting procedures with submissions, updates, and compliance",
+            "usage_examples": [
+              "ra.rep: [Your content here]",
+              "ra.rep: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.rep: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish reporting procedures with submissions, updates, and compliance"
+            }
+          },
+          {
+            "code": "ra.tim",
+            "description": "Create regulatory timeline management with deadlines, milestones, and tracking",
+            "usage_examples": [
+              "ra.tim: [Your content here]",
+              "ra.tim: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.tim: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create regulatory timeline management with deadlines, milestones, and tracking"
+            }
+          },
+          {
+            "code": "ra.team",
+            "description": "Design regulatory team coordination with roles, communication, and workflow",
+            "usage_examples": [
+              "ra.team: [Your content here]",
+              "ra.team: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.team: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design regulatory team coordination with roles, communication, and workflow"
+            }
+          },
+          {
+            "code": "ra.bud",
+            "description": "Establish regulatory budget planning with allocation, tracking, and optimization",
+            "usage_examples": [
+              "ra.bud: Q4 marketing budget proposal",
+              "ra.bud: Annual IT infrastructure budget"
+            ],
+            "instructions": {
+              "input_format": "ra.bud: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish regulatory budget planning with allocation, tracking, and optimization"
+            }
+          },
+          {
+            "code": "ra.tech",
+            "description": "Create regulatory technology systems with tools, automation, and integration",
+            "usage_examples": [
+              "ra.tech: [Your content here]",
+              "ra.tech: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.tech: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create regulatory technology systems with tools, automation, and integration"
+            }
+          },
+          {
+            "code": "ra.temp",
+            "description": "Design regulatory template management with standardization and version control",
+            "usage_examples": [
+              "ra.temp: [Your content here]",
+              "ra.temp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.temp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design regulatory template management with standardization and version control"
+            }
+          },
+          {
+            "code": "ra.track",
+            "description": "Establish regulatory tracking system with status, progress, and reporting",
+            "usage_examples": [
+              "ra.track: [Your content here]",
+              "ra.track: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.track: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish regulatory tracking system with status, progress, and reporting"
+            }
+          },
+          {
+            "code": "ra.com+ra.aud",
+            "description": "Regulatory compliance + audit framework",
+            "usage_examples": [
+              "ra.com+ra.aud: [Your content here]",
+              "ra.com+ra.aud: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.com+ra.aud: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Regulatory compliance + audit framework"
+            }
+          },
+          {
+            "code": "ra.sub+ra.app",
+            "description": "Regulatory submission + approval process",
+            "usage_examples": [
+              "ra.sub+ra.app: [Your content here]",
+              "ra.sub+ra.app: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.sub+ra.app: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Regulatory submission + approval process"
+            }
+          },
+          {
+            "code": "ra.risk+ra.mon",
+            "description": "Risk assessment + monitoring",
+            "usage_examples": [
+              "ra.risk+ra.mon: [Your content here]",
+              "ra.risk+ra.mon: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ra.risk+ra.mon: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Risk assessment + monitoring"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

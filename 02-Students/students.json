@@ -1,0 +1,537 @@
+{
+  "promptkit_dictionary": {
+    "title": "Student Dictionary",
+    "version": "1.0",
+    "description": "Structured PromptKit dictionary for Student Dictionary",
+    "source_file": ".\\02-Students\\students.md",
+    "total_codes": 37,
+    "instructions": {
+      "for_llm": [
+        "These are shorthand codes that expand into full instructions when used with a colon (:)",
+        "Codes are input-only - they should not be displayed in responses",
+        "When a code is used, replace it with the full instruction from the description",
+        "Maintain the context and intent of the original code",
+        "Provide comprehensive, actionable responses based on the code's purpose"
+      ],
+      "for_users": [
+        "Use codes with a colon (:) followed by your content",
+        "Example: 'cg: This text needs correction'",
+        "Codes can be combined with + for multiple instructions",
+        "Example: 'cp+sm: Long document to correct and summarize'"
+      ]
+    },
+    "sections": {
+      "📘 Learning & Understanding": {
+        "description": "Codes related to 📘 learning & understanding",
+        "code_count": 8,
+        "codes": [
+          {
+            "code": "exp",
+            "description": "Explain simply (make a topic clear in simple terms)",
+            "usage_examples": [
+              "exp: How does machine learning work?",
+              "exp: Explain quantum computing in simple terms"
+            ],
+            "instructions": {
+              "input_format": "exp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Explain simply (make a topic clear in simple terms)"
+            }
+          },
+          {
+            "code": "exd",
+            "description": "Explain in depth (give detailed technical/theoretical explanation)",
+            "usage_examples": [
+              "exd: How does machine learning work?",
+              "exd: Explain quantum computing in simple terms"
+            ],
+            "instructions": {
+              "input_format": "exd: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Explain in depth (give detailed technical/theoretical explanation)"
+            }
+          },
+          {
+            "code": "comp",
+            "description": "Compare (show similarities and differences between two concepts)",
+            "usage_examples": [
+              "comp: [Your content here]",
+              "comp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "comp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Compare (show similarities and differences between two concepts)"
+            }
+          },
+          {
+            "code": "sum",
+            "description": "Summarize (shorten to key points for revision)",
+            "usage_examples": [
+              "sum: Long article about climate change",
+              "sum: Meeting notes from yesterday's session"
+            ],
+            "instructions": {
+              "input_format": "sum: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Summarize (shorten to key points for revision)"
+            }
+          },
+          {
+            "code": "kf",
+            "description": "Key facts (extract important dates, numbers, formulas, facts)",
+            "usage_examples": [
+              "kf: [Your content here]",
+              "kf: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "kf: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Key facts (extract important dates, numbers, formulas, facts)"
+            }
+          },
+          {
+            "code": "df",
+            "description": "Definition (give a precise academic definition)",
+            "usage_examples": [
+              "df: [Your content here]",
+              "df: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "df: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Definition (give a precise academic definition)"
+            }
+          },
+          {
+            "code": "nts",
+            "description": "Create study notes",
+            "usage_examples": [
+              "nts: [Your content here]",
+              "nts: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "nts: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create study notes"
+            }
+          },
+          {
+            "code": "out",
+            "description": "Create an outline",
+            "usage_examples": [
+              "out: [Your content here]",
+              "out: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "out: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create an outline"
+            }
+          }
+        ]
+      },
+      "✍️ Practice & Revision": {
+        "description": "Codes related to ✍️ practice & revision",
+        "code_count": 8,
+        "codes": [
+          {
+            "code": "qz",
+            "description": "Quiz (generate a quiz on a topic)",
+            "usage_examples": [
+              "qz: Python programming basics",
+              "qz: World War II history"
+            ],
+            "instructions": {
+              "input_format": "qz: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Quiz (generate a quiz on a topic)"
+            }
+          },
+          {
+            "code": "mcq",
+            "description": "Multiple-choice quiz",
+            "usage_examples": [
+              "mcq: Python programming basics",
+              "mcq: World War II history"
+            ],
+            "instructions": {
+              "input_format": "mcq: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Multiple-choice quiz"
+            }
+          },
+          {
+            "code": "flc",
+            "description": "Flashcards (make Q–A flashcards)",
+            "usage_examples": [
+              "flc: [Your content here]",
+              "flc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "flc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Flashcards (make Q–A flashcards)"
+            }
+          },
+          {
+            "code": "rd",
+            "description": "Rapid drill (quick short questions for memorization)",
+            "usage_examples": [
+              "rd: REST API for user management",
+              "rd: Payment gateway integration"
+            ],
+            "instructions": {
+              "input_format": "rd: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Rapid drill (quick short questions for memorization)"
+            }
+          },
+          {
+            "code": "pb",
+            "description": "Practice basics (step-by-step practice on fundamentals)",
+            "usage_examples": [
+              "pb: [Your content here]",
+              "pb: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pb: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Practice basics (step-by-step practice on fundamentals)"
+            }
+          },
+          {
+            "code": "prob",
+            "description": "Problem-solving (numerical or applied problems)",
+            "usage_examples": [
+              "prob: [Your content here]",
+              "prob: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "prob: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Problem-solving (numerical or applied problems)"
+            }
+          },
+          {
+            "code": "rev",
+            "description": "Review and practice",
+            "usage_examples": [
+              "rev: [Your content here]",
+              "rev: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rev: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Review and practice"
+            }
+          },
+          {
+            "code": "std",
+            "description": "Study guide creation",
+            "usage_examples": [
+              "std: [Your content here]",
+              "std: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "std: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Study guide creation"
+            }
+          }
+        ]
+      },
+      "🧠 Testing Knowledge": {
+        "description": "Codes related to 🧠 testing knowledge",
+        "code_count": 4,
+        "codes": [
+          {
+            "code": "tk",
+            "description": "Test knowledge (LLM tests user with questions, no answers until asked)",
+            "usage_examples": [
+              "tk: User login functionality",
+              "tk: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "tk: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Test knowledge (LLM tests user with questions, no answers until asked)"
+            }
+          },
+          {
+            "code": "im",
+            "description": "Improve mistakes (review answers, show corrections + tips)",
+            "usage_examples": [
+              "im: This sentence need fixing.",
+              "im: Please review this text for errors."
+            ],
+            "instructions": {
+              "input_format": "im: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Improve mistakes (review answers, show corrections + tips)"
+            }
+          },
+          {
+            "code": "lv",
+            "description": "Level check (assess user level: beginner, intermediate, advanced)",
+            "usage_examples": [
+              "lv: [Your content here]",
+              "lv: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "lv: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Level check (assess user level: beginner, intermediate, advanced)"
+            }
+          },
+          {
+            "code": "cm",
+            "description": "Challenge me (harder problems or trickier questions on topic)",
+            "usage_examples": [
+              "cm: [Your content here]",
+              "cm: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cm: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Challenge me (harder problems or trickier questions on topic)"
+            }
+          }
+        ]
+      },
+      "🎯 Exam Preparation": {
+        "description": "Codes related to 🎯 exam preparation",
+        "code_count": 7,
+        "codes": [
+          {
+            "code": "rp",
+            "description": "Revision plan (make a timetable for study/revision)",
+            "usage_examples": [
+              "rp: [Your content here]",
+              "rp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Revision plan (make a timetable for study/revision)"
+            }
+          },
+          {
+            "code": "imq",
+            "description": "Important questions (likely exam-style questions)",
+            "usage_examples": [
+              "imq: [Your content here]",
+              "imq: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "imq: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Important questions (likely exam-style questions)"
+            }
+          },
+          {
+            "code": "pt",
+            "description": "Past trends (if available, show past exam patterns/important areas)",
+            "usage_examples": [
+              "pt: [Your content here]",
+              "pt: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pt: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Past trends (if available, show past exam patterns/important areas)"
+            }
+          },
+          {
+            "code": "mo",
+            "description": "Mock exam (simulate exam-style test with timer instructions)",
+            "usage_examples": [
+              "mo: User login functionality",
+              "mo: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "mo: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Mock exam (simulate exam-style test with timer instructions)"
+            }
+          },
+          {
+            "code": "tm",
+            "description": "Time management (tips for solving within limited time)",
+            "usage_examples": [
+              "tm: [Your content here]",
+              "tm: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "tm: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Time management (tips for solving within limited time)"
+            }
+          },
+          {
+            "code": "fmt",
+            "description": "Format for academic writing",
+            "usage_examples": [
+              "fmt: [Your content here]",
+              "fmt: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fmt: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Format for academic writing"
+            }
+          },
+          {
+            "code": "cit",
+            "description": "Help with citations",
+            "usage_examples": [
+              "cit: [Your content here]",
+              "cit: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cit: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Help with citations"
+            }
+          }
+        ]
+      },
+      "💼 Career & Interviews": {
+        "description": "Codes related to 💼 career & interviews",
+        "code_count": 10,
+        "codes": [
+          {
+            "code": "int",
+            "description": "Interview prep (possible interview questions on subject/role)",
+            "usage_examples": [
+              "int: [Your content here]",
+              "int: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "int: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Interview prep (possible interview questions on subject/role)"
+            }
+          },
+          {
+            "code": "bh",
+            "description": "Behavioral questions (HR-style questions with sample answers)",
+            "usage_examples": [
+              "bh: [Your content here]",
+              "bh: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "bh: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Behavioral questions (HR-style questions with sample answers)"
+            }
+          },
+          {
+            "code": "tp",
+            "description": "Technical practice (role-specific technical questions)",
+            "usage_examples": [
+              "tp: [Your content here]",
+              "tp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "tp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Technical practice (role-specific technical questions)"
+            }
+          },
+          {
+            "code": "case",
+            "description": "Case round (simulate consulting/corporate case interview practice)",
+            "usage_examples": [
+              "case: [Your content here]",
+              "case: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "case: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Case round (simulate consulting/corporate case interview practice)"
+            }
+          },
+          {
+            "code": "res",
+            "description": "Resume booster (suggest projects/skills to add based on subject)",
+            "usage_examples": [
+              "res: [Your content here]",
+              "res: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "res: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Resume booster (suggest projects/skills to add based on subject)"
+            }
+          },
+          {
+            "code": "exp+exm",
+            "description": "Explain simply + give examples",
+            "usage_examples": [
+              "exp+exm: How does machine learning work?",
+              "exp+exm: Explain quantum computing in simple terms"
+            ],
+            "instructions": {
+              "input_format": "exp+exm: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Explain simply + give examples"
+            }
+          },
+          {
+            "code": "sum+nts",
+            "description": "Summarize + create study notes",
+            "usage_examples": [
+              "sum+nts: Long article about climate change",
+              "sum+nts: Meeting notes from yesterday's session"
+            ],
+            "instructions": {
+              "input_format": "sum+nts: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Summarize + create study notes"
+            }
+          },
+          {
+            "code": "qz+flc",
+            "description": "Quiz + flashcards",
+            "usage_examples": [
+              "qz+flc: Python programming basics",
+              "qz+flc: World War II history"
+            ],
+            "instructions": {
+              "input_format": "qz+flc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Quiz + flashcards"
+            }
+          },
+          {
+            "code": "tk+im",
+            "description": "Test knowledge + improve mistakes",
+            "usage_examples": [
+              "tk+im: User login functionality",
+              "tk+im: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "tk+im: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Test knowledge + improve mistakes"
+            }
+          },
+          {
+            "code": "rp+imq",
+            "description": "Revision plan + important questions",
+            "usage_examples": [
+              "rp+imq: [Your content here]",
+              "rp+imq: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rp+imq: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Revision plan + important questions"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

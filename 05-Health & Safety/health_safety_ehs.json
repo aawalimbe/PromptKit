@@ -1,0 +1,305 @@
+{
+  "promptkit_dictionary": {
+    "title": "Health & Safety Dictionary",
+    "version": "1.0",
+    "description": "Structured PromptKit dictionary for Health & Safety Dictionary",
+    "source_file": ".\\05-Health & Safety\\health_safety_ehs.md",
+    "total_codes": 21,
+    "instructions": {
+      "for_llm": [
+        "These are shorthand codes that expand into full instructions when used with a colon (:)",
+        "Codes are input-only - they should not be displayed in responses",
+        "When a code is used, replace it with the full instruction from the description",
+        "Maintain the context and intent of the original code",
+        "Provide comprehensive, actionable responses based on the code's purpose"
+      ],
+      "for_users": [
+        "Use codes with a colon (:) followed by your content",
+        "Example: 'cg: This text needs correction'",
+        "Codes can be combined with + for multiple instructions",
+        "Example: 'cp+sm: Long document to correct and summarize'"
+      ]
+    },
+    "sections": {
+      "Health & Safety / EHS": {
+        "description": "Codes related to health & safety / ehs",
+        "code_count": 21,
+        "codes": [
+          {
+            "code": "hs.saf",
+            "description": "Establish safety protocols with procedures, training, and compliance",
+            "usage_examples": [
+              "hs.saf: [Your content here]",
+              "hs.saf: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.saf: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish safety protocols with procedures, training, and compliance"
+            }
+          },
+          {
+            "code": "hs.hea",
+            "description": "Create health management with monitoring, prevention, and wellness",
+            "usage_examples": [
+              "hs.hea: [Your content here]",
+              "hs.hea: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.hea: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create health management with monitoring, prevention, and wellness"
+            }
+          },
+          {
+            "code": "hs.env",
+            "description": "Design environmental management with sustainability and compliance",
+            "usage_examples": [
+              "hs.env: [Your content here]",
+              "hs.env: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.env: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design environmental management with sustainability and compliance"
+            }
+          },
+          {
+            "code": "hs.risk",
+            "description": "Identify health and safety risks with assessment and mitigation",
+            "usage_examples": [
+              "hs.risk: [Your content here]",
+              "hs.risk: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.risk: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Identify health and safety risks with assessment and mitigation"
+            }
+          },
+          {
+            "code": "hs.inc",
+            "description": "Develop incident response with reporting, investigation, and prevention",
+            "usage_examples": [
+              "hs.inc: [Your content here]",
+              "hs.inc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.inc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop incident response with reporting, investigation, and prevention"
+            }
+          },
+          {
+            "code": "hs.tra",
+            "description": "Create safety training with programs, certification, and updates",
+            "usage_examples": [
+              "hs.tra: [Your content here]",
+              "hs.tra: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.tra: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create safety training with programs, certification, and updates"
+            }
+          },
+          {
+            "code": "hs.aud",
+            "description": "Establish safety audit framework with inspection and compliance",
+            "usage_examples": [
+              "hs.aud: [Your content here]",
+              "hs.aud: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.aud: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish safety audit framework with inspection and compliance"
+            }
+          },
+          {
+            "code": "hs.ppe",
+            "description": "Design personal protective equipment with selection and usage",
+            "usage_examples": [
+              "hs.ppe: [Your content here]",
+              "hs.ppe: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.ppe: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design personal protective equipment with selection and usage"
+            }
+          },
+          {
+            "code": "hs.eme",
+            "description": "Create emergency procedures with response, evacuation, and communication",
+            "usage_examples": [
+              "hs.eme: [Your content here]",
+              "hs.eme: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.eme: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create emergency procedures with response, evacuation, and communication"
+            }
+          },
+          {
+            "code": "hs.mon",
+            "description": "Establish monitoring systems with measurement and reporting",
+            "usage_examples": [
+              "hs.mon: [Your content here]",
+              "hs.mon: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.mon: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish monitoring systems with measurement and reporting"
+            }
+          },
+          {
+            "code": "hs.com",
+            "description": "Ensure compliance with regulations, standards, and best practices",
+            "usage_examples": [
+              "hs.com: [Your content here]",
+              "hs.com: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.com: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Ensure compliance with regulations, standards, and best practices"
+            }
+          },
+          {
+            "code": "hs.impro",
+            "description": "Design continuous improvement with metrics, analysis, and enhancement",
+            "usage_examples": [
+              "hs.impro: [Your content here]",
+              "hs.impro: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.impro: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design continuous improvement with metrics, analysis, and enhancement"
+            }
+          },
+          {
+            "code": "hs.bud",
+            "description": "Create health & safety budget planning with allocation, tracking, and optimization",
+            "usage_examples": [
+              "hs.bud: Q4 marketing budget proposal",
+              "hs.bud: Annual IT infrastructure budget"
+            ],
+            "instructions": {
+              "input_format": "hs.bud: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create health & safety budget planning with allocation, tracking, and optimization"
+            }
+          },
+          {
+            "code": "hs.team",
+            "description": "Design safety team management with roles, training, and coordination",
+            "usage_examples": [
+              "hs.team: [Your content here]",
+              "hs.team: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.team: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design safety team management with roles, training, and coordination"
+            }
+          },
+          {
+            "code": "hs.equ",
+            "description": "Establish safety equipment management with procurement, maintenance, and lifecycle",
+            "usage_examples": [
+              "hs.equ: [Your content here]",
+              "hs.equ: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.equ: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish safety equipment management with procurement, maintenance, and lifecycle"
+            }
+          },
+          {
+            "code": "hs.data",
+            "description": "Create safety data management with collection, analysis, and reporting",
+            "usage_examples": [
+              "hs.data: [Your content here]",
+              "hs.data: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.data: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create safety data management with collection, analysis, and reporting"
+            }
+          },
+          {
+            "code": "hs.temp",
+            "description": "Design safety template management with standardization and documentation",
+            "usage_examples": [
+              "hs.temp: [Your content here]",
+              "hs.temp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.temp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design safety template management with standardization and documentation"
+            }
+          },
+          {
+            "code": "hs.track",
+            "description": "Establish safety tracking system with metrics, trends, and performance",
+            "usage_examples": [
+              "hs.track: [Your content here]",
+              "hs.track: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.track: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish safety tracking system with metrics, trends, and performance"
+            }
+          },
+          {
+            "code": "hs.saf+hs.tra",
+            "description": "Safety protocols + training programs",
+            "usage_examples": [
+              "hs.saf+hs.tra: [Your content here]",
+              "hs.saf+hs.tra: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.saf+hs.tra: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Safety protocols + training programs"
+            }
+          },
+          {
+            "code": "hs.risk+hs.inc",
+            "description": "Risk assessment + incident response",
+            "usage_examples": [
+              "hs.risk+hs.inc: [Your content here]",
+              "hs.risk+hs.inc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.risk+hs.inc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Risk assessment + incident response"
+            }
+          },
+          {
+            "code": "hs.aud+hs.com",
+            "description": "Safety audit + compliance",
+            "usage_examples": [
+              "hs.aud+hs.com: [Your content here]",
+              "hs.aud+hs.com: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hs.aud+hs.com: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Safety audit + compliance"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

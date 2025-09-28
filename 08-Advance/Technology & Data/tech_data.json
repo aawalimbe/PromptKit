@@ -1,0 +1,1278 @@
+{
+  "promptkit_dictionary": {
+    "title": "Technology & Data",
+    "version": "1.0",
+    "description": "Structured PromptKit dictionary for Technology & Data",
+    "source_file": ".\\08-Advance\\Technology & Data\\tech_data.md",
+    "total_codes": 94,
+    "instructions": {
+      "for_llm": [
+        "These are shorthand codes that expand into full instructions when used with a colon (:)",
+        "Codes are input-only - they should not be displayed in responses",
+        "When a code is used, replace it with the full instruction from the description",
+        "Maintain the context and intent of the original code",
+        "Provide comprehensive, actionable responses based on the code's purpose"
+      ],
+      "for_users": [
+        "Use codes with a colon (:) followed by your content",
+        "Example: 'cg: This text needs correction'",
+        "Codes can be combined with + for multiple instructions",
+        "Example: 'cp+sm: Long document to correct and summarize'"
+      ]
+    },
+    "sections": {
+      "Information Technology": {
+        "description": "Codes related to information technology",
+        "code_count": 18,
+        "codes": [
+          {
+            "code": "it.sup",
+            "description": "Develop comprehensive IT support procedures with escalation and resolution steps",
+            "usage_examples": [
+              "it.sup: [Your content here]",
+              "it.sup: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "it.sup: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop comprehensive IT support procedures with escalation and resolution steps"
+            }
+          },
+          {
+            "code": "it.inf",
+            "description": "Design infrastructure management framework with monitoring and maintenance",
+            "usage_examples": [
+              "it.inf: [Your content here]",
+              "it.inf: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "it.inf: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design infrastructure management framework with monitoring and maintenance"
+            }
+          },
+          {
+            "code": "it.net",
+            "description": "Create network administration procedures with configuration and security",
+            "usage_examples": [
+              "it.net: [Your content here]",
+              "it.net: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "it.net: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create network administration procedures with configuration and security"
+            }
+          },
+          {
+            "code": "it.ser",
+            "description": "Establish server management protocols with maintenance and optimization",
+            "usage_examples": [
+              "it.ser: [Your content here]",
+              "it.ser: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "it.ser: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish server management protocols with maintenance and optimization"
+            }
+          },
+          {
+            "code": "it.bac",
+            "description": "Design backup procedures with scheduling, verification, and recovery testing",
+            "usage_examples": [
+              "it.bac: User login functionality",
+              "it.bac: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "it.bac: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design backup procedures with scheduling, verification, and recovery testing"
+            }
+          },
+          {
+            "code": "it.rec",
+            "description": "Create disaster recovery plan with procedures and testing protocols",
+            "usage_examples": [
+              "it.rec: User login functionality",
+              "it.rec: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "it.rec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create disaster recovery plan with procedures and testing protocols"
+            }
+          },
+          {
+            "code": "it.mon",
+            "description": "Develop system monitoring framework with alerts and performance tracking",
+            "usage_examples": [
+              "it.mon: [Your content here]",
+              "it.mon: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "it.mon: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop system monitoring framework with alerts and performance tracking"
+            }
+          },
+          {
+            "code": "it.sec",
+            "description": "Establish IT security protocols with access control and threat prevention",
+            "usage_examples": [
+              "it.sec: [Your content here]",
+              "it.sec: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "it.sec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish IT security protocols with access control and threat prevention"
+            }
+          },
+          {
+            "code": "it.ass",
+            "description": "Create asset management system with inventory and lifecycle tracking",
+            "usage_examples": [
+              "it.ass: [Your content here]",
+              "it.ass: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "it.ass: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create asset management system with inventory and lifecycle tracking"
+            }
+          },
+          {
+            "code": "it.lic",
+            "description": "Design license management process with compliance and renewal tracking",
+            "usage_examples": [
+              "it.lic: [Your content here]",
+              "it.lic: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "it.lic: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design license management process with compliance and renewal tracking"
+            }
+          },
+          {
+            "code": "it.upg",
+            "description": "Develop system upgrade procedures with testing and rollback plans",
+            "usage_examples": [
+              "it.upg: User login functionality",
+              "it.upg: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "it.upg: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop system upgrade procedures with testing and rollback plans"
+            }
+          },
+          {
+            "code": "it.tro",
+            "description": "Create troubleshooting guide with diagnostic steps and solutions",
+            "usage_examples": [
+              "it.tro: [Your content here]",
+              "it.tro: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "it.tro: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create troubleshooting guide with diagnostic steps and solutions"
+            }
+          },
+          {
+            "code": "it.usr",
+            "description": "Create user management system with provisioning, access control, and lifecycle",
+            "usage_examples": [
+              "it.usr: [Your content here]",
+              "it.usr: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "it.usr: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create user management system with provisioning, access control, and lifecycle"
+            }
+          },
+          {
+            "code": "it.ema",
+            "description": "Establish email administration with configuration, security, and policies",
+            "usage_examples": [
+              "it.ema: [Your content here]",
+              "it.ema: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "it.ema: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish email administration with configuration, security, and policies"
+            }
+          },
+          {
+            "code": "it.vir",
+            "description": "Design virtualization infrastructure with hypervisors, containers, and management",
+            "usage_examples": [
+              "it.vir: [Your content here]",
+              "it.vir: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "it.vir: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design virtualization infrastructure with hypervisors, containers, and management"
+            }
+          },
+          {
+            "code": "it.clo",
+            "description": "Develop cloud management strategy with migration, optimization, and governance",
+            "usage_examples": [
+              "it.clo: Digital transformation strategy",
+              "it.clo: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "it.clo: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop cloud management strategy with migration, optimization, and governance"
+            }
+          },
+          {
+            "code": "it.mob",
+            "description": "Create mobile device management with security, policies, and compliance",
+            "usage_examples": [
+              "it.mob: [Your content here]",
+              "it.mob: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "it.mob: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create mobile device management with security, policies, and compliance"
+            }
+          },
+          {
+            "code": "it.wir",
+            "description": "Establish wireless network setup with configuration, security, and monitoring",
+            "usage_examples": [
+              "it.wir: [Your content here]",
+              "it.wir: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "it.wir: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish wireless network setup with configuration, security, and monitoring"
+            }
+          }
+        ]
+      },
+      "Software Development / Engineering": {
+        "description": "Codes related to software development / engineering",
+        "code_count": 18,
+        "codes": [
+          {
+            "code": "sd.arc",
+            "description": "Design software architecture with components, patterns, and scalability",
+            "usage_examples": [
+              "sd.arc: [Your content here]",
+              "sd.arc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sd.arc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design software architecture with components, patterns, and scalability"
+            }
+          },
+          {
+            "code": "sd.des",
+            "description": "Create system design with requirements, interfaces, and data flow",
+            "usage_examples": [
+              "sd.des: [Your content here]",
+              "sd.des: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sd.des: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create system design with requirements, interfaces, and data flow"
+            }
+          },
+          {
+            "code": "sd.cod",
+            "description": "Establish coding standards with style guides and best practices",
+            "usage_examples": [
+              "sd.cod: [Your content here]",
+              "sd.cod: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sd.cod: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish coding standards with style guides and best practices"
+            }
+          },
+          {
+            "code": "sd.tes",
+            "description": "Develop testing procedures with unit, integration, and system tests",
+            "usage_examples": [
+              "sd.tes: User login functionality",
+              "sd.tes: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "sd.tes: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop testing procedures with unit, integration, and system tests"
+            }
+          },
+          {
+            "code": "sd.dev",
+            "description": "Design development workflow with branching, merging, and release processes",
+            "usage_examples": [
+              "sd.dev: [Your content here]",
+              "sd.dev: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sd.dev: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design development workflow with branching, merging, and release processes"
+            }
+          },
+          {
+            "code": "sd.dep",
+            "description": "Create deployment process with staging, production, and rollback procedures",
+            "usage_examples": [
+              "sd.dep: [Your content here]",
+              "sd.dep: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sd.dep: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create deployment process with staging, production, and rollback procedures"
+            }
+          },
+          {
+            "code": "sd.ver",
+            "description": "Establish version control system with branching strategy and workflows",
+            "usage_examples": [
+              "sd.ver: Digital transformation strategy",
+              "sd.ver: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "sd.ver: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish version control system with branching strategy and workflows"
+            }
+          },
+          {
+            "code": "sd.doc",
+            "description": "Generate technical documentation with APIs, guides, and specifications",
+            "usage_examples": [
+              "sd.doc: REST API for user management",
+              "sd.doc: Payment gateway integration"
+            ],
+            "instructions": {
+              "input_format": "sd.doc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Generate technical documentation with APIs, guides, and specifications"
+            }
+          },
+          {
+            "code": "sd.rev",
+            "description": "Design code review process with checklists and approval workflows",
+            "usage_examples": [
+              "sd.rev: [Your content here]",
+              "sd.rev: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sd.rev: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design code review process with checklists and approval workflows"
+            }
+          },
+          {
+            "code": "sd.bug",
+            "description": "Create bug tracking system with classification, prioritization, and resolution",
+            "usage_examples": [
+              "sd.bug: Memory leak in payment module",
+              "sd.bug: Login page not working"
+            ],
+            "instructions": {
+              "input_format": "sd.bug: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create bug tracking system with classification, prioritization, and resolution"
+            }
+          },
+          {
+            "code": "sd.per",
+            "description": "Develop performance optimization strategies with profiling and tuning",
+            "usage_examples": [
+              "sd.per: [Your content here]",
+              "sd.per: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sd.per: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop performance optimization strategies with profiling and tuning"
+            }
+          },
+          {
+            "code": "sd.mai",
+            "description": "Establish maintenance procedures with updates, patches, and monitoring",
+            "usage_examples": [
+              "sd.mai: [Your content here]",
+              "sd.mai: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sd.mai: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish maintenance procedures with updates, patches, and monitoring"
+            }
+          },
+          {
+            "code": "sd.ag",
+            "description": "Implement Agile methodology with frameworks, practices, and team structures",
+            "usage_examples": [
+              "sd.ag: [Your content here]",
+              "sd.ag: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sd.ag: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Implement Agile methodology with frameworks, practices, and team structures"
+            }
+          },
+          {
+            "code": "sd.scr",
+            "description": "Establish Scrum process with roles, ceremonies, and artifacts",
+            "usage_examples": [
+              "sd.scr: [Your content here]",
+              "sd.scr: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sd.scr: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish Scrum process with roles, ceremonies, and artifacts"
+            }
+          },
+          {
+            "code": "sd.ci",
+            "description": "Design continuous integration pipeline with testing, building, and validation",
+            "usage_examples": [
+              "sd.ci: User login functionality",
+              "sd.ci: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "sd.ci: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design continuous integration pipeline with testing, building, and validation"
+            }
+          },
+          {
+            "code": "sd.cd",
+            "description": "Create continuous deployment process with automation, monitoring, and rollback",
+            "usage_examples": [
+              "sd.cd: [Your content here]",
+              "sd.cd: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sd.cd: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create continuous deployment process with automation, monitoring, and rollback"
+            }
+          },
+          {
+            "code": "sd.api",
+            "description": "Develop API development standards with design, documentation, and versioning",
+            "usage_examples": [
+              "sd.api: REST API for user management",
+              "sd.api: Payment gateway integration"
+            ],
+            "instructions": {
+              "input_format": "sd.api: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop API development standards with design, documentation, and versioning"
+            }
+          },
+          {
+            "code": "sd.mic",
+            "description": "Design microservices architecture with patterns, communication, and deployment",
+            "usage_examples": [
+              "sd.mic: [Your content here]",
+              "sd.mic: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sd.mic: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design microservices architecture with patterns, communication, and deployment"
+            }
+          }
+        ]
+      },
+      "Data & Analytics": {
+        "description": "Codes related to data & analytics",
+        "code_count": 18,
+        "codes": [
+          {
+            "code": "da.col",
+            "description": "Design data collection strategy with sources, methods, and quality controls",
+            "usage_examples": [
+              "da.col: Digital transformation strategy",
+              "da.col: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "da.col: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design data collection strategy with sources, methods, and quality controls"
+            }
+          },
+          {
+            "code": "da.cle",
+            "description": "Create data cleaning procedures with validation, transformation, and error handling",
+            "usage_examples": [
+              "da.cle: [Your content here]",
+              "da.cle: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.cle: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create data cleaning procedures with validation, transformation, and error handling"
+            }
+          },
+          {
+            "code": "da.sto",
+            "description": "Establish data storage architecture with databases, warehouses, and lakes",
+            "usage_examples": [
+              "da.sto: [Your content here]",
+              "da.sto: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.sto: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish data storage architecture with databases, warehouses, and lakes"
+            }
+          },
+          {
+            "code": "da.pro",
+            "description": "Develop data processing pipelines with ETL, transformation, and scheduling",
+            "usage_examples": [
+              "da.pro: [Your content here]",
+              "da.pro: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.pro: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop data processing pipelines with ETL, transformation, and scheduling"
+            }
+          },
+          {
+            "code": "da.ana",
+            "description": "Create data analysis framework with statistical methods and insights",
+            "usage_examples": [
+              "da.ana: [Your content here]",
+              "da.ana: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.ana: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create data analysis framework with statistical methods and insights"
+            }
+          },
+          {
+            "code": "da.vis",
+            "description": "Design data visualization with charts, dashboards, and interactive reports",
+            "usage_examples": [
+              "da.vis: [Your content here]",
+              "da.vis: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.vis: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design data visualization with charts, dashboards, and interactive reports"
+            }
+          },
+          {
+            "code": "da.rep",
+            "description": "Establish reporting procedures with automation, distribution, and scheduling",
+            "usage_examples": [
+              "da.rep: [Your content here]",
+              "da.rep: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.rep: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish reporting procedures with automation, distribution, and scheduling"
+            }
+          },
+          {
+            "code": "da.mod",
+            "description": "Develop model development process with training, validation, and deployment",
+            "usage_examples": [
+              "da.mod: [Your content here]",
+              "da.mod: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.mod: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop model development process with training, validation, and deployment"
+            }
+          },
+          {
+            "code": "da.val",
+            "description": "Create data validation framework with rules, checks, and quality metrics",
+            "usage_examples": [
+              "da.val: [Your content here]",
+              "da.val: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.val: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create data validation framework with rules, checks, and quality metrics"
+            }
+          },
+          {
+            "code": "da.gov",
+            "description": "Design data governance with policies, standards, and compliance",
+            "usage_examples": [
+              "da.gov: [Your content here]",
+              "da.gov: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.gov: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design data governance with policies, standards, and compliance"
+            }
+          },
+          {
+            "code": "da.qua",
+            "description": "Establish data quality management with monitoring, metrics, and improvement",
+            "usage_examples": [
+              "da.qua: [Your content here]",
+              "da.qua: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.qua: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish data quality management with monitoring, metrics, and improvement"
+            }
+          },
+          {
+            "code": "da.sec",
+            "description": "Create data security framework with encryption, access control, and privacy",
+            "usage_examples": [
+              "da.sec: [Your content here]",
+              "da.sec: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.sec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create data security framework with encryption, access control, and privacy"
+            }
+          },
+          {
+            "code": "da.etl",
+            "description": "Design ETL processes with extraction, transformation, and loading procedures",
+            "usage_examples": [
+              "da.etl: [Your content here]",
+              "da.etl: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.etl: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design ETL processes with extraction, transformation, and loading procedures"
+            }
+          },
+          {
+            "code": "da.ware",
+            "description": "Create data warehousing architecture with schemas, optimization, and governance",
+            "usage_examples": [
+              "da.ware: [Your content here]",
+              "da.ware: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.ware: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create data warehousing architecture with schemas, optimization, and governance"
+            }
+          },
+          {
+            "code": "da.lak",
+            "description": "Establish data lake management with storage, cataloging, and access controls",
+            "usage_examples": [
+              "da.lak: [Your content here]",
+              "da.lak: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.lak: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish data lake management with storage, cataloging, and access controls"
+            }
+          },
+          {
+            "code": "da.pip",
+            "description": "Develop data pipeline architecture with streaming, batch, and real-time processing",
+            "usage_examples": [
+              "da.pip: [Your content here]",
+              "da.pip: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.pip: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop data pipeline architecture with streaming, batch, and real-time processing"
+            }
+          },
+          {
+            "code": "da.mac",
+            "description": "Create machine learning operations with model lifecycle and deployment",
+            "usage_examples": [
+              "da.mac: [Your content here]",
+              "da.mac: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.mac: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create machine learning operations with model lifecycle and deployment"
+            }
+          },
+          {
+            "code": "da.rea",
+            "description": "Design real-time analytics system with streaming, processing, and visualization",
+            "usage_examples": [
+              "da.rea: [Your content here]",
+              "da.rea: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.rea: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design real-time analytics system with streaming, processing, and visualization"
+            }
+          }
+        ]
+      },
+      "AI / R&D / Innovation Labs": {
+        "description": "Codes related to ai / r&d / innovation labs",
+        "code_count": 18,
+        "codes": [
+          {
+            "code": "ai.res",
+            "description": "Design research methodology with hypothesis, experiments, and validation",
+            "usage_examples": [
+              "ai.res: [Your content here]",
+              "ai.res: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ai.res: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design research methodology with hypothesis, experiments, and validation"
+            }
+          },
+          {
+            "code": "ai.exp",
+            "description": "Create experiment design with controls, variables, and measurement",
+            "usage_examples": [
+              "ai.exp: [Your content here]",
+              "ai.exp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ai.exp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create experiment design with controls, variables, and measurement"
+            }
+          },
+          {
+            "code": "ai.mod",
+            "description": "Develop model development process with architecture, training, and validation",
+            "usage_examples": [
+              "ai.mod: [Your content here]",
+              "ai.mod: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ai.mod: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop model development process with architecture, training, and validation"
+            }
+          },
+          {
+            "code": "ai.tra",
+            "description": "Establish training procedures with data preparation, optimization, and monitoring",
+            "usage_examples": [
+              "ai.tra: [Your content here]",
+              "ai.tra: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ai.tra: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish training procedures with data preparation, optimization, and monitoring"
+            }
+          },
+          {
+            "code": "ai.eva",
+            "description": "Create model evaluation framework with metrics, testing, and validation",
+            "usage_examples": [
+              "ai.eva: User login functionality",
+              "ai.eva: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "ai.eva: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create model evaluation framework with metrics, testing, and validation"
+            }
+          },
+          {
+            "code": "ai.opt",
+            "description": "Develop optimization techniques with hyperparameter tuning and performance",
+            "usage_examples": [
+              "ai.opt: [Your content here]",
+              "ai.opt: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ai.opt: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop optimization techniques with hyperparameter tuning and performance"
+            }
+          },
+          {
+            "code": "ai.eth",
+            "description": "Establish AI ethics guidelines with fairness, transparency, and accountability",
+            "usage_examples": [
+              "ai.eth: [Your content here]",
+              "ai.eth: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ai.eth: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish AI ethics guidelines with fairness, transparency, and accountability"
+            }
+          },
+          {
+            "code": "ai.ben",
+            "description": "Create benchmarking framework with metrics, datasets, and comparisons",
+            "usage_examples": [
+              "ai.ben: [Your content here]",
+              "ai.ben: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ai.ben: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create benchmarking framework with metrics, datasets, and comparisons"
+            }
+          },
+          {
+            "code": "ai.pro",
+            "description": "Design prototyping process with rapid development and iteration",
+            "usage_examples": [
+              "ai.pro: REST API for user management",
+              "ai.pro: Payment gateway integration"
+            ],
+            "instructions": {
+              "input_format": "ai.pro: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design prototyping process with rapid development and iteration"
+            }
+          },
+          {
+            "code": "ai.pat",
+            "description": "Conduct patent research with prior art analysis and filing strategies",
+            "usage_examples": [
+              "ai.pat: [Your content here]",
+              "ai.pat: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ai.pat: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Conduct patent research with prior art analysis and filing strategies"
+            }
+          },
+          {
+            "code": "ai.pub",
+            "description": "Establish publication process with peer review, submission, and dissemination",
+            "usage_examples": [
+              "ai.pub: [Your content here]",
+              "ai.pub: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ai.pub: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish publication process with peer review, submission, and dissemination"
+            }
+          },
+          {
+            "code": "ai.col",
+            "description": "Design collaboration tools with version control, sharing, and communication",
+            "usage_examples": [
+              "ai.col: [Your content here]",
+              "ai.col: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ai.col: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design collaboration tools with version control, sharing, and communication"
+            }
+          },
+          {
+            "code": "ai.ml",
+            "description": "Establish machine learning operations with model lifecycle and deployment",
+            "usage_examples": [
+              "ai.ml: [Your content here]",
+              "ai.ml: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ai.ml: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish machine learning operations with model lifecycle and deployment"
+            }
+          },
+          {
+            "code": "ai.nlp",
+            "description": "Develop natural language processing with text analysis and language models",
+            "usage_examples": [
+              "ai.nlp: [Your content here]",
+              "ai.nlp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ai.nlp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop natural language processing with text analysis and language models"
+            }
+          },
+          {
+            "code": "ai.cv",
+            "description": "Create computer vision systems with image processing and recognition",
+            "usage_examples": [
+              "ai.cv: [Your content here]",
+              "ai.cv: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ai.cv: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create computer vision systems with image processing and recognition"
+            }
+          },
+          {
+            "code": "ai.rob",
+            "description": "Design robotics research with algorithms, sensors, and control systems",
+            "usage_examples": [
+              "ai.rob: [Your content here]",
+              "ai.rob: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ai.rob: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design robotics research with algorithms, sensors, and control systems"
+            }
+          },
+          {
+            "code": "ai.iot",
+            "description": "Establish IoT integration with devices, connectivity, and data processing",
+            "usage_examples": [
+              "ai.iot: [Your content here]",
+              "ai.iot: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ai.iot: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish IoT integration with devices, connectivity, and data processing"
+            }
+          },
+          {
+            "code": "ai.qua",
+            "description": "Develop quantum computing research with algorithms and hardware",
+            "usage_examples": [
+              "ai.qua: [Your content here]",
+              "ai.qua: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ai.qua: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop quantum computing research with algorithms and hardware"
+            }
+          }
+        ]
+      },
+      "Cybersecurity / InfoSec": {
+        "description": "Codes related to cybersecurity / infosec",
+        "code_count": 22,
+        "codes": [
+          {
+            "code": "cy.ass",
+            "description": "Conduct comprehensive security assessment with risk analysis and recommendations",
+            "usage_examples": [
+              "cy.ass: [Your content here]",
+              "cy.ass: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.ass: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Conduct comprehensive security assessment with risk analysis and recommendations"
+            }
+          },
+          {
+            "code": "cy.thr",
+            "description": "Perform threat analysis with attack vectors, impact, and mitigation strategies",
+            "usage_examples": [
+              "cy.thr: [Your content here]",
+              "cy.thr: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.thr: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Perform threat analysis with attack vectors, impact, and mitigation strategies"
+            }
+          },
+          {
+            "code": "cy.inc",
+            "description": "Develop incident response plan with detection, containment, and recovery",
+            "usage_examples": [
+              "cy.inc: [Your content here]",
+              "cy.inc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.inc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop incident response plan with detection, containment, and recovery"
+            }
+          },
+          {
+            "code": "cy.pen",
+            "description": "Design penetration testing procedures with scope, methodology, and reporting",
+            "usage_examples": [
+              "cy.pen: User login functionality",
+              "cy.pen: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "cy.pen: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design penetration testing procedures with scope, methodology, and reporting"
+            }
+          },
+          {
+            "code": "cy.vul",
+            "description": "Create vulnerability management process with scanning, prioritization, and remediation",
+            "usage_examples": [
+              "cy.vul: [Your content here]",
+              "cy.vul: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.vul: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create vulnerability management process with scanning, prioritization, and remediation"
+            }
+          },
+          {
+            "code": "cy.com",
+            "description": "Establish compliance audit framework with standards, controls, and reporting",
+            "usage_examples": [
+              "cy.com: [Your content here]",
+              "cy.com: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.com: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish compliance audit framework with standards, controls, and reporting"
+            }
+          },
+          {
+            "code": "cy.pol",
+            "description": "Develop security policies with guidelines, procedures, and enforcement",
+            "usage_examples": [
+              "cy.pol: [Your content here]",
+              "cy.pol: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.pol: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop security policies with guidelines, procedures, and enforcement"
+            }
+          },
+          {
+            "code": "cy.tra",
+            "description": "Design security training program with awareness, skills, and certification",
+            "usage_examples": [
+              "cy.tra: [Your content here]",
+              "cy.tra: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.tra: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design security training program with awareness, skills, and certification"
+            }
+          },
+          {
+            "code": "cy.mon",
+            "description": "Create security monitoring system with detection, alerting, and response",
+            "usage_examples": [
+              "cy.mon: [Your content here]",
+              "cy.mon: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.mon: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create security monitoring system with detection, alerting, and response"
+            }
+          },
+          {
+            "code": "cy.acc",
+            "description": "Establish access control framework with authentication, authorization, and auditing",
+            "usage_examples": [
+              "cy.acc: [Your content here]",
+              "cy.acc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.acc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish access control framework with authentication, authorization, and auditing"
+            }
+          },
+          {
+            "code": "cy.enc",
+            "description": "Design encryption standards with algorithms, key management, and implementation",
+            "usage_examples": [
+              "cy.enc: [Your content here]",
+              "cy.enc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.enc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design encryption standards with algorithms, key management, and implementation"
+            }
+          },
+          {
+            "code": "cy.aud",
+            "description": "Create security audit process with assessment, reporting, and remediation",
+            "usage_examples": [
+              "cy.aud: [Your content here]",
+              "cy.aud: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.aud: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create security audit process with assessment, reporting, and remediation"
+            }
+          },
+          {
+            "code": "cy.fore",
+            "description": "Create digital forensics procedures with evidence collection and analysis",
+            "usage_examples": [
+              "cy.fore: [Your content here]",
+              "cy.fore: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.fore: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create digital forensics procedures with evidence collection and analysis"
+            }
+          },
+          {
+            "code": "cy.mal",
+            "description": "Develop malware analysis process with detection, classification, and mitigation",
+            "usage_examples": [
+              "cy.mal: [Your content here]",
+              "cy.mal: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.mal: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop malware analysis process with detection, classification, and mitigation"
+            }
+          },
+          {
+            "code": "cy.soc",
+            "description": "Establish security operations center with monitoring, analysis, and response",
+            "usage_examples": [
+              "cy.soc: [Your content here]",
+              "cy.soc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.soc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish security operations center with monitoring, analysis, and response"
+            }
+          },
+          {
+            "code": "cy.zer",
+            "description": "Design zero trust architecture with identity, access, and network security",
+            "usage_examples": [
+              "cy.zer: [Your content here]",
+              "cy.zer: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.zer: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design zero trust architecture with identity, access, and network security"
+            }
+          },
+          {
+            "code": "cy.iot",
+            "description": "Create IoT security framework with device protection and network security",
+            "usage_examples": [
+              "cy.iot: [Your content here]",
+              "cy.iot: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.iot: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create IoT security framework with device protection and network security"
+            }
+          },
+          {
+            "code": "cy.clo",
+            "description": "Establish cloud security with configuration, monitoring, and compliance",
+            "usage_examples": [
+              "cy.clo: [Your content here]",
+              "cy.clo: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.clo: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish cloud security with configuration, monitoring, and compliance"
+            }
+          },
+          {
+            "code": "sd.arc+sd.tes",
+            "description": "Software architecture + testing",
+            "usage_examples": [
+              "sd.arc+sd.tes: User login functionality",
+              "sd.arc+sd.tes: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "sd.arc+sd.tes: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Software architecture + testing"
+            }
+          },
+          {
+            "code": "da.col+da.ana",
+            "description": "Data collection + analysis",
+            "usage_examples": [
+              "da.col+da.ana: [Your content here]",
+              "da.col+da.ana: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "da.col+da.ana: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Data collection + analysis"
+            }
+          },
+          {
+            "code": "ai.mod+ai.eva",
+            "description": "Model development + evaluation",
+            "usage_examples": [
+              "ai.mod+ai.eva: [Your content here]",
+              "ai.mod+ai.eva: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ai.mod+ai.eva: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Model development + evaluation"
+            }
+          },
+          {
+            "code": "cy.ass+cy.inc",
+            "description": "Security assessment + incident response",
+            "usage_examples": [
+              "cy.ass+cy.inc: [Your content here]",
+              "cy.ass+cy.inc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cy.ass+cy.inc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Security assessment + incident response"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

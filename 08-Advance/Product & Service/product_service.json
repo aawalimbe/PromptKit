@@ -1,0 +1,1291 @@
+{
+  "promptkit_dictionary": {
+    "title": "Product & Service",
+    "version": "1.0",
+    "description": "Structured PromptKit dictionary for Product & Service",
+    "source_file": ".\\08-Advance\\Product & Service\\product_service.md",
+    "total_codes": 95,
+    "instructions": {
+      "for_llm": [
+        "These are shorthand codes that expand into full instructions when used with a colon (:)",
+        "Codes are input-only - they should not be displayed in responses",
+        "When a code is used, replace it with the full instruction from the description",
+        "Maintain the context and intent of the original code",
+        "Provide comprehensive, actionable responses based on the code's purpose"
+      ],
+      "for_users": [
+        "Use codes with a colon (:) followed by your content",
+        "Example: 'cg: This text needs correction'",
+        "Codes can be combined with + for multiple instructions",
+        "Example: 'cp+sm: Long document to correct and summarize'"
+      ]
+    },
+    "sections": {
+      "Product Management": {
+        "description": "Codes related to product management",
+        "code_count": 18,
+        "codes": [
+          {
+            "code": "pm.road",
+            "description": "Create comprehensive product roadmap with features, timelines, and priorities",
+            "usage_examples": [
+              "pm.road: [Your content here]",
+              "pm.road: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.road: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create comprehensive product roadmap with features, timelines, and priorities"
+            }
+          },
+          {
+            "code": "pm.req",
+            "description": "Develop detailed product requirements with specifications and acceptance criteria",
+            "usage_examples": [
+              "pm.req: [Your content here]",
+              "pm.req: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.req: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop detailed product requirements with specifications and acceptance criteria"
+            }
+          },
+          {
+            "code": "pm.spec",
+            "description": "Design product specifications with technical details and implementation guidelines",
+            "usage_examples": [
+              "pm.spec: [Your content here]",
+              "pm.spec: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.spec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design product specifications with technical details and implementation guidelines"
+            }
+          },
+          {
+            "code": "pm.pri",
+            "description": "Establish product prioritization framework with scoring and decision criteria",
+            "usage_examples": [
+              "pm.pri: [Your content here]",
+              "pm.pri: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.pri: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish product prioritization framework with scoring and decision criteria"
+            }
+          },
+          {
+            "code": "pm.laun",
+            "description": "Create product launch strategy with go-to-market and rollout plans",
+            "usage_examples": [
+              "pm.laun: Digital transformation strategy",
+              "pm.laun: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "pm.laun: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create product launch strategy with go-to-market and rollout plans"
+            }
+          },
+          {
+            "code": "pm.life",
+            "description": "Design product lifecycle management with phases and transition strategies",
+            "usage_examples": [
+              "pm.life: [Your content here]",
+              "pm.life: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.life: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design product lifecycle management with phases and transition strategies"
+            }
+          },
+          {
+            "code": "pm.met",
+            "description": "Establish product metrics with KPIs, tracking, and performance analysis",
+            "usage_examples": [
+              "pm.met: [Your content here]",
+              "pm.met: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.met: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish product metrics with KPIs, tracking, and performance analysis"
+            }
+          },
+          {
+            "code": "pm.comp",
+            "description": "Conduct competitive product analysis with positioning and differentiation",
+            "usage_examples": [
+              "pm.comp: [Your content here]",
+              "pm.comp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.comp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Conduct competitive product analysis with positioning and differentiation"
+            }
+          },
+          {
+            "code": "pm.user",
+            "description": "Develop user research strategy with personas, journeys, and feedback collection",
+            "usage_examples": [
+              "pm.user: Digital transformation strategy",
+              "pm.user: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "pm.user: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop user research strategy with personas, journeys, and feedback collection"
+            }
+          },
+          {
+            "code": "pm.back",
+            "description": "Create product backlog with user stories, epics, and sprint planning",
+            "usage_examples": [
+              "pm.back: [Your content here]",
+              "pm.back: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.back: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create product backlog with user stories, epics, and sprint planning"
+            }
+          },
+          {
+            "code": "pm.stak",
+            "description": "Design stakeholder management with communication and alignment strategies",
+            "usage_examples": [
+              "pm.stak: [Your content here]",
+              "pm.stak: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.stak: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design stakeholder management with communication and alignment strategies"
+            }
+          },
+          {
+            "code": "pm.risk",
+            "description": "Identify product risks with mitigation strategies and contingency plans",
+            "usage_examples": [
+              "pm.risk: [Your content here]",
+              "pm.risk: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.risk: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Identify product risks with mitigation strategies and contingency plans"
+            }
+          },
+          {
+            "code": "pm.pric",
+            "description": "Develop product pricing strategy with models, positioning, and optimization",
+            "usage_examples": [
+              "pm.pric: Digital transformation strategy",
+              "pm.pric: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "pm.pric: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop product pricing strategy with models, positioning, and optimization"
+            }
+          },
+          {
+            "code": "pm.port",
+            "description": "Create product portfolio management with analysis, balance, and optimization",
+            "usage_examples": [
+              "pm.port: [Your content here]",
+              "pm.port: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.port: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create product portfolio management with analysis, balance, and optimization"
+            }
+          },
+          {
+            "code": "pm.ret",
+            "description": "Design product retirement strategy with migration, support, and communication",
+            "usage_examples": [
+              "pm.ret: Digital transformation strategy",
+              "pm.ret: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "pm.ret: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design product retirement strategy with migration, support, and communication"
+            }
+          },
+          {
+            "code": "pm.feed",
+            "description": "Establish product feedback management with collection, analysis, and action",
+            "usage_examples": [
+              "pm.feed: [Your content here]",
+              "pm.feed: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.feed: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish product feedback management with collection, analysis, and action"
+            }
+          },
+          {
+            "code": "pm.anal",
+            "description": "Create product analytics framework with metrics, insights, and reporting",
+            "usage_examples": [
+              "pm.anal: [Your content here]",
+              "pm.anal: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.anal: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create product analytics framework with metrics, insights, and reporting"
+            }
+          },
+          {
+            "code": "pm.mark",
+            "description": "Conduct product-market fit analysis with validation and optimization",
+            "usage_examples": [
+              "pm.mark: [Your content here]",
+              "pm.mark: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.mark: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Conduct product-market fit analysis with validation and optimization"
+            }
+          }
+        ]
+      },
+      "Design / UX / UI": {
+        "description": "Codes related to design / ux / ui",
+        "code_count": 18,
+        "codes": [
+          {
+            "code": "dx.res",
+            "description": "Conduct user research with interviews, surveys, and behavioral analysis",
+            "usage_examples": [
+              "dx.res: [Your content here]",
+              "dx.res: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "dx.res: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Conduct user research with interviews, surveys, and behavioral analysis"
+            }
+          },
+          {
+            "code": "dx.per",
+            "description": "Create user personas with demographics, goals, and pain points",
+            "usage_examples": [
+              "dx.per: [Your content here]",
+              "dx.per: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "dx.per: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create user personas with demographics, goals, and pain points"
+            }
+          },
+          {
+            "code": "dx.jou",
+            "description": "Design user journey maps with touchpoints, emotions, and opportunities",
+            "usage_examples": [
+              "dx.jou: [Your content here]",
+              "dx.jou: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "dx.jou: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design user journey maps with touchpoints, emotions, and opportunities"
+            }
+          },
+          {
+            "code": "dx.wire",
+            "description": "Create wireframes with layout, structure, and information architecture",
+            "usage_examples": [
+              "dx.wire: [Your content here]",
+              "dx.wire: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "dx.wire: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create wireframes with layout, structure, and information architecture"
+            }
+          },
+          {
+            "code": "dx.pro",
+            "description": "Develop prototypes with interactions, flows, and user testing",
+            "usage_examples": [
+              "dx.pro: User login functionality",
+              "dx.pro: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "dx.pro: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop prototypes with interactions, flows, and user testing"
+            }
+          },
+          {
+            "code": "dx.vis",
+            "description": "Design visual identity with brand guidelines, colors, and typography",
+            "usage_examples": [
+              "dx.vis: [Your content here]",
+              "dx.vis: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "dx.vis: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design visual identity with brand guidelines, colors, and typography"
+            }
+          },
+          {
+            "code": "dx.int",
+            "description": "Create interaction design with micro-interactions and user flows",
+            "usage_examples": [
+              "dx.int: [Your content here]",
+              "dx.int: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "dx.int: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create interaction design with micro-interactions and user flows"
+            }
+          },
+          {
+            "code": "dx.resp",
+            "description": "Design responsive layouts with breakpoints and adaptive components",
+            "usage_examples": [
+              "dx.resp: [Your content here]",
+              "dx.resp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "dx.resp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design responsive layouts with breakpoints and adaptive components"
+            }
+          },
+          {
+            "code": "dx.acc",
+            "description": "Establish accessibility standards with WCAG compliance and inclusive design",
+            "usage_examples": [
+              "dx.acc: [Your content here]",
+              "dx.acc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "dx.acc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish accessibility standards with WCAG compliance and inclusive design"
+            }
+          },
+          {
+            "code": "dx.test",
+            "description": "Conduct usability testing with scenarios, metrics, and improvement recommendations",
+            "usage_examples": [
+              "dx.test: User login functionality",
+              "dx.test: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "dx.test: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Conduct usability testing with scenarios, metrics, and improvement recommendations"
+            }
+          },
+          {
+            "code": "dx.hand",
+            "description": "Create design system with components, patterns, and documentation",
+            "usage_examples": [
+              "dx.hand: [Your content here]",
+              "dx.hand: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "dx.hand: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create design system with components, patterns, and documentation"
+            }
+          },
+          {
+            "code": "dx.ana",
+            "description": "Perform design analysis with metrics, heatmaps, and user behavior insights",
+            "usage_examples": [
+              "dx.ana: [Your content here]",
+              "dx.ana: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "dx.ana: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Perform design analysis with metrics, heatmaps, and user behavior insights"
+            }
+          },
+          {
+            "code": "dx.info",
+            "description": "Design information architecture with structure, navigation, and content organization",
+            "usage_examples": [
+              "dx.info: [Your content here]",
+              "dx.info: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "dx.info: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design information architecture with structure, navigation, and content organization"
+            }
+          },
+          {
+            "code": "dx.cont",
+            "description": "Create content strategy with creation, management, and optimization",
+            "usage_examples": [
+              "dx.cont: Digital transformation strategy",
+              "dx.cont: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "dx.cont: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create content strategy with creation, management, and optimization"
+            }
+          },
+          {
+            "code": "dx.bran",
+            "description": "Develop brand design guidelines with identity, voice, and visual standards",
+            "usage_examples": [
+              "dx.bran: [Your content here]",
+              "dx.bran: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "dx.bran: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop brand design guidelines with identity, voice, and visual standards"
+            }
+          },
+          {
+            "code": "dx.mobi",
+            "description": "Design mobile optimization with responsive design and performance",
+            "usage_examples": [
+              "dx.mobi: [Your content here]",
+              "dx.mobi: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "dx.mobi: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design mobile optimization with responsive design and performance"
+            }
+          },
+          {
+            "code": "dx.cons",
+            "description": "Establish design consistency standards with patterns and guidelines",
+            "usage_examples": [
+              "dx.cons: [Your content here]",
+              "dx.cons: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "dx.cons: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish design consistency standards with patterns and guidelines"
+            }
+          },
+          {
+            "code": "dx.coll",
+            "description": "Create design collaboration tools with workflows and communication",
+            "usage_examples": [
+              "dx.coll: [Your content here]",
+              "dx.coll: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "dx.coll: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create design collaboration tools with workflows and communication"
+            }
+          }
+        ]
+      },
+      "Quality Assurance": {
+        "description": "Codes related to quality assurance",
+        "code_count": 18,
+        "codes": [
+          {
+            "code": "qa.test",
+            "description": "Develop comprehensive testing strategy with test plans and execution procedures",
+            "usage_examples": [
+              "qa.test: User login functionality",
+              "qa.test: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "qa.test: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop comprehensive testing strategy with test plans and execution procedures"
+            }
+          },
+          {
+            "code": "qa.unit",
+            "description": "Create unit testing framework with test cases and automation",
+            "usage_examples": [
+              "qa.unit: User login functionality",
+              "qa.unit: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "qa.unit: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create unit testing framework with test cases and automation"
+            }
+          },
+          {
+            "code": "qa.inte",
+            "description": "Design integration testing with API, database, and system validation",
+            "usage_examples": [
+              "qa.inte: User login functionality",
+              "qa.inte: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "qa.inte: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design integration testing with API, database, and system validation"
+            }
+          },
+          {
+            "code": "qa.perf",
+            "description": "Establish performance testing with load, stress, and scalability testing",
+            "usage_examples": [
+              "qa.perf: User login functionality",
+              "qa.perf: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "qa.perf: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish performance testing with load, stress, and scalability testing"
+            }
+          },
+          {
+            "code": "qa.sec",
+            "description": "Create security testing with vulnerability assessment and penetration testing",
+            "usage_examples": [
+              "qa.sec: User login functionality",
+              "qa.sec: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "qa.sec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create security testing with vulnerability assessment and penetration testing"
+            }
+          },
+          {
+            "code": "qa.user",
+            "description": "Design user acceptance testing with scenarios and acceptance criteria",
+            "usage_examples": [
+              "qa.user: User login functionality",
+              "qa.user: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "qa.user: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design user acceptance testing with scenarios and acceptance criteria"
+            }
+          },
+          {
+            "code": "qa.auto",
+            "description": "Develop test automation framework with scripts and continuous testing",
+            "usage_examples": [
+              "qa.auto: User login functionality",
+              "qa.auto: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "qa.auto: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop test automation framework with scripts and continuous testing"
+            }
+          },
+          {
+            "code": "qa.reg",
+            "description": "Create regression testing with test suites and validation procedures",
+            "usage_examples": [
+              "qa.reg: User login functionality",
+              "qa.reg: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "qa.reg: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create regression testing with test suites and validation procedures"
+            }
+          },
+          {
+            "code": "qa.bug",
+            "description": "Establish bug tracking system with classification, prioritization, and resolution",
+            "usage_examples": [
+              "qa.bug: Memory leak in payment module",
+              "qa.bug: Login page not working"
+            ],
+            "instructions": {
+              "input_format": "qa.bug: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish bug tracking system with classification, prioritization, and resolution"
+            }
+          },
+          {
+            "code": "qa.doc",
+            "description": "Generate testing documentation with procedures, standards, and guidelines",
+            "usage_examples": [
+              "qa.doc: User login functionality",
+              "qa.doc: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "qa.doc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Generate testing documentation with procedures, standards, and guidelines"
+            }
+          },
+          {
+            "code": "qa.met",
+            "description": "Design quality metrics with defect rates, coverage, and performance indicators",
+            "usage_examples": [
+              "qa.met: [Your content here]",
+              "qa.met: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "qa.met: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design quality metrics with defect rates, coverage, and performance indicators"
+            }
+          },
+          {
+            "code": "qa.com",
+            "description": "Establish quality compliance with standards, audits, and certification",
+            "usage_examples": [
+              "qa.com: [Your content here]",
+              "qa.com: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "qa.com: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish quality compliance with standards, audits, and certification"
+            }
+          },
+          {
+            "code": "qa.load",
+            "description": "Design load testing procedures with performance validation and optimization",
+            "usage_examples": [
+              "qa.load: User login functionality",
+              "qa.load: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "qa.load: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design load testing procedures with performance validation and optimization"
+            }
+          },
+          {
+            "code": "qa.comp",
+            "description": "Create compatibility testing with cross-platform and device validation",
+            "usage_examples": [
+              "qa.comp: User login functionality",
+              "qa.comp: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "qa.comp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create compatibility testing with cross-platform and device validation"
+            }
+          },
+          {
+            "code": "qa.data",
+            "description": "Establish data quality testing with validation, integrity, and accuracy",
+            "usage_examples": [
+              "qa.data: User login functionality",
+              "qa.data: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "qa.data: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish data quality testing with validation, integrity, and accuracy"
+            }
+          },
+          {
+            "code": "qa.api",
+            "description": "Develop API testing framework with endpoints, integration, and validation",
+            "usage_examples": [
+              "qa.api: User login functionality",
+              "qa.api: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "qa.api: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop API testing framework with endpoints, integration, and validation"
+            }
+          },
+          {
+            "code": "qa.mobi",
+            "description": "Create mobile testing procedures with device, platform, and performance",
+            "usage_examples": [
+              "qa.mobi: User login functionality",
+              "qa.mobi: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "qa.mobi: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create mobile testing procedures with device, platform, and performance"
+            }
+          },
+          {
+            "code": "qa.cros",
+            "description": "Design cross-browser testing with compatibility and functionality validation",
+            "usage_examples": [
+              "qa.cros: User login functionality",
+              "qa.cros: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "qa.cros: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design cross-browser testing with compatibility and functionality validation"
+            }
+          }
+        ]
+      },
+      "Manufacturing / Production": {
+        "description": "Codes related to manufacturing / production",
+        "code_count": 18,
+        "codes": [
+          {
+            "code": "mf.pro",
+            "description": "Design production processes with workflows, equipment, and capacity planning",
+            "usage_examples": [
+              "mf.pro: [Your content here]",
+              "mf.pro: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mf.pro: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design production processes with workflows, equipment, and capacity planning"
+            }
+          },
+          {
+            "code": "mf.qua",
+            "description": "Establish quality control systems with inspection, testing, and standards",
+            "usage_examples": [
+              "mf.qua: User login functionality",
+              "mf.qua: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "mf.qua: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish quality control systems with inspection, testing, and standards"
+            }
+          },
+          {
+            "code": "mf.cap",
+            "description": "Create capacity planning with demand forecasting and resource allocation",
+            "usage_examples": [
+              "mf.cap: [Your content here]",
+              "mf.cap: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mf.cap: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create capacity planning with demand forecasting and resource allocation"
+            }
+          },
+          {
+            "code": "mf.sch",
+            "description": "Develop production scheduling with optimization and bottleneck management",
+            "usage_examples": [
+              "mf.sch: [Your content here]",
+              "mf.sch: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mf.sch: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop production scheduling with optimization and bottleneck management"
+            }
+          },
+          {
+            "code": "mf.main",
+            "description": "Design maintenance procedures with preventive, predictive, and corrective actions",
+            "usage_examples": [
+              "mf.main: This sentence need fixing.",
+              "mf.main: Please review this text for errors."
+            ],
+            "instructions": {
+              "input_format": "mf.main: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design maintenance procedures with preventive, predictive, and corrective actions"
+            }
+          },
+          {
+            "code": "mf.saf",
+            "description": "Establish safety protocols with procedures, training, and compliance",
+            "usage_examples": [
+              "mf.saf: [Your content here]",
+              "mf.saf: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mf.saf: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish safety protocols with procedures, training, and compliance"
+            }
+          },
+          {
+            "code": "mf.cost",
+            "description": "Create cost management with budgeting, tracking, and optimization",
+            "usage_examples": [
+              "mf.cost: Q4 marketing budget proposal",
+              "mf.cost: Annual IT infrastructure budget"
+            ],
+            "instructions": {
+              "input_format": "mf.cost: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create cost management with budgeting, tracking, and optimization"
+            }
+          },
+          {
+            "code": "mf.lean",
+            "description": "Implement lean manufacturing with waste reduction and efficiency improvement",
+            "usage_examples": [
+              "mf.lean: [Your content here]",
+              "mf.lean: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mf.lean: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Implement lean manufacturing with waste reduction and efficiency improvement"
+            }
+          },
+          {
+            "code": "mf.six",
+            "description": "Apply Six Sigma methodology with DMAIC process and quality improvement",
+            "usage_examples": [
+              "mf.six: [Your content here]",
+              "mf.six: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mf.six: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Apply Six Sigma methodology with DMAIC process and quality improvement"
+            }
+          },
+          {
+            "code": "mf.aut",
+            "description": "Design automation systems with robotics, IoT, and smart manufacturing",
+            "usage_examples": [
+              "mf.aut: [Your content here]",
+              "mf.aut: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mf.aut: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design automation systems with robotics, IoT, and smart manufacturing"
+            }
+          },
+          {
+            "code": "mf.trac",
+            "description": "Establish traceability systems with batch tracking and quality records",
+            "usage_examples": [
+              "mf.trac: [Your content here]",
+              "mf.trac: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mf.trac: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish traceability systems with batch tracking and quality records"
+            }
+          },
+          {
+            "code": "mf.env",
+            "description": "Create environmental management with sustainability and compliance",
+            "usage_examples": [
+              "mf.env: [Your content here]",
+              "mf.env: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mf.env: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create environmental management with sustainability and compliance"
+            }
+          },
+          {
+            "code": "mf.qual",
+            "description": "Establish quality management systems with standards, processes, and certification",
+            "usage_examples": [
+              "mf.qual: [Your content here]",
+              "mf.qual: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mf.qual: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish quality management systems with standards, processes, and certification"
+            }
+          },
+          {
+            "code": "mf.supp",
+            "description": "Create supplier quality management with evaluation, standards, and improvement",
+            "usage_examples": [
+              "mf.supp: [Your content here]",
+              "mf.supp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mf.supp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create supplier quality management with evaluation, standards, and improvement"
+            }
+          },
+          {
+            "code": "mf.cert",
+            "description": "Design certification and compliance with standards, audits, and documentation",
+            "usage_examples": [
+              "mf.cert: [Your content here]",
+              "mf.cert: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mf.cert: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design certification and compliance with standards, audits, and documentation"
+            }
+          },
+          {
+            "code": "mf.opt",
+            "description": "Develop production optimization with efficiency, cost, and quality improvement",
+            "usage_examples": [
+              "mf.opt: [Your content here]",
+              "mf.opt: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mf.opt: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop production optimization with efficiency, cost, and quality improvement"
+            }
+          },
+          {
+            "code": "mf.cont",
+            "description": "Establish continuous improvement with methodologies, metrics, and implementation",
+            "usage_examples": [
+              "mf.cont: [Your content here]",
+              "mf.cont: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mf.cont: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish continuous improvement with methodologies, metrics, and implementation"
+            }
+          },
+          {
+            "code": "mf.tech",
+            "description": "Create technology integration with systems, automation, and digital transformation",
+            "usage_examples": [
+              "mf.tech: [Your content here]",
+              "mf.tech: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mf.tech: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create technology integration with systems, automation, and digital transformation"
+            }
+          }
+        ]
+      },
+      "Supply Chain / Logistics": {
+        "description": "Codes related to supply chain / logistics",
+        "code_count": 23,
+        "codes": [
+          {
+            "code": "sc.str",
+            "description": "Develop supply chain strategy with network design and optimization",
+            "usage_examples": [
+              "sc.str: Digital transformation strategy",
+              "sc.str: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "sc.str: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop supply chain strategy with network design and optimization"
+            }
+          },
+          {
+            "code": "sc.pro",
+            "description": "Create procurement processes with supplier selection and management",
+            "usage_examples": [
+              "sc.pro: [Your content here]",
+              "sc.pro: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc.pro: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create procurement processes with supplier selection and management"
+            }
+          },
+          {
+            "code": "sc.inv",
+            "description": "Design inventory management with forecasting, optimization, and control",
+            "usage_examples": [
+              "sc.inv: [Your content here]",
+              "sc.inv: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc.inv: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design inventory management with forecasting, optimization, and control"
+            }
+          },
+          {
+            "code": "sc.log",
+            "description": "Establish logistics operations with transportation, warehousing, and distribution",
+            "usage_examples": [
+              "sc.log: [Your content here]",
+              "sc.log: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc.log: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish logistics operations with transportation, warehousing, and distribution"
+            }
+          },
+          {
+            "code": "sc.sup",
+            "description": "Create supplier management with evaluation, performance, and relationships",
+            "usage_examples": [
+              "sc.sup: [Your content here]",
+              "sc.sup: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc.sup: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create supplier management with evaluation, performance, and relationships"
+            }
+          },
+          {
+            "code": "sc.risk",
+            "description": "Identify supply chain risks with assessment, mitigation, and contingency planning",
+            "usage_examples": [
+              "sc.risk: [Your content here]",
+              "sc.risk: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc.risk: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Identify supply chain risks with assessment, mitigation, and contingency planning"
+            }
+          },
+          {
+            "code": "sc.vis",
+            "description": "Establish supply chain visibility with tracking, monitoring, and analytics",
+            "usage_examples": [
+              "sc.vis: [Your content here]",
+              "sc.vis: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc.vis: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish supply chain visibility with tracking, monitoring, and analytics"
+            }
+          },
+          {
+            "code": "sc.cost",
+            "description": "Optimize supply chain costs with analysis, reduction, and efficiency",
+            "usage_examples": [
+              "sc.cost: [Your content here]",
+              "sc.cost: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc.cost: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Optimize supply chain costs with analysis, reduction, and efficiency"
+            }
+          },
+          {
+            "code": "sc.com",
+            "description": "Ensure supply chain compliance with regulations, standards, and audits",
+            "usage_examples": [
+              "sc.com: [Your content here]",
+              "sc.com: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc.com: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Ensure supply chain compliance with regulations, standards, and audits"
+            }
+          },
+          {
+            "code": "sc.sus",
+            "description": "Design sustainable supply chain with environmental and social responsibility",
+            "usage_examples": [
+              "sc.sus: [Your content here]",
+              "sc.sus: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc.sus: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design sustainable supply chain with environmental and social responsibility"
+            }
+          },
+          {
+            "code": "sc.tech",
+            "description": "Implement supply chain technology with systems, automation, and integration",
+            "usage_examples": [
+              "sc.tech: [Your content here]",
+              "sc.tech: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc.tech: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Implement supply chain technology with systems, automation, and integration"
+            }
+          },
+          {
+            "code": "sc.perf",
+            "description": "Establish supply chain performance metrics with KPIs and benchmarking",
+            "usage_examples": [
+              "sc.perf: [Your content here]",
+              "sc.perf: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc.perf: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish supply chain performance metrics with KPIs and benchmarking"
+            }
+          },
+          {
+            "code": "sc.dem",
+            "description": "Create demand planning and forecasting with analysis, models, and accuracy",
+            "usage_examples": [
+              "sc.dem: [Your content here]",
+              "sc.dem: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc.dem: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create demand planning and forecasting with analysis, models, and accuracy"
+            }
+          },
+          {
+            "code": "sc.ware",
+            "description": "Design warehouse management with operations, optimization, and automation",
+            "usage_examples": [
+              "sc.ware: [Your content here]",
+              "sc.ware: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc.ware: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design warehouse management with operations, optimization, and automation"
+            }
+          },
+          {
+            "code": "sc.trans",
+            "description": "Establish transportation management with routing, optimization, and tracking",
+            "usage_examples": [
+              "sc.trans: [Your content here]",
+              "sc.trans: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc.trans: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish transportation management with routing, optimization, and tracking"
+            }
+          },
+          {
+            "code": "sc.cust",
+            "description": "Create customs and trade compliance with regulations, documentation, and processes",
+            "usage_examples": [
+              "sc.cust: [Your content here]",
+              "sc.cust: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc.cust: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create customs and trade compliance with regulations, documentation, and processes"
+            }
+          },
+          {
+            "code": "sc.rev",
+            "description": "Design reverse logistics with returns, recycling, and disposal management",
+            "usage_examples": [
+              "sc.rev: [Your content here]",
+              "sc.rev: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc.rev: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design reverse logistics with returns, recycling, and disposal management"
+            }
+          },
+          {
+            "code": "sc.coll",
+            "description": "Establish supply chain collaboration with partners, systems, and communication",
+            "usage_examples": [
+              "sc.coll: [Your content here]",
+              "sc.coll: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc.coll: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish supply chain collaboration with partners, systems, and communication"
+            }
+          },
+          {
+            "code": "pm.road+pm.req",
+            "description": "Product roadmap + requirements",
+            "usage_examples": [
+              "pm.road+pm.req: [Your content here]",
+              "pm.road+pm.req: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.road+pm.req: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Product roadmap + requirements"
+            }
+          },
+          {
+            "code": "dx.res+dx.per",
+            "description": "User research + personas",
+            "usage_examples": [
+              "dx.res+dx.per: [Your content here]",
+              "dx.res+dx.per: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "dx.res+dx.per: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "User research + personas"
+            }
+          },
+          {
+            "code": "qa.test+qa.auto",
+            "description": "Testing strategy + automation",
+            "usage_examples": [
+              "qa.test+qa.auto: User login functionality",
+              "qa.test+qa.auto: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "qa.test+qa.auto: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Testing strategy + automation"
+            }
+          },
+          {
+            "code": "mf.pro+mf.qua",
+            "description": "Production processes + quality control",
+            "usage_examples": [
+              "mf.pro+mf.qua: [Your content here]",
+              "mf.pro+mf.qua: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mf.pro+mf.qua: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Production processes + quality control"
+            }
+          },
+          {
+            "code": "sc.str+sc.inv",
+            "description": "Supply chain strategy + inventory management",
+            "usage_examples": [
+              "sc.str+sc.inv: Digital transformation strategy",
+              "sc.str+sc.inv: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "sc.str+sc.inv: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Supply chain strategy + inventory management"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

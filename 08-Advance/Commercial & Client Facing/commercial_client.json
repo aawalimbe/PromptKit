@@ -1,0 +1,1012 @@
+{
+  "promptkit_dictionary": {
+    "title": "Commercial & Client Facing",
+    "version": "1.0",
+    "description": "Structured PromptKit dictionary for Commercial & Client Facing",
+    "source_file": ".\\08-Advance\\Commercial & Client Facing\\commercial_client.md",
+    "total_codes": 74,
+    "instructions": {
+      "for_llm": [
+        "These are shorthand codes that expand into full instructions when used with a colon (:)",
+        "Codes are input-only - they should not be displayed in responses",
+        "When a code is used, replace it with the full instruction from the description",
+        "Maintain the context and intent of the original code",
+        "Provide comprehensive, actionable responses based on the code's purpose"
+      ],
+      "for_users": [
+        "Use codes with a colon (:) followed by your content",
+        "Example: 'cg: This text needs correction'",
+        "Codes can be combined with + for multiple instructions",
+        "Example: 'cp+sm: Long document to correct and summarize'"
+      ]
+    },
+    "sections": {
+      "Sales": {
+        "description": "Codes related to sales",
+        "code_count": 16,
+        "codes": [
+          {
+            "code": "sl.le",
+            "description": "Develop lead generation strategy with channels, targeting, and conversion optimization",
+            "usage_examples": [
+              "sl.le: Digital transformation strategy",
+              "sl.le: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "sl.le: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop lead generation strategy with channels, targeting, and conversion optimization"
+            }
+          },
+          {
+            "code": "sl.qua",
+            "description": "Create lead qualification process with criteria, scoring, and prioritization",
+            "usage_examples": [
+              "sl.qua: [Your content here]",
+              "sl.qua: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sl.qua: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create lead qualification process with criteria, scoring, and prioritization"
+            }
+          },
+          {
+            "code": "sl.pit",
+            "description": "Design sales pitch with value proposition, benefits, and competitive positioning",
+            "usage_examples": [
+              "sl.pit: [Your content here]",
+              "sl.pit: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sl.pit: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design sales pitch with value proposition, benefits, and competitive positioning"
+            }
+          },
+          {
+            "code": "sl.pro",
+            "description": "Create comprehensive sales proposal with pricing, terms, and implementation",
+            "usage_examples": [
+              "sl.pro: [Your content here]",
+              "sl.pro: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sl.pro: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create comprehensive sales proposal with pricing, terms, and implementation"
+            }
+          },
+          {
+            "code": "sl.neg",
+            "description": "Establish sales negotiation framework with strategies and tactics",
+            "usage_examples": [
+              "sl.neg: [Your content here]",
+              "sl.neg: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sl.neg: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish sales negotiation framework with strategies and tactics"
+            }
+          },
+          {
+            "code": "sl.clo",
+            "description": "Develop sales closing techniques with objection handling and commitment",
+            "usage_examples": [
+              "sl.clo: [Your content here]",
+              "sl.clo: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sl.clo: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop sales closing techniques with objection handling and commitment"
+            }
+          },
+          {
+            "code": "sl.rel",
+            "description": "Design relationship building strategy with engagement and retention",
+            "usage_examples": [
+              "sl.rel: Digital transformation strategy",
+              "sl.rel: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "sl.rel: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design relationship building strategy with engagement and retention"
+            }
+          },
+          {
+            "code": "sl.obj",
+            "description": "Create sales objection handling playbook with responses and strategies",
+            "usage_examples": [
+              "sl.obj: [Your content here]",
+              "sl.obj: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sl.obj: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create sales objection handling playbook with responses and strategies"
+            }
+          },
+          {
+            "code": "sl.ter",
+            "description": "Establish territory management with segmentation, coverage, and optimization",
+            "usage_examples": [
+              "sl.ter: [Your content here]",
+              "sl.ter: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sl.ter: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish territory management with segmentation, coverage, and optimization"
+            }
+          },
+          {
+            "code": "sl.quo",
+            "description": "Generate professional quotes with pricing, terms, and validity periods",
+            "usage_examples": [
+              "sl.quo: [Your content here]",
+              "sl.quo: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sl.quo: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Generate professional quotes with pricing, terms, and validity periods"
+            }
+          },
+          {
+            "code": "sl.crm",
+            "description": "CRM management",
+            "usage_examples": [
+              "sl.crm: [Your content here]",
+              "sl.crm: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sl.crm: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "CRM management"
+            }
+          },
+          {
+            "code": "sl.fore",
+            "description": "Sales forecasting",
+            "usage_examples": [
+              "sl.fore: [Your content here]",
+              "sl.fore: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sl.fore: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Sales forecasting"
+            }
+          },
+          {
+            "code": "sl.pipe",
+            "description": "Pipeline management",
+            "usage_examples": [
+              "sl.pipe: [Your content here]",
+              "sl.pipe: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sl.pipe: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Pipeline management"
+            }
+          },
+          {
+            "code": "sl.targ",
+            "description": "Target setting",
+            "usage_examples": [
+              "sl.targ: [Your content here]",
+              "sl.targ: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sl.targ: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Target setting"
+            }
+          },
+          {
+            "code": "sl.comp",
+            "description": "Competitive analysis",
+            "usage_examples": [
+              "sl.comp: [Your content here]",
+              "sl.comp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sl.comp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Competitive analysis"
+            }
+          },
+          {
+            "code": "sl.dem",
+            "description": "Demo preparation",
+            "usage_examples": [
+              "sl.dem: [Your content here]",
+              "sl.dem: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sl.dem: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Demo preparation"
+            }
+          }
+        ]
+      },
+      "Business Development": {
+        "description": "Codes related to business development",
+        "code_count": 16,
+        "codes": [
+          {
+            "code": "bd.str",
+            "description": "Business development strategy",
+            "usage_examples": [
+              "bd.str: Digital transformation strategy",
+              "bd.str: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "bd.str: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Business development strategy"
+            }
+          },
+          {
+            "code": "bd.par",
+            "description": "Partnership development",
+            "usage_examples": [
+              "bd.par: [Your content here]",
+              "bd.par: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "bd.par: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Partnership development"
+            }
+          },
+          {
+            "code": "bd.all",
+            "description": "Alliance building",
+            "usage_examples": [
+              "bd.all: [Your content here]",
+              "bd.all: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "bd.all: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Alliance building"
+            }
+          },
+          {
+            "code": "bd.opp",
+            "description": "Opportunity identification",
+            "usage_examples": [
+              "bd.opp: [Your content here]",
+              "bd.opp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "bd.opp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Opportunity identification"
+            }
+          },
+          {
+            "code": "bd.mark",
+            "description": "Market entry strategy",
+            "usage_examples": [
+              "bd.mark: Digital transformation strategy",
+              "bd.mark: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "bd.mark: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Market entry strategy"
+            }
+          },
+          {
+            "code": "bd.exp",
+            "description": "Expansion planning",
+            "usage_examples": [
+              "bd.exp: [Your content here]",
+              "bd.exp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "bd.exp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Expansion planning"
+            }
+          },
+          {
+            "code": "bd.cha",
+            "description": "Channel development",
+            "usage_examples": [
+              "bd.cha: [Your content here]",
+              "bd.cha: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "bd.cha: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Channel development"
+            }
+          },
+          {
+            "code": "bd.joi",
+            "description": "Joint venture planning",
+            "usage_examples": [
+              "bd.joi: [Your content here]",
+              "bd.joi: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "bd.joi: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Joint venture planning"
+            }
+          },
+          {
+            "code": "bd.net",
+            "description": "Networking strategy",
+            "usage_examples": [
+              "bd.net: Digital transformation strategy",
+              "bd.net: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "bd.net: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Networking strategy"
+            }
+          },
+          {
+            "code": "bd.tre",
+            "description": "Trend analysis",
+            "usage_examples": [
+              "bd.tre: [Your content here]",
+              "bd.tre: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "bd.tre: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Trend analysis"
+            }
+          },
+          {
+            "code": "bd.res",
+            "description": "Research and analysis",
+            "usage_examples": [
+              "bd.res: [Your content here]",
+              "bd.res: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "bd.res: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Research and analysis"
+            }
+          },
+          {
+            "code": "bd.val",
+            "description": "Value proposition",
+            "usage_examples": [
+              "bd.val: [Your content here]",
+              "bd.val: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "bd.val: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Value proposition"
+            }
+          },
+          {
+            "code": "bd.pit",
+            "description": "Pitch deck creation",
+            "usage_examples": [
+              "bd.pit: [Your content here]",
+              "bd.pit: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "bd.pit: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Pitch deck creation"
+            }
+          },
+          {
+            "code": "bd.met",
+            "description": "Metrics and KPIs",
+            "usage_examples": [
+              "bd.met: [Your content here]",
+              "bd.met: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "bd.met: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Metrics and KPIs"
+            }
+          },
+          {
+            "code": "bd.rol",
+            "description": "Role definition",
+            "usage_examples": [
+              "bd.rol: [Your content here]",
+              "bd.rol: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "bd.rol: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Role definition"
+            }
+          },
+          {
+            "code": "bd.cal",
+            "description": "Calendar management",
+            "usage_examples": [
+              "bd.cal: [Your content here]",
+              "bd.cal: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "bd.cal: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Calendar management"
+            }
+          }
+        ]
+      },
+      "Marketing": {
+        "description": "Codes related to marketing",
+        "code_count": 19,
+        "codes": [
+          {
+            "code": "mk.cam",
+            "description": "Design comprehensive marketing campaign with objectives, channels, and metrics",
+            "usage_examples": [
+              "mk.cam: [Your content here]",
+              "mk.cam: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mk.cam: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design comprehensive marketing campaign with objectives, channels, and metrics"
+            }
+          },
+          {
+            "code": "mk.brd",
+            "description": "Develop brand positioning strategy with messaging, differentiation, and value",
+            "usage_examples": [
+              "mk.brd: Digital transformation strategy",
+              "mk.brd: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "mk.brd: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop brand positioning strategy with messaging, differentiation, and value"
+            }
+          },
+          {
+            "code": "mk.con",
+            "description": "Create content marketing strategy with creation, distribution, and optimization",
+            "usage_examples": [
+              "mk.con: Digital transformation strategy",
+              "mk.con: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "mk.con: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create content marketing strategy with creation, distribution, and optimization"
+            }
+          },
+          {
+            "code": "mk.soc",
+            "description": "Establish social media strategy with platforms, content, and engagement",
+            "usage_examples": [
+              "mk.soc: Digital transformation strategy",
+              "mk.soc: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "mk.soc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish social media strategy with platforms, content, and engagement"
+            }
+          },
+          {
+            "code": "mk.seo",
+            "description": "Develop SEO strategy with keywords, optimization, and performance tracking",
+            "usage_examples": [
+              "mk.seo: Digital transformation strategy",
+              "mk.seo: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "mk.seo: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop SEO strategy with keywords, optimization, and performance tracking"
+            }
+          },
+          {
+            "code": "mk.ema",
+            "description": "Design email marketing campaign with segmentation, automation, and analytics",
+            "usage_examples": [
+              "mk.ema: [Your content here]",
+              "mk.ema: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mk.ema: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design email marketing campaign with segmentation, automation, and analytics"
+            }
+          },
+          {
+            "code": "mk.adv",
+            "description": "Create advertising strategy with channels, targeting, and budget allocation",
+            "usage_examples": [
+              "mk.adv: Q4 marketing budget proposal",
+              "mk.adv: Annual IT infrastructure budget"
+            ],
+            "instructions": {
+              "input_format": "mk.adv: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create advertising strategy with channels, targeting, and budget allocation"
+            }
+          },
+          {
+            "code": "mk.pr",
+            "description": "Establish public relations strategy with media relations and reputation management",
+            "usage_examples": [
+              "mk.pr: Digital transformation strategy",
+              "mk.pr: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "mk.pr: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish public relations strategy with media relations and reputation management"
+            }
+          },
+          {
+            "code": "mk.eve",
+            "description": "Design event marketing strategy with planning, execution, and follow-up",
+            "usage_examples": [
+              "mk.eve: Digital transformation strategy",
+              "mk.eve: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "mk.eve: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design event marketing strategy with planning, execution, and follow-up"
+            }
+          },
+          {
+            "code": "mk.ana",
+            "description": "Develop marketing analytics framework with tracking, reporting, and insights",
+            "usage_examples": [
+              "mk.ana: [Your content here]",
+              "mk.ana: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mk.ana: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop marketing analytics framework with tracking, reporting, and insights"
+            }
+          },
+          {
+            "code": "mk.per",
+            "description": "Performance marketing",
+            "usage_examples": [
+              "mk.per: [Your content here]",
+              "mk.per: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mk.per: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Performance marketing"
+            }
+          },
+          {
+            "code": "mk.inf",
+            "description": "Influencer marketing",
+            "usage_examples": [
+              "mk.inf: [Your content here]",
+              "mk.inf: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mk.inf: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Influencer marketing"
+            }
+          },
+          {
+            "code": "mk.bud",
+            "description": "Marketing budget",
+            "usage_examples": [
+              "mk.bud: Q4 marketing budget proposal",
+              "mk.bud: Annual IT infrastructure budget"
+            ],
+            "instructions": {
+              "input_format": "mk.bud: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Marketing budget"
+            }
+          },
+          {
+            "code": "mk.roi",
+            "description": "ROI analysis",
+            "usage_examples": [
+              "mk.roi: [Your content here]",
+              "mk.roi: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mk.roi: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "ROI analysis"
+            }
+          },
+          {
+            "code": "mk.tes",
+            "description": "A/B testing",
+            "usage_examples": [
+              "mk.tes: User login functionality",
+              "mk.tes: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "mk.tes: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "A/B testing"
+            }
+          },
+          {
+            "code": "mk.pers",
+            "description": "Personalization",
+            "usage_examples": [
+              "mk.pers: [Your content here]",
+              "mk.pers: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mk.pers: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Personalization"
+            }
+          },
+          {
+            "code": "mk.aut",
+            "description": "Marketing automation",
+            "usage_examples": [
+              "mk.aut: [Your content here]",
+              "mk.aut: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mk.aut: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Marketing automation"
+            }
+          },
+          {
+            "code": "mk.cus",
+            "description": "Customer journey mapping",
+            "usage_examples": [
+              "mk.cus: [Your content here]",
+              "mk.cus: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mk.cus: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Customer journey mapping"
+            }
+          },
+          {
+            "code": "mk.ret",
+            "description": "Retargeting strategy",
+            "usage_examples": [
+              "mk.ret: Digital transformation strategy",
+              "mk.ret: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "mk.ret: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Retargeting strategy"
+            }
+          }
+        ]
+      },
+      "Customer Support / Client Success": {
+        "description": "Codes related to customer support / client success",
+        "code_count": 23,
+        "codes": [
+          {
+            "code": "cs.tic",
+            "description": "Ticket management",
+            "usage_examples": [
+              "cs.tic: [Your content here]",
+              "cs.tic: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.tic: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Ticket management"
+            }
+          },
+          {
+            "code": "cs.faq",
+            "description": "FAQ creation",
+            "usage_examples": [
+              "cs.faq: [Your content here]",
+              "cs.faq: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.faq: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "FAQ creation"
+            }
+          },
+          {
+            "code": "cs.kno",
+            "description": "Knowledge base",
+            "usage_examples": [
+              "cs.kno: [Your content here]",
+              "cs.kno: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.kno: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Knowledge base"
+            }
+          },
+          {
+            "code": "cs.cha",
+            "description": "Chat support",
+            "usage_examples": [
+              "cs.cha: [Your content here]",
+              "cs.cha: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.cha: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Chat support"
+            }
+          },
+          {
+            "code": "cs.ret",
+            "description": "Retention strategy",
+            "usage_examples": [
+              "cs.ret: Digital transformation strategy",
+              "cs.ret: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "cs.ret: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Retention strategy"
+            }
+          },
+          {
+            "code": "cs.ups",
+            "description": "Upselling techniques",
+            "usage_examples": [
+              "cs.ups: [Your content here]",
+              "cs.ups: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.ups: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Upselling techniques"
+            }
+          },
+          {
+            "code": "cs.fee",
+            "description": "Feedback collection",
+            "usage_examples": [
+              "cs.fee: [Your content here]",
+              "cs.fee: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.fee: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Feedback collection"
+            }
+          },
+          {
+            "code": "cs.sat",
+            "description": "Satisfaction survey",
+            "usage_examples": [
+              "cs.sat: [Your content here]",
+              "cs.sat: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.sat: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Satisfaction survey"
+            }
+          },
+          {
+            "code": "cs.onb",
+            "description": "Customer onboarding",
+            "usage_examples": [
+              "cs.onb: [Your content here]",
+              "cs.onb: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.onb: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Customer onboarding"
+            }
+          },
+          {
+            "code": "cs.suc",
+            "description": "Success metrics",
+            "usage_examples": [
+              "cs.suc: [Your content here]",
+              "cs.suc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.suc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Success metrics"
+            }
+          },
+          {
+            "code": "cs.esc",
+            "description": "Escalation procedures",
+            "usage_examples": [
+              "cs.esc: [Your content here]",
+              "cs.esc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.esc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Escalation procedures"
+            }
+          },
+          {
+            "code": "cs.tra",
+            "description": "Training materials",
+            "usage_examples": [
+              "cs.tra: [Your content here]",
+              "cs.tra: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.tra: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Training materials"
+            }
+          },
+          {
+            "code": "cs.sla",
+            "description": "SLA management",
+            "usage_examples": [
+              "cs.sla: [Your content here]",
+              "cs.sla: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.sla: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "SLA management"
+            }
+          },
+          {
+            "code": "cs.lev",
+            "description": "Support level management",
+            "usage_examples": [
+              "cs.lev: [Your content here]",
+              "cs.lev: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.lev: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Support level management"
+            }
+          },
+          {
+            "code": "cs.que",
+            "description": "Queue management",
+            "usage_examples": [
+              "cs.que: [Your content here]",
+              "cs.que: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.que: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Queue management"
+            }
+          },
+          {
+            "code": "cs.met",
+            "description": "Support metrics",
+            "usage_examples": [
+              "cs.met: [Your content here]",
+              "cs.met: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.met: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Support metrics"
+            }
+          },
+          {
+            "code": "cs.qua",
+            "description": "Quality assurance",
+            "usage_examples": [
+              "cs.qua: [Your content here]",
+              "cs.qua: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.qua: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Quality assurance"
+            }
+          },
+          {
+            "code": "cs.tea",
+            "description": "Team management",
+            "usage_examples": [
+              "cs.tea: [Your content here]",
+              "cs.tea: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.tea: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Team management"
+            }
+          },
+          {
+            "code": "cs.tool",
+            "description": "Tool selection",
+            "usage_examples": [
+              "cs.tool: [Your content here]",
+              "cs.tool: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.tool: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Tool selection"
+            }
+          },
+          {
+            "code": "sl.pit+sl.pro",
+            "description": "Sales pitch + proposal",
+            "usage_examples": [
+              "sl.pit+sl.pro: [Your content here]",
+              "sl.pit+sl.pro: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sl.pit+sl.pro: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Sales pitch + proposal"
+            }
+          },
+          {
+            "code": "mk.cam+mk.ana",
+            "description": "Campaign planning + analytics",
+            "usage_examples": [
+              "mk.cam+mk.ana: [Your content here]",
+              "mk.cam+mk.ana: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mk.cam+mk.ana: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Campaign planning + analytics"
+            }
+          },
+          {
+            "code": "cs.onb+cs.suc",
+            "description": "Customer onboarding + success metrics",
+            "usage_examples": [
+              "cs.onb+cs.suc: [Your content here]",
+              "cs.onb+cs.suc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cs.onb+cs.suc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Customer onboarding + success metrics"
+            }
+          },
+          {
+            "code": "bd.str+bd.par",
+            "description": "Business development strategy + partnerships",
+            "usage_examples": [
+              "bd.str+bd.par: Digital transformation strategy",
+              "bd.str+bd.par: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "bd.str+bd.par: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Business development strategy + partnerships"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

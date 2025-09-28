@@ -1,0 +1,830 @@
+{
+  "promptkit_dictionary": {
+    "title": "Finance & Legal",
+    "version": "1.0",
+    "description": "Structured PromptKit dictionary for Finance & Legal",
+    "source_file": ".\\08-Advance\\Finance & Legal\\finance_legal.md",
+    "total_codes": 60,
+    "instructions": {
+      "for_llm": [
+        "These are shorthand codes that expand into full instructions when used with a colon (:)",
+        "Codes are input-only - they should not be displayed in responses",
+        "When a code is used, replace it with the full instruction from the description",
+        "Maintain the context and intent of the original code",
+        "Provide comprehensive, actionable responses based on the code's purpose"
+      ],
+      "for_users": [
+        "Use codes with a colon (:) followed by your content",
+        "Example: 'cg: This text needs correction'",
+        "Codes can be combined with + for multiple instructions",
+        "Example: 'cp+sm: Long document to correct and summarize'"
+      ]
+    },
+    "sections": {
+      "Finance / Accounting": {
+        "description": "Codes related to finance / accounting",
+        "code_count": 16,
+        "codes": [
+          {
+            "code": "fa.bud",
+            "description": "Create comprehensive budget proposal with revenue, expenses, and variance analysis",
+            "usage_examples": [
+              "fa.bud: Q4 marketing budget proposal",
+              "fa.bud: Annual IT infrastructure budget"
+            ],
+            "instructions": {
+              "input_format": "fa.bud: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create comprehensive budget proposal with revenue, expenses, and variance analysis"
+            }
+          },
+          {
+            "code": "fa.cst",
+            "description": "Conduct detailed cost-benefit analysis with ROI calculations and recommendations",
+            "usage_examples": [
+              "fa.cst: [Your content here]",
+              "fa.cst: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fa.cst: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Conduct detailed cost-benefit analysis with ROI calculations and recommendations"
+            }
+          },
+          {
+            "code": "fa.rat",
+            "description": "Perform financial ratio analysis with benchmarking and trend analysis",
+            "usage_examples": [
+              "fa.rat: [Your content here]",
+              "fa.rat: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fa.rat: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Perform financial ratio analysis with benchmarking and trend analysis"
+            }
+          },
+          {
+            "code": "fa.fc",
+            "description": "Develop financial forecasting model with scenarios and sensitivity analysis",
+            "usage_examples": [
+              "fa.fc: [Your content here]",
+              "fa.fc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fa.fc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop financial forecasting model with scenarios and sensitivity analysis"
+            }
+          },
+          {
+            "code": "fa.inv",
+            "description": "Create investment proposal with risk assessment and return projections",
+            "usage_examples": [
+              "fa.inv: [Your content here]",
+              "fa.inv: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fa.inv: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create investment proposal with risk assessment and return projections"
+            }
+          },
+          {
+            "code": "fa.acc",
+            "description": "Establish accounting procedures with chart of accounts and reconciliation",
+            "usage_examples": [
+              "fa.acc: [Your content here]",
+              "fa.acc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fa.acc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish accounting procedures with chart of accounts and reconciliation"
+            }
+          },
+          {
+            "code": "fa.rep",
+            "description": "Generate financial reporting framework with statements and analysis",
+            "usage_examples": [
+              "fa.rep: [Your content here]",
+              "fa.rep: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fa.rep: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Generate financial reporting framework with statements and analysis"
+            }
+          },
+          {
+            "code": "fa.aud",
+            "description": "Create financial audit checklist with compliance and verification procedures",
+            "usage_examples": [
+              "fa.aud: [Your content here]",
+              "fa.aud: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fa.aud: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create financial audit checklist with compliance and verification procedures"
+            }
+          },
+          {
+            "code": "fa.cas",
+            "description": "Develop cash flow analysis with projections and working capital management",
+            "usage_examples": [
+              "fa.cas: REST API for user management",
+              "fa.cas: Payment gateway integration"
+            ],
+            "instructions": {
+              "input_format": "fa.cas: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop cash flow analysis with projections and working capital management"
+            }
+          },
+          {
+            "code": "fa.tax",
+            "description": "Design tax planning strategy with optimization and compliance procedures",
+            "usage_examples": [
+              "fa.tax: Digital transformation strategy",
+              "fa.tax: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "fa.tax: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design tax planning strategy with optimization and compliance procedures"
+            }
+          },
+          {
+            "code": "fa.rec",
+            "description": "Accounts receivable management",
+            "usage_examples": [
+              "fa.rec: [Your content here]",
+              "fa.rec: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fa.rec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Accounts receivable management"
+            }
+          },
+          {
+            "code": "fa.pay",
+            "description": "Accounts payable procedures",
+            "usage_examples": [
+              "fa.pay: [Your content here]",
+              "fa.pay: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fa.pay: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Accounts payable procedures"
+            }
+          },
+          {
+            "code": "fa.rev",
+            "description": "Revenue recognition",
+            "usage_examples": [
+              "fa.rev: [Your content here]",
+              "fa.rev: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fa.rev: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Revenue recognition"
+            }
+          },
+          {
+            "code": "fa.exp",
+            "description": "Expense management",
+            "usage_examples": [
+              "fa.exp: [Your content here]",
+              "fa.exp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fa.exp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Expense management"
+            }
+          },
+          {
+            "code": "fa.ass",
+            "description": "Asset management/depreciation",
+            "usage_examples": [
+              "fa.ass: [Your content here]",
+              "fa.ass: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fa.ass: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Asset management/depreciation"
+            }
+          },
+          {
+            "code": "fa.liq",
+            "description": "Liquidity analysis",
+            "usage_examples": [
+              "fa.liq: [Your content here]",
+              "fa.liq: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fa.liq: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Liquidity analysis"
+            }
+          }
+        ]
+      },
+      "Payroll": {
+        "description": "Codes related to payroll",
+        "code_count": 13,
+        "codes": [
+          {
+            "code": "pr.cal",
+            "description": "Payroll calculation procedures",
+            "usage_examples": [
+              "pr.cal: [Your content here]",
+              "pr.cal: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pr.cal: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Payroll calculation procedures"
+            }
+          },
+          {
+            "code": "pr.ded",
+            "description": "Deduction management",
+            "usage_examples": [
+              "pr.ded: [Your content here]",
+              "pr.ded: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pr.ded: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Deduction management"
+            }
+          },
+          {
+            "code": "pr.ben",
+            "description": "Benefits calculation",
+            "usage_examples": [
+              "pr.ben: [Your content here]",
+              "pr.ben: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pr.ben: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Benefits calculation"
+            }
+          },
+          {
+            "code": "pr.ove",
+            "description": "Overtime calculation",
+            "usage_examples": [
+              "pr.ove: [Your content here]",
+              "pr.ove: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pr.ove: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Overtime calculation"
+            }
+          },
+          {
+            "code": "pr.lea",
+            "description": "Leave balance tracking",
+            "usage_examples": [
+              "pr.lea: [Your content here]",
+              "pr.lea: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pr.lea: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Leave balance tracking"
+            }
+          },
+          {
+            "code": "pr.rep",
+            "description": "Payroll reporting",
+            "usage_examples": [
+              "pr.rep: [Your content here]",
+              "pr.rep: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pr.rep: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Payroll reporting"
+            }
+          },
+          {
+            "code": "pr.com",
+            "description": "Payroll compliance",
+            "usage_examples": [
+              "pr.com: [Your content here]",
+              "pr.com: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pr.com: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Payroll compliance"
+            }
+          },
+          {
+            "code": "pr.rec",
+            "description": "Payroll reconciliation",
+            "usage_examples": [
+              "pr.rec: [Your content here]",
+              "pr.rec: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pr.rec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Payroll reconciliation"
+            }
+          },
+          {
+            "code": "pr.tim",
+            "description": "Time tracking procedures",
+            "usage_examples": [
+              "pr.tim: [Your content here]",
+              "pr.tim: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pr.tim: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Time tracking procedures"
+            }
+          },
+          {
+            "code": "pr.bon",
+            "description": "Bonus calculation",
+            "usage_examples": [
+              "pr.bon: [Your content here]",
+              "pr.bon: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pr.bon: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Bonus calculation"
+            }
+          },
+          {
+            "code": "pr.inc",
+            "description": "Incentive programs",
+            "usage_examples": [
+              "pr.inc: [Your content here]",
+              "pr.inc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pr.inc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Incentive programs"
+            }
+          },
+          {
+            "code": "pr.yea",
+            "description": "Year-end processing",
+            "usage_examples": [
+              "pr.yea: [Your content here]",
+              "pr.yea: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pr.yea: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Year-end processing"
+            }
+          },
+          {
+            "code": "pr.adj",
+            "description": "Payroll adjustments",
+            "usage_examples": [
+              "pr.adj: [Your content here]",
+              "pr.adj: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pr.adj: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Payroll adjustments"
+            }
+          }
+        ]
+      },
+      "Procurement / Purchasing": {
+        "description": "Codes related to procurement / purchasing",
+        "code_count": 13,
+        "codes": [
+          {
+            "code": "pc.req",
+            "description": "Purchase requisition",
+            "usage_examples": [
+              "pc.req: [Your content here]",
+              "pc.req: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pc.req: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Purchase requisition"
+            }
+          },
+          {
+            "code": "pc.quo",
+            "description": "Quote comparison",
+            "usage_examples": [
+              "pc.quo: [Your content here]",
+              "pc.quo: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pc.quo: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Quote comparison"
+            }
+          },
+          {
+            "code": "pc.neg",
+            "description": "Vendor negotiation",
+            "usage_examples": [
+              "pc.neg: [Your content here]",
+              "pc.neg: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pc.neg: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Vendor negotiation"
+            }
+          },
+          {
+            "code": "pc.con",
+            "description": "Contract management",
+            "usage_examples": [
+              "pc.con: [Your content here]",
+              "pc.con: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pc.con: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Contract management"
+            }
+          },
+          {
+            "code": "pc.app",
+            "description": "Approval workflow",
+            "usage_examples": [
+              "pc.app: [Your content here]",
+              "pc.app: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pc.app: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Approval workflow"
+            }
+          },
+          {
+            "code": "pc.sup",
+            "description": "Supplier evaluation",
+            "usage_examples": [
+              "pc.sup: [Your content here]",
+              "pc.sup: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pc.sup: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Supplier evaluation"
+            }
+          },
+          {
+            "code": "pc.inv",
+            "description": "Inventory management",
+            "usage_examples": [
+              "pc.inv: [Your content here]",
+              "pc.inv: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pc.inv: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Inventory management"
+            }
+          },
+          {
+            "code": "pc.cost",
+            "description": "Cost analysis",
+            "usage_examples": [
+              "pc.cost: [Your content here]",
+              "pc.cost: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pc.cost: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Cost analysis"
+            }
+          },
+          {
+            "code": "pc.bid",
+            "description": "Bidding process",
+            "usage_examples": [
+              "pc.bid: [Your content here]",
+              "pc.bid: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pc.bid: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Bidding process"
+            }
+          },
+          {
+            "code": "pc.poa",
+            "description": "Purchase order approval",
+            "usage_examples": [
+              "pc.poa: [Your content here]",
+              "pc.poa: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pc.poa: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Purchase order approval"
+            }
+          },
+          {
+            "code": "pc.rec",
+            "description": "Receiving procedures",
+            "usage_examples": [
+              "pc.rec: [Your content here]",
+              "pc.rec: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pc.rec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Receiving procedures"
+            }
+          },
+          {
+            "code": "pc.ret",
+            "description": "Return/refund process",
+            "usage_examples": [
+              "pc.ret: [Your content here]",
+              "pc.ret: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pc.ret: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Return/refund process"
+            }
+          },
+          {
+            "code": "pc.cat",
+            "description": "Category management",
+            "usage_examples": [
+              "pc.cat: [Your content here]",
+              "pc.cat: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pc.cat: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Category management"
+            }
+          }
+        ]
+      },
+      "Legal / Compliance / Risk Management": {
+        "description": "Codes related to legal / compliance / risk management",
+        "code_count": 18,
+        "codes": [
+          {
+            "code": "lc.con",
+            "description": "Contract review/creation",
+            "usage_examples": [
+              "lc.con: [Your content here]",
+              "lc.con: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "lc.con: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Contract review/creation"
+            }
+          },
+          {
+            "code": "lc.com",
+            "description": "Compliance audit checklist",
+            "usage_examples": [
+              "lc.com: [Your content here]",
+              "lc.com: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "lc.com: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Compliance audit checklist"
+            }
+          },
+          {
+            "code": "lc.risk",
+            "description": "Risk assessment",
+            "usage_examples": [
+              "lc.risk: [Your content here]",
+              "lc.risk: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "lc.risk: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Risk assessment"
+            }
+          },
+          {
+            "code": "lc.pol",
+            "description": "Legal policy draft",
+            "usage_examples": [
+              "lc.pol: [Your content here]",
+              "lc.pol: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "lc.pol: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Legal policy draft"
+            }
+          },
+          {
+            "code": "lc.reg",
+            "description": "Regulatory compliance",
+            "usage_examples": [
+              "lc.reg: [Your content here]",
+              "lc.reg: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "lc.reg: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Regulatory compliance"
+            }
+          },
+          {
+            "code": "lc.lit",
+            "description": "Litigation management",
+            "usage_examples": [
+              "lc.lit: [Your content here]",
+              "lc.lit: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "lc.lit: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Litigation management"
+            }
+          },
+          {
+            "code": "lc.ip",
+            "description": "Intellectual property",
+            "usage_examples": [
+              "lc.ip: [Your content here]",
+              "lc.ip: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "lc.ip: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Intellectual property"
+            }
+          },
+          {
+            "code": "lc.sec",
+            "description": "Security compliance",
+            "usage_examples": [
+              "lc.sec: [Your content here]",
+              "lc.sec: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "lc.sec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Security compliance"
+            }
+          },
+          {
+            "code": "lc.due",
+            "description": "Due diligence process",
+            "usage_examples": [
+              "lc.due: [Your content here]",
+              "lc.due: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "lc.due: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Due diligence process"
+            }
+          },
+          {
+            "code": "lc.nda",
+            "description": "NDA creation/review",
+            "usage_examples": [
+              "lc.nda: [Your content here]",
+              "lc.nda: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "lc.nda: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "NDA creation/review"
+            }
+          },
+          {
+            "code": "lc.ter",
+            "description": "Terms of service",
+            "usage_examples": [
+              "lc.ter: [Your content here]",
+              "lc.ter: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "lc.ter: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Terms of service"
+            }
+          },
+          {
+            "code": "lc.priv",
+            "description": "Privacy policy",
+            "usage_examples": [
+              "lc.priv: [Your content here]",
+              "lc.priv: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "lc.priv: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Privacy policy"
+            }
+          },
+          {
+            "code": "lc.data",
+            "description": "Data protection compliance",
+            "usage_examples": [
+              "lc.data: [Your content here]",
+              "lc.data: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "lc.data: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Data protection compliance"
+            }
+          },
+          {
+            "code": "lc.ins",
+            "description": "Insurance management",
+            "usage_examples": [
+              "lc.ins: [Your content here]",
+              "lc.ins: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "lc.ins: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Insurance management"
+            }
+          },
+          {
+            "code": "fa.bud+fa.cst",
+            "description": "Budget proposal + cost-benefit analysis",
+            "usage_examples": [
+              "fa.bud+fa.cst: Q4 marketing budget proposal",
+              "fa.bud+fa.cst: Annual IT infrastructure budget"
+            ],
+            "instructions": {
+              "input_format": "fa.bud+fa.cst: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Budget proposal + cost-benefit analysis"
+            }
+          },
+          {
+            "code": "pr.cal+pr.rep",
+            "description": "Payroll calculation + reporting",
+            "usage_examples": [
+              "pr.cal+pr.rep: [Your content here]",
+              "pr.cal+pr.rep: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pr.cal+pr.rep: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Payroll calculation + reporting"
+            }
+          },
+          {
+            "code": "pc.req+pc.quo",
+            "description": "Purchase requisition + quote comparison",
+            "usage_examples": [
+              "pc.req+pc.quo: [Your content here]",
+              "pc.req+pc.quo: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pc.req+pc.quo: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Purchase requisition + quote comparison"
+            }
+          },
+          {
+            "code": "lc.con+lc.risk",
+            "description": "Contract review + risk assessment",
+            "usage_examples": [
+              "lc.con+lc.risk: [Your content here]",
+              "lc.con+lc.risk: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "lc.con+lc.risk: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Contract review + risk assessment"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

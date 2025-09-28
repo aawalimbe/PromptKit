@@ -1,0 +1,409 @@
+{
+  "promptkit_dictionary": {
+    "title": "DevOps Dictionary",
+    "version": "1.0",
+    "description": "Structured PromptKit dictionary for DevOps Dictionary",
+    "source_file": ".\\07-Software Development Pipeline\\DevOps\\devops.md",
+    "total_codes": 29,
+    "instructions": {
+      "for_llm": [
+        "These are shorthand codes that expand into full instructions when used with a colon (:)",
+        "Codes are input-only - they should not be displayed in responses",
+        "When a code is used, replace it with the full instruction from the description",
+        "Maintain the context and intent of the original code",
+        "Provide comprehensive, actionable responses based on the code's purpose"
+      ],
+      "for_users": [
+        "Use codes with a colon (:) followed by your content",
+        "Example: 'cg: This text needs correction'",
+        "Codes can be combined with + for multiple instructions",
+        "Example: 'cp+sm: Long document to correct and summarize'"
+      ]
+    },
+    "sections": {
+      "DevOps": {
+        "description": "Codes related to devops",
+        "code_count": 29,
+        "codes": [
+          {
+            "code": "ops.deploy",
+            "description": "Create deployment pipelines with automation and rollback",
+            "usage_examples": [
+              "ops.deploy: [Your content here]",
+              "ops.deploy: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.deploy: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create deployment pipelines with automation and rollback"
+            }
+          },
+          {
+            "code": "ops.ci",
+            "description": "Design continuous integration with building and testing",
+            "usage_examples": [
+              "ops.ci: User login functionality",
+              "ops.ci: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "ops.ci: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design continuous integration with building and testing"
+            }
+          },
+          {
+            "code": "ops.cd",
+            "description": "Establish continuous deployment with staging and production",
+            "usage_examples": [
+              "ops.cd: [Your content here]",
+              "ops.cd: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.cd: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish continuous deployment with staging and production"
+            }
+          },
+          {
+            "code": "ops.inf",
+            "description": "Create infrastructure as code with provisioning and management",
+            "usage_examples": [
+              "ops.inf: [Your content here]",
+              "ops.inf: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.inf: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create infrastructure as code with provisioning and management"
+            }
+          },
+          {
+            "code": "ops.mon",
+            "description": "Design monitoring systems with alerts and dashboards",
+            "usage_examples": [
+              "ops.mon: [Your content here]",
+              "ops.mon: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.mon: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design monitoring systems with alerts and dashboards"
+            }
+          },
+          {
+            "code": "ops.log",
+            "description": "Establish logging systems with aggregation and analysis",
+            "usage_examples": [
+              "ops.log: [Your content here]",
+              "ops.log: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.log: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish logging systems with aggregation and analysis"
+            }
+          },
+          {
+            "code": "ops.sec",
+            "description": "Implement security practices with scanning and compliance",
+            "usage_examples": [
+              "ops.sec: [Your content here]",
+              "ops.sec: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.sec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Implement security practices with scanning and compliance"
+            }
+          },
+          {
+            "code": "ops.back",
+            "description": "Create backup and disaster recovery procedures",
+            "usage_examples": [
+              "ops.back: [Your content here]",
+              "ops.back: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.back: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create backup and disaster recovery procedures"
+            }
+          },
+          {
+            "code": "ops.scale",
+            "description": "Design auto-scaling with load balancing and optimization",
+            "usage_examples": [
+              "ops.scale: [Your content here]",
+              "ops.scale: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.scale: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design auto-scaling with load balancing and optimization"
+            }
+          },
+          {
+            "code": "ops.perf",
+            "description": "Establish performance monitoring with optimization",
+            "usage_examples": [
+              "ops.perf: [Your content here]",
+              "ops.perf: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.perf: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish performance monitoring with optimization"
+            }
+          },
+          {
+            "code": "ops.config",
+            "description": "Manage configuration with versioning and deployment",
+            "usage_examples": [
+              "ops.config: [Your content here]",
+              "ops.config: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.config: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Manage configuration with versioning and deployment"
+            }
+          },
+          {
+            "code": "ops.env",
+            "description": "Create environment management with isolation and promotion",
+            "usage_examples": [
+              "ops.env: [Your content here]",
+              "ops.env: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.env: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create environment management with isolation and promotion"
+            }
+          },
+          {
+            "code": "ops.cont",
+            "description": "Design container orchestration with Docker and Kubernetes",
+            "usage_examples": [
+              "ops.cont: [Your content here]",
+              "ops.cont: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.cont: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design container orchestration with Docker and Kubernetes"
+            }
+          },
+          {
+            "code": "ops.cloud",
+            "description": "Establish cloud infrastructure with multi-region deployment",
+            "usage_examples": [
+              "ops.cloud: [Your content here]",
+              "ops.cloud: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.cloud: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish cloud infrastructure with multi-region deployment"
+            }
+          },
+          {
+            "code": "ops.auto",
+            "description": "Create automation scripts with scheduling and execution",
+            "usage_examples": [
+              "ops.auto: [Your content here]",
+              "ops.auto: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.auto: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create automation scripts with scheduling and execution"
+            }
+          },
+          {
+            "code": "ops.inc",
+            "description": "Design incident response with escalation and resolution",
+            "usage_examples": [
+              "ops.inc: [Your content here]",
+              "ops.inc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.inc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design incident response with escalation and resolution"
+            }
+          },
+          {
+            "code": "ops.cost",
+            "description": "Optimize infrastructure costs with monitoring and rightsizing",
+            "usage_examples": [
+              "ops.cost: [Your content here]",
+              "ops.cost: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.cost: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Optimize infrastructure costs with monitoring and rightsizing"
+            }
+          },
+          {
+            "code": "ops.com",
+            "description": "Establish communication channels with status and updates",
+            "usage_examples": [
+              "ops.com: [Your content here]",
+              "ops.com: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.com: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish communication channels with status and updates"
+            }
+          },
+          {
+            "code": "ops.doc",
+            "description": "Create operational documentation with runbooks and procedures",
+            "usage_examples": [
+              "ops.doc: [Your content here]",
+              "ops.doc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.doc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create operational documentation with runbooks and procedures"
+            }
+          },
+          {
+            "code": "ops.team",
+            "description": "Design team collaboration with workflows and tools",
+            "usage_examples": [
+              "ops.team: [Your content here]",
+              "ops.team: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.team: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design team collaboration with workflows and tools"
+            }
+          },
+          {
+            "code": "ops.git",
+            "description": "Manage Git repositories and workflows",
+            "usage_examples": [
+              "ops.git: [Your content here]",
+              "ops.git: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.git: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Manage Git repositories and workflows"
+            }
+          },
+          {
+            "code": "ops.env",
+            "description": "Create environment management and promotion",
+            "usage_examples": [
+              "ops.env: [Your content here]",
+              "ops.env: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.env: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create environment management and promotion"
+            }
+          },
+          {
+            "code": "ops.roll",
+            "description": "Design rollback procedures and strategies",
+            "usage_examples": [
+              "ops.roll: [Your content here]",
+              "ops.roll: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.roll: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design rollback procedures and strategies"
+            }
+          },
+          {
+            "code": "ops.alert",
+            "description": "Establish alerting systems and notifications",
+            "usage_examples": [
+              "ops.alert: [Your content here]",
+              "ops.alert: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.alert: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish alerting systems and notifications"
+            }
+          },
+          {
+            "code": "ops.cap",
+            "description": "Create capacity planning and resource management",
+            "usage_examples": [
+              "ops.cap: [Your content here]",
+              "ops.cap: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.cap: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create capacity planning and resource management"
+            }
+          },
+          {
+            "code": "ops.dep",
+            "description": "Manage dependencies and updates",
+            "usage_examples": [
+              "ops.dep: [Your content here]",
+              "ops.dep: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.dep: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Manage dependencies and updates"
+            }
+          },
+          {
+            "code": "ops.deploy+ops.ci",
+            "description": "Deployment + continuous integration",
+            "usage_examples": [
+              "ops.deploy+ops.ci: [Your content here]",
+              "ops.deploy+ops.ci: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.deploy+ops.ci: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Deployment + continuous integration"
+            }
+          },
+          {
+            "code": "ops.mon+ops.log",
+            "description": "Monitoring + logging",
+            "usage_examples": [
+              "ops.mon+ops.log: [Your content here]",
+              "ops.mon+ops.log: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.mon+ops.log: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Monitoring + logging"
+            }
+          },
+          {
+            "code": "ops.sec+ops.back",
+            "description": "Security + backup",
+            "usage_examples": [
+              "ops.sec+ops.back: [Your content here]",
+              "ops.sec+ops.back: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ops.sec+ops.back: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Security + backup"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

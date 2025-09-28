@@ -1,0 +1,409 @@
+{
+  "promptkit_dictionary": {
+    "title": "Testers Dictionary",
+    "version": "1.0",
+    "description": "Structured PromptKit dictionary for Testers Dictionary",
+    "source_file": ".\\07-Software Development Pipeline\\Testers\\testers.md",
+    "total_codes": 29,
+    "instructions": {
+      "for_llm": [
+        "These are shorthand codes that expand into full instructions when used with a colon (:)",
+        "Codes are input-only - they should not be displayed in responses",
+        "When a code is used, replace it with the full instruction from the description",
+        "Maintain the context and intent of the original code",
+        "Provide comprehensive, actionable responses based on the code's purpose"
+      ],
+      "for_users": [
+        "Use codes with a colon (:) followed by your content",
+        "Example: 'cg: This text needs correction'",
+        "Codes can be combined with + for multiple instructions",
+        "Example: 'cp+sm: Long document to correct and summarize'"
+      ]
+    },
+    "sections": {
+      "Testers": {
+        "description": "Codes related to testers",
+        "code_count": 29,
+        "codes": [
+          {
+            "code": "test",
+            "description": "Create comprehensive test cases with scenarios",
+            "usage_examples": [
+              "test: User login functionality",
+              "test: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "test: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create comprehensive test cases with scenarios"
+            }
+          },
+          {
+            "code": "unit",
+            "description": "Write unit tests with assertions and coverage",
+            "usage_examples": [
+              "unit: User login functionality",
+              "unit: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "unit: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write unit tests with assertions and coverage"
+            }
+          },
+          {
+            "code": "int",
+            "description": "Design integration tests for system components",
+            "usage_examples": [
+              "int: User login functionality",
+              "int: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "int: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design integration tests for system components"
+            }
+          },
+          {
+            "code": "func",
+            "description": "Create functional tests for user workflows",
+            "usage_examples": [
+              "func: User login functionality",
+              "func: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "func: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create functional tests for user workflows"
+            }
+          },
+          {
+            "code": "perf",
+            "description": "Develop performance tests with benchmarks",
+            "usage_examples": [
+              "perf: User login functionality",
+              "perf: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "perf: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop performance tests with benchmarks"
+            }
+          },
+          {
+            "code": "load",
+            "description": "Design load testing with stress scenarios",
+            "usage_examples": [
+              "load: User login functionality",
+              "load: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "load: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design load testing with stress scenarios"
+            }
+          },
+          {
+            "code": "sec",
+            "description": "Create security tests for vulnerabilities",
+            "usage_examples": [
+              "sec: User login functionality",
+              "sec: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "sec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create security tests for vulnerabilities"
+            }
+          },
+          {
+            "code": "ui",
+            "description": "Develop user interface tests",
+            "usage_examples": [
+              "ui: User login functionality",
+              "ui: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "ui: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop user interface tests"
+            }
+          },
+          {
+            "code": "api",
+            "description": "Test API endpoints and responses",
+            "usage_examples": [
+              "api: User login functionality",
+              "api: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "api: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Test API endpoints and responses"
+            }
+          },
+          {
+            "code": "db",
+            "description": "Test database operations and integrity",
+            "usage_examples": [
+              "db: User login functionality",
+              "db: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "db: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Test database operations and integrity"
+            }
+          },
+          {
+            "code": "auto",
+            "description": "Create automated test scripts",
+            "usage_examples": [
+              "auto: User login functionality",
+              "auto: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "auto: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create automated test scripts"
+            }
+          },
+          {
+            "code": "man",
+            "description": "Design manual testing procedures",
+            "usage_examples": [
+              "man: User login functionality",
+              "man: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "man: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design manual testing procedures"
+            }
+          },
+          {
+            "code": "reg",
+            "description": "Develop regression test suites",
+            "usage_examples": [
+              "reg: User login functionality",
+              "reg: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "reg: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop regression test suites"
+            }
+          },
+          {
+            "code": "smok",
+            "description": "Create smoke tests for basic functionality",
+            "usage_examples": [
+              "smok: User login functionality",
+              "smok: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "smok: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create smoke tests for basic functionality"
+            }
+          },
+          {
+            "code": "edge",
+            "description": "Test edge cases and boundary conditions",
+            "usage_examples": [
+              "edge: User login functionality",
+              "edge: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "edge: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Test edge cases and boundary conditions"
+            }
+          },
+          {
+            "code": "data",
+            "description": "Test data validation and processing",
+            "usage_examples": [
+              "data: User login functionality",
+              "data: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "data: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Test data validation and processing"
+            }
+          },
+          {
+            "code": "flow",
+            "description": "Test user flows and navigation",
+            "usage_examples": [
+              "flow: User login functionality",
+              "flow: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "flow: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Test user flows and navigation"
+            }
+          },
+          {
+            "code": "comp",
+            "description": "Test cross-browser compatibility",
+            "usage_examples": [
+              "comp: User login functionality",
+              "comp: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "comp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Test cross-browser compatibility"
+            }
+          },
+          {
+            "code": "mob",
+            "description": "Test mobile device compatibility",
+            "usage_examples": [
+              "mob: User login functionality",
+              "mob: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "mob: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Test mobile device compatibility"
+            }
+          },
+          {
+            "code": "acc",
+            "description": "Test accessibility compliance",
+            "usage_examples": [
+              "acc: User login functionality",
+              "acc: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "acc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Test accessibility compliance"
+            }
+          },
+          {
+            "code": "mock",
+            "description": "Create mock data and test datasets",
+            "usage_examples": [
+              "mock: User login functionality",
+              "mock: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "mock: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create mock data and test datasets"
+            }
+          },
+          {
+            "code": "env",
+            "description": "Set up and manage test environments",
+            "usage_examples": [
+              "env: User login functionality",
+              "env: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "env: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Set up and manage test environments"
+            }
+          },
+          {
+            "code": "tool",
+            "description": "Configure testing tools and frameworks",
+            "usage_examples": [
+              "tool: User login functionality",
+              "tool: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "tool: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Configure testing tools and frameworks"
+            }
+          },
+          {
+            "code": "report",
+            "description": "Generate test reports and metrics",
+            "usage_examples": [
+              "report: User login functionality",
+              "report: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "report: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Generate test reports and metrics"
+            }
+          },
+          {
+            "code": "trace",
+            "description": "Track test traceability and coverage",
+            "usage_examples": [
+              "trace: User login functionality",
+              "trace: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "trace: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Track test traceability and coverage"
+            }
+          },
+          {
+            "code": "exec",
+            "description": "Execute tests and manage schedules",
+            "usage_examples": [
+              "exec: User login functionality",
+              "exec: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "exec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Execute tests and manage schedules"
+            }
+          },
+          {
+            "code": "test+auto",
+            "description": "Test cases + automation",
+            "usage_examples": [
+              "test+auto: User login functionality",
+              "test+auto: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "test+auto: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Test cases + automation"
+            }
+          },
+          {
+            "code": "func+ui",
+            "description": "Functional + UI tests",
+            "usage_examples": [
+              "func+ui: User login functionality",
+              "func+ui: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "func+ui: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Functional + UI tests"
+            }
+          },
+          {
+            "code": "perf+load",
+            "description": "Performance + load tests",
+            "usage_examples": [
+              "perf+load: User login functionality",
+              "perf+load: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "perf+load: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Performance + load tests"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

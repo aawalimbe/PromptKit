@@ -1,0 +1,460 @@
+{
+  "promptkit_dictionary": {
+    "title": "Core Business Operations",
+    "version": "1.0",
+    "description": "Structured PromptKit dictionary for Core Business Operations",
+    "source_file": ".\\08-Advance\\core_business\\core_business_ops.md",
+    "total_codes": 32,
+    "instructions": {
+      "for_llm": [
+        "These are shorthand codes that expand into full instructions when used with a colon (:)",
+        "Codes are input-only - they should not be displayed in responses",
+        "When a code is used, replace it with the full instruction from the description",
+        "Maintain the context and intent of the original code",
+        "Provide comprehensive, actionable responses based on the code's purpose"
+      ],
+      "for_users": [
+        "Use codes with a colon (:) followed by your content",
+        "Example: 'cg: This text needs correction'",
+        "Codes can be combined with + for multiple instructions",
+        "Example: 'cp+sm: Long document to correct and summarize'"
+      ]
+    },
+    "sections": {
+      "Executive / Leadership": {
+        "description": "Codes related to executive / leadership",
+        "code_count": 5,
+        "codes": [
+          {
+            "code": "ex.str",
+            "description": "Create a comprehensive strategic plan with objectives, timelines, and success metrics",
+            "usage_examples": [
+              "ex.str: [Your content here]",
+              "ex.str: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ex.str: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create a comprehensive strategic plan with objectives, timelines, and success metrics"
+            }
+          },
+          {
+            "code": "ex.ano",
+            "description": "Conduct detailed SWOT analysis with actionable insights",
+            "usage_examples": [
+              "ex.ano: [Your content here]",
+              "ex.ano: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ex.ano: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Conduct detailed SWOT analysis with actionable insights"
+            }
+          },
+          {
+            "code": "ex.quo",
+            "description": "Develop clear vision and mission statements with implementation guidance",
+            "usage_examples": [
+              "ex.quo: [Your content here]",
+              "ex.quo: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ex.quo: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop clear vision and mission statements with implementation guidance"
+            }
+          },
+          {
+            "code": "ex.rpt",
+            "description": "Generate executive summary report with key findings and recommendations",
+            "usage_examples": [
+              "ex.rpt: Long article about climate change",
+              "ex.rpt: Meeting notes from yesterday's session"
+            ],
+            "instructions": {
+              "input_format": "ex.rpt: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Generate executive summary report with key findings and recommendations"
+            }
+          },
+          {
+            "code": "ex.msg",
+            "description": "Craft professional executive communication with appropriate tone and structure",
+            "usage_examples": [
+              "ex.msg: [Your content here]",
+              "ex.msg: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ex.msg: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Craft professional executive communication with appropriate tone and structure"
+            }
+          }
+        ]
+      },
+      "Operations": {
+        "description": "Codes related to operations",
+        "code_count": 13,
+        "codes": [
+          {
+            "code": "op.pro",
+            "description": "Design detailed process improvement roadmap with implementation steps",
+            "usage_examples": [
+              "op.pro: [Your content here]",
+              "op.pro: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "op.pro: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design detailed process improvement roadmap with implementation steps"
+            }
+          },
+          {
+            "code": "op.pol",
+            "description": "Develop comprehensive company policies with guidelines and procedures",
+            "usage_examples": [
+              "op.pol: [Your content here]",
+              "op.pol: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "op.pol: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop comprehensive company policies with guidelines and procedures"
+            }
+          },
+          {
+            "code": "op.sop",
+            "description": "Create detailed standard operating procedures with step-by-step instructions",
+            "usage_examples": [
+              "op.sop: [Your content here]",
+              "op.sop: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "op.sop: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create detailed standard operating procedures with step-by-step instructions"
+            }
+          },
+          {
+            "code": "op.chk",
+            "description": "Generate thorough compliance checklist with verification criteria",
+            "usage_examples": [
+              "op.chk: [Your content here]",
+              "op.chk: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "op.chk: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Generate thorough compliance checklist with verification criteria"
+            }
+          },
+          {
+            "code": "op.kpi",
+            "description": "Establish measurable KPIs with targets and tracking methods",
+            "usage_examples": [
+              "op.kpi: [Your content here]",
+              "op.kpi: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "op.kpi: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish measurable KPIs with targets and tracking methods"
+            }
+          },
+          {
+            "code": "op.qua",
+            "description": "Design quality assurance framework with testing and validation procedures",
+            "usage_examples": [
+              "op.qua: User login functionality",
+              "op.qua: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "op.qua: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design quality assurance framework with testing and validation procedures"
+            }
+          },
+          {
+            "code": "op.sup",
+            "description": "Optimize supply chain operations with efficiency and cost analysis",
+            "usage_examples": [
+              "op.sup: [Your content here]",
+              "op.sup: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "op.sup: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Optimize supply chain operations with efficiency and cost analysis"
+            }
+          },
+          {
+            "code": "op.cus",
+            "description": "Develop customer service procedures with escalation and resolution steps",
+            "usage_examples": [
+              "op.cus: [Your content here]",
+              "op.cus: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "op.cus: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop customer service procedures with escalation and resolution steps"
+            }
+          },
+          {
+            "code": "op.ven",
+            "description": "Create vendor management process with evaluation and performance metrics",
+            "usage_examples": [
+              "op.ven: [Your content here]",
+              "op.ven: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "op.ven: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create vendor management process with evaluation and performance metrics"
+            }
+          },
+          {
+            "code": "op.aud",
+            "description": "Generate internal audit checklist with compliance verification steps",
+            "usage_examples": [
+              "op.aud: [Your content here]",
+              "op.aud: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "op.aud: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Generate internal audit checklist with compliance verification steps"
+            }
+          },
+          {
+            "code": "ex.str+op.pro",
+            "description": "Strategic plan + process improvements",
+            "usage_examples": [
+              "ex.str+op.pro: [Your content here]",
+              "ex.str+op.pro: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ex.str+op.pro: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Strategic plan + process improvements"
+            }
+          },
+          {
+            "code": "pm.pln+pm.ris",
+            "description": "Project plan + risk identification",
+            "usage_examples": [
+              "pm.pln+pm.ris: [Your content here]",
+              "pm.pln+pm.ris: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.pln+pm.ris: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Project plan + risk identification"
+            }
+          },
+          {
+            "code": "op.sop+op.chk",
+            "description": "SOP creation + compliance checklist",
+            "usage_examples": [
+              "op.sop+op.chk: [Your content here]",
+              "op.sop+op.chk: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "op.sop+op.chk: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "SOP creation + compliance checklist"
+            }
+          }
+        ]
+      },
+      "Project Management / PMO": {
+        "description": "Codes related to project management / pmo",
+        "code_count": 14,
+        "codes": [
+          {
+            "code": "pm.pln",
+            "description": "Create detailed project plan with phases, milestones, and dependencies",
+            "usage_examples": [
+              "pm.pln: [Your content here]",
+              "pm.pln: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.pln: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create detailed project plan with phases, milestones, and dependencies"
+            }
+          },
+          {
+            "code": "pm.ris",
+            "description": "Identify potential risks with probability, impact, and mitigation strategies",
+            "usage_examples": [
+              "pm.ris: [Your content here]",
+              "pm.ris: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.ris: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Identify potential risks with probability, impact, and mitigation strategies"
+            }
+          },
+          {
+            "code": "pm.rpt",
+            "description": "Generate comprehensive project status report with progress metrics",
+            "usage_examples": [
+              "pm.rpt: [Your content here]",
+              "pm.rpt: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.rpt: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Generate comprehensive project status report with progress metrics"
+            }
+          },
+          {
+            "code": "pm.tsk",
+            "description": "Break down work into actionable tasks with priorities and assignments",
+            "usage_examples": [
+              "pm.tsk: [Your content here]",
+              "pm.tsk: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.tsk: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Break down work into actionable tasks with priorities and assignments"
+            }
+          },
+          {
+            "code": "pm.gnt",
+            "description": "Create detailed Gantt chart timeline with task relationships",
+            "usage_examples": [
+              "pm.gnt: [Your content here]",
+              "pm.gnt: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.gnt: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create detailed Gantt chart timeline with task relationships"
+            }
+          },
+          {
+            "code": "pm.res",
+            "description": "Develop resource allocation plan with capacity and availability",
+            "usage_examples": [
+              "pm.res: [Your content here]",
+              "pm.res: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.res: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop resource allocation plan with capacity and availability"
+            }
+          },
+          {
+            "code": "pm.com",
+            "description": "Design stakeholder communication plan with frequency and channels",
+            "usage_examples": [
+              "pm.com: [Your content here]",
+              "pm.com: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.com: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design stakeholder communication plan with frequency and channels"
+            }
+          },
+          {
+            "code": "pm.qua",
+            "description": "Establish quality management framework with standards and controls",
+            "usage_examples": [
+              "pm.qua: [Your content here]",
+              "pm.qua: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.qua: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish quality management framework with standards and controls"
+            }
+          },
+          {
+            "code": "pm.clo",
+            "description": "Create project closure checklist with deliverables and sign-offs",
+            "usage_examples": [
+              "pm.clo: [Your content here]",
+              "pm.clo: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.clo: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create project closure checklist with deliverables and sign-offs"
+            }
+          },
+          {
+            "code": "pm.les",
+            "description": "Document lessons learned with recommendations for future projects",
+            "usage_examples": [
+              "pm.les: [Your content here]",
+              "pm.les: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pm.les: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Document lessons learned with recommendations for future projects"
+            }
+          },
+          {
+            "code": "ex.dec",
+            "description": "Develop structured decision-making framework with criteria and process",
+            "usage_examples": [
+              "ex.dec: [Your content here]",
+              "ex.dec: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ex.dec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop structured decision-making framework with criteria and process"
+            }
+          },
+          {
+            "code": "ex.cri",
+            "description": "Create comprehensive crisis management plan with response procedures",
+            "usage_examples": [
+              "ex.cri: [Your content here]",
+              "ex.cri: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ex.cri: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create comprehensive crisis management plan with response procedures"
+            }
+          },
+          {
+            "code": "ex.com",
+            "description": "Design strategic communication plan with messaging and channels",
+            "usage_examples": [
+              "ex.com: [Your content here]",
+              "ex.com: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ex.com: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design strategic communication plan with messaging and channels"
+            }
+          },
+          {
+            "code": "ex.per",
+            "description": "Establish leadership performance metrics with evaluation criteria",
+            "usage_examples": [
+              "ex.per: [Your content here]",
+              "ex.per: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ex.per: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish leadership performance metrics with evaluation criteria"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

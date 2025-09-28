@@ -1,0 +1,409 @@
+{
+  "promptkit_dictionary": {
+    "title": "Developers Dictionary",
+    "version": "1.0",
+    "description": "Structured PromptKit dictionary for Developers Dictionary",
+    "source_file": ".\\07-Software Development Pipeline\\Developers\\developers.md",
+    "total_codes": 29,
+    "instructions": {
+      "for_llm": [
+        "These are shorthand codes that expand into full instructions when used with a colon (:)",
+        "Codes are input-only - they should not be displayed in responses",
+        "When a code is used, replace it with the full instruction from the description",
+        "Maintain the context and intent of the original code",
+        "Provide comprehensive, actionable responses based on the code's purpose"
+      ],
+      "for_users": [
+        "Use codes with a colon (:) followed by your content",
+        "Example: 'cg: This text needs correction'",
+        "Codes can be combined with + for multiple instructions",
+        "Example: 'cp+sm: Long document to correct and summarize'"
+      ]
+    },
+    "sections": {
+      "Developers": {
+        "description": "Codes related to developers",
+        "code_count": 29,
+        "codes": [
+          {
+            "code": "dev",
+            "description": "Write clean, efficient code with proper documentation",
+            "usage_examples": [
+              "dev: [Your content here]",
+              "dev: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "dev: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write clean, efficient code with proper documentation"
+            }
+          },
+          {
+            "code": "bug",
+            "description": "Debug and fix code issues with detailed explanations",
+            "usage_examples": [
+              "bug: Memory leak in payment module",
+              "bug: Login page not working"
+            ],
+            "instructions": {
+              "input_format": "bug: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Debug and fix code issues with detailed explanations"
+            }
+          },
+          {
+            "code": "opt",
+            "description": "Optimize code performance and efficiency",
+            "usage_examples": [
+              "opt: [Your content here]",
+              "opt: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "opt: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Optimize code performance and efficiency"
+            }
+          },
+          {
+            "code": "ref",
+            "description": "Refactor code for better structure and maintainability",
+            "usage_examples": [
+              "ref: [Your content here]",
+              "ref: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ref: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Refactor code for better structure and maintainability"
+            }
+          },
+          {
+            "code": "doc",
+            "description": "Generate comprehensive code documentation",
+            "usage_examples": [
+              "doc: [Your content here]",
+              "doc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "doc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Generate comprehensive code documentation"
+            }
+          },
+          {
+            "code": "rev",
+            "description": "Review code for quality, standards, and best practices",
+            "usage_examples": [
+              "rev: [Your content here]",
+              "rev: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rev: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Review code for quality, standards, and best practices"
+            }
+          },
+          {
+            "code": "test",
+            "description": "Write unit tests with comprehensive coverage",
+            "usage_examples": [
+              "test: User login functionality",
+              "test: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "test: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write unit tests with comprehensive coverage"
+            }
+          },
+          {
+            "code": "api",
+            "description": "Design and implement API endpoints",
+            "usage_examples": [
+              "api: REST API for user management",
+              "api: Payment gateway integration"
+            ],
+            "instructions": {
+              "input_format": "api: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design and implement API endpoints"
+            }
+          },
+          {
+            "code": "db",
+            "description": "Create database schemas and queries",
+            "usage_examples": [
+              "db: [Your content here]",
+              "db: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "db: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create database schemas and queries"
+            }
+          },
+          {
+            "code": "ui",
+            "description": "Develop user interface components",
+            "usage_examples": [
+              "ui: [Your content here]",
+              "ui: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ui: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop user interface components"
+            }
+          },
+          {
+            "code": "sec",
+            "description": "Implement security best practices",
+            "usage_examples": [
+              "sec: [Your content here]",
+              "sec: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Implement security best practices"
+            }
+          },
+          {
+            "code": "perf",
+            "description": "Analyze and improve application performance",
+            "usage_examples": [
+              "perf: [Your content here]",
+              "perf: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "perf: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Analyze and improve application performance"
+            }
+          },
+          {
+            "code": "arch",
+            "description": "Design software architecture and patterns",
+            "usage_examples": [
+              "arch: [Your content here]",
+              "arch: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "arch: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design software architecture and patterns"
+            }
+          },
+          {
+            "code": "algo",
+            "description": "Implement algorithms and data structures",
+            "usage_examples": [
+              "algo: [Your content here]",
+              "algo: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "algo: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Implement algorithms and data structures"
+            }
+          },
+          {
+            "code": "int",
+            "description": "Integrate third-party services and APIs",
+            "usage_examples": [
+              "int: REST API for user management",
+              "int: Payment gateway integration"
+            ],
+            "instructions": {
+              "input_format": "int: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Integrate third-party services and APIs"
+            }
+          },
+          {
+            "code": "deploy",
+            "description": "Prepare code for deployment",
+            "usage_examples": [
+              "deploy: [Your content here]",
+              "deploy: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "deploy: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Prepare code for deployment"
+            }
+          },
+          {
+            "code": "config",
+            "description": "Manage application configuration",
+            "usage_examples": [
+              "config: [Your content here]",
+              "config: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "config: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Manage application configuration"
+            }
+          },
+          {
+            "code": "log",
+            "description": "Implement logging and monitoring",
+            "usage_examples": [
+              "log: [Your content here]",
+              "log: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "log: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Implement logging and monitoring"
+            }
+          },
+          {
+            "code": "error",
+            "description": "Handle errors and exceptions properly",
+            "usage_examples": [
+              "error: [Your content here]",
+              "error: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "error: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Handle errors and exceptions properly"
+            }
+          },
+          {
+            "code": "data",
+            "description": "Process and manipulate data",
+            "usage_examples": [
+              "data: [Your content here]",
+              "data: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "data: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Process and manipulate data"
+            }
+          },
+          {
+            "code": "code",
+            "description": "Review code for quality and best practices",
+            "usage_examples": [
+              "code: [Your content here]",
+              "code: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "code: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Review code for quality and best practices"
+            }
+          },
+          {
+            "code": "merge",
+            "description": "Manage Git merges and branch integration",
+            "usage_examples": [
+              "merge: [Your content here]",
+              "merge: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "merge: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Manage Git merges and branch integration"
+            }
+          },
+          {
+            "code": "commit",
+            "description": "Create Git commits with proper messages",
+            "usage_examples": [
+              "commit: [Your content here]",
+              "commit: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "commit: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create Git commits with proper messages"
+            }
+          },
+          {
+            "code": "pull",
+            "description": "Create and manage pull requests",
+            "usage_examples": [
+              "pull: [Your content here]",
+              "pull: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pull: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create and manage pull requests"
+            }
+          },
+          {
+            "code": "branch",
+            "description": "Manage Git branches and strategies",
+            "usage_examples": [
+              "branch: [Your content here]",
+              "branch: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "branch: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Manage Git branches and strategies"
+            }
+          },
+          {
+            "code": "sync",
+            "description": "Synchronize code with remote repositories",
+            "usage_examples": [
+              "sync: [Your content here]",
+              "sync: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sync: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Synchronize code with remote repositories"
+            }
+          },
+          {
+            "code": "dev+test",
+            "description": "Write code + unit tests",
+            "usage_examples": [
+              "dev+test: User login functionality",
+              "dev+test: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "dev+test: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write code + unit tests"
+            }
+          },
+          {
+            "code": "bug+opt",
+            "description": "Debug + optimize",
+            "usage_examples": [
+              "bug+opt: Memory leak in payment module",
+              "bug+opt: Login page not working"
+            ],
+            "instructions": {
+              "input_format": "bug+opt: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Debug + optimize"
+            }
+          },
+          {
+            "code": "ref+doc",
+            "description": "Refactor + document",
+            "usage_examples": [
+              "ref+doc: [Your content here]",
+              "ref+doc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ref+doc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Refactor + document"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

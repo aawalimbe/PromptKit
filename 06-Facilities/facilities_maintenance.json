@@ -1,0 +1,305 @@
+{
+  "promptkit_dictionary": {
+    "title": "Facilities Dictionary",
+    "version": "1.0",
+    "description": "Structured PromptKit dictionary for Facilities Dictionary",
+    "source_file": ".\\06-Facilities\\facilities_maintenance.md",
+    "total_codes": 21,
+    "instructions": {
+      "for_llm": [
+        "These are shorthand codes that expand into full instructions when used with a colon (:)",
+        "Codes are input-only - they should not be displayed in responses",
+        "When a code is used, replace it with the full instruction from the description",
+        "Maintain the context and intent of the original code",
+        "Provide comprehensive, actionable responses based on the code's purpose"
+      ],
+      "for_users": [
+        "Use codes with a colon (:) followed by your content",
+        "Example: 'cg: This text needs correction'",
+        "Codes can be combined with + for multiple instructions",
+        "Example: 'cp+sm: Long document to correct and summarize'"
+      ]
+    },
+    "sections": {
+      "Facilities & Maintenance": {
+        "description": "Codes related to facilities & maintenance",
+        "code_count": 21,
+        "codes": [
+          {
+            "code": "fm.main",
+            "description": "Establish maintenance procedures with preventive, predictive, and corrective",
+            "usage_examples": [
+              "fm.main: This sentence need fixing.",
+              "fm.main: Please review this text for errors."
+            ],
+            "instructions": {
+              "input_format": "fm.main: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish maintenance procedures with preventive, predictive, and corrective"
+            }
+          },
+          {
+            "code": "fm.fac",
+            "description": "Design facility management with operations, optimization, and planning",
+            "usage_examples": [
+              "fm.fac: [Your content here]",
+              "fm.fac: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.fac: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design facility management with operations, optimization, and planning"
+            }
+          },
+          {
+            "code": "fm.uti",
+            "description": "Create utility management with energy, water, and waste optimization",
+            "usage_examples": [
+              "fm.uti: [Your content here]",
+              "fm.uti: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.uti: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create utility management with energy, water, and waste optimization"
+            }
+          },
+          {
+            "code": "fm.sec",
+            "description": "Establish facility security with access control, monitoring, and protocols",
+            "usage_examples": [
+              "fm.sec: [Your content here]",
+              "fm.sec: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.sec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish facility security with access control, monitoring, and protocols"
+            }
+          },
+          {
+            "code": "fm.cle",
+            "description": "Design cleaning procedures with standards, schedules, and quality",
+            "usage_examples": [
+              "fm.cle: [Your content here]",
+              "fm.cle: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.cle: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design cleaning procedures with standards, schedules, and quality"
+            }
+          },
+          {
+            "code": "fm.rep",
+            "description": "Create repair procedures with prioritization, scheduling, and execution",
+            "usage_examples": [
+              "fm.rep: [Your content here]",
+              "fm.rep: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.rep: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create repair procedures with prioritization, scheduling, and execution"
+            }
+          },
+          {
+            "code": "fm.upg",
+            "description": "Establish upgrade planning with assessment, budgeting, and implementation",
+            "usage_examples": [
+              "fm.upg: Q4 marketing budget proposal",
+              "fm.upg: Annual IT infrastructure budget"
+            ],
+            "instructions": {
+              "input_format": "fm.upg: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish upgrade planning with assessment, budgeting, and implementation"
+            }
+          },
+          {
+            "code": "fm.spa",
+            "description": "Design space management with allocation, optimization, and planning",
+            "usage_examples": [
+              "fm.spa: [Your content here]",
+              "fm.spa: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.spa: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design space management with allocation, optimization, and planning"
+            }
+          },
+          {
+            "code": "fm.equ",
+            "description": "Create equipment management with inventory, maintenance, and lifecycle",
+            "usage_examples": [
+              "fm.equ: [Your content here]",
+              "fm.equ: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.equ: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create equipment management with inventory, maintenance, and lifecycle"
+            }
+          },
+          {
+            "code": "fm.ven",
+            "description": "Establish vendor management with selection, contracts, and performance",
+            "usage_examples": [
+              "fm.ven: [Your content here]",
+              "fm.ven: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.ven: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish vendor management with selection, contracts, and performance"
+            }
+          },
+          {
+            "code": "fm.bud",
+            "description": "Create facility budgeting with planning, tracking, and optimization",
+            "usage_examples": [
+              "fm.bud: Q4 marketing budget proposal",
+              "fm.bud: Annual IT infrastructure budget"
+            ],
+            "instructions": {
+              "input_format": "fm.bud: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create facility budgeting with planning, tracking, and optimization"
+            }
+          },
+          {
+            "code": "fm.com",
+            "description": "Ensure facility compliance with codes, regulations, and standards",
+            "usage_examples": [
+              "fm.com: [Your content here]",
+              "fm.com: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.com: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Ensure facility compliance with codes, regulations, and standards"
+            }
+          },
+          {
+            "code": "fm.team",
+            "description": "Design facilities team management with roles, coordination, and workflow",
+            "usage_examples": [
+              "fm.team: [Your content here]",
+              "fm.team: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.team: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design facilities team management with roles, coordination, and workflow"
+            }
+          },
+          {
+            "code": "fm.data",
+            "description": "Create facilities data management with collection, analysis, and reporting",
+            "usage_examples": [
+              "fm.data: [Your content here]",
+              "fm.data: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.data: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create facilities data management with collection, analysis, and reporting"
+            }
+          },
+          {
+            "code": "fm.temp",
+            "description": "Establish facilities template management with standardization and documentation",
+            "usage_examples": [
+              "fm.temp: [Your content here]",
+              "fm.temp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.temp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish facilities template management with standardization and documentation"
+            }
+          },
+          {
+            "code": "fm.track",
+            "description": "Design facilities tracking system with metrics, performance, and optimization",
+            "usage_examples": [
+              "fm.track: [Your content here]",
+              "fm.track: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.track: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design facilities tracking system with metrics, performance, and optimization"
+            }
+          },
+          {
+            "code": "fm.plan",
+            "description": "Create facilities planning with design, expansion, and strategic development",
+            "usage_examples": [
+              "fm.plan: [Your content here]",
+              "fm.plan: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.plan: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create facilities planning with design, expansion, and strategic development"
+            }
+          },
+          {
+            "code": "fm.proj",
+            "description": "Establish facilities project management with planning, execution, and delivery",
+            "usage_examples": [
+              "fm.proj: [Your content here]",
+              "fm.proj: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.proj: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish facilities project management with planning, execution, and delivery"
+            }
+          },
+          {
+            "code": "fm.main+fm.equ",
+            "description": "Maintenance procedures + equipment management",
+            "usage_examples": [
+              "fm.main+fm.equ: [Your content here]",
+              "fm.main+fm.equ: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.main+fm.equ: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Maintenance procedures + equipment management"
+            }
+          },
+          {
+            "code": "fm.fac+fm.spa",
+            "description": "Facility management + space management",
+            "usage_examples": [
+              "fm.fac+fm.spa: [Your content here]",
+              "fm.fac+fm.spa: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.fac+fm.spa: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Facility management + space management"
+            }
+          },
+          {
+            "code": "fm.sec+fm.com",
+            "description": "Facility security + compliance",
+            "usage_examples": [
+              "fm.sec+fm.com: [Your content here]",
+              "fm.sec+fm.com: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fm.sec+fm.com: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Facility security + compliance"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

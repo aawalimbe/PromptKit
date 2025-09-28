@@ -1,0 +1,409 @@
+{
+  "promptkit_dictionary": {
+    "title": "QA Dictionary",
+    "version": "1.0",
+    "description": "Structured PromptKit dictionary for QA Dictionary",
+    "source_file": ".\\07-Software Development Pipeline\\QA\\qa.md",
+    "total_codes": 29,
+    "instructions": {
+      "for_llm": [
+        "These are shorthand codes that expand into full instructions when used with a colon (:)",
+        "Codes are input-only - they should not be displayed in responses",
+        "When a code is used, replace it with the full instruction from the description",
+        "Maintain the context and intent of the original code",
+        "Provide comprehensive, actionable responses based on the code's purpose"
+      ],
+      "for_users": [
+        "Use codes with a colon (:) followed by your content",
+        "Example: 'cg: This text needs correction'",
+        "Codes can be combined with + for multiple instructions",
+        "Example: 'cp+sm: Long document to correct and summarize'"
+      ]
+    },
+    "sections": {
+      "QA": {
+        "description": "Codes related to qa",
+        "code_count": 29,
+        "codes": [
+          {
+            "code": "qa",
+            "description": "Establish quality assurance processes and standards",
+            "usage_examples": [
+              "qa: [Your content here]",
+              "qa: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "qa: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish quality assurance processes and standards"
+            }
+          },
+          {
+            "code": "plan",
+            "description": "Create QA test plans and strategies",
+            "usage_examples": [
+              "plan: User login functionality",
+              "plan: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "plan: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create QA test plans and strategies"
+            }
+          },
+          {
+            "code": "case",
+            "description": "Design detailed test cases with steps",
+            "usage_examples": [
+              "case: User login functionality",
+              "case: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "case: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design detailed test cases with steps"
+            }
+          },
+          {
+            "code": "bug",
+            "description": "Document and track bug reports",
+            "usage_examples": [
+              "bug: Memory leak in payment module",
+              "bug: Login page not working"
+            ],
+            "instructions": {
+              "input_format": "bug: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Document and track bug reports"
+            }
+          },
+          {
+            "code": "risk",
+            "description": "Identify and assess quality risks",
+            "usage_examples": [
+              "risk: [Your content here]",
+              "risk: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "risk: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Identify and assess quality risks"
+            }
+          },
+          {
+            "code": "metr",
+            "description": "Define quality metrics and KPIs",
+            "usage_examples": [
+              "metr: [Your content here]",
+              "metr: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "metr: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Define quality metrics and KPIs"
+            }
+          },
+          {
+            "code": "audit",
+            "description": "Conduct quality audits and reviews",
+            "usage_examples": [
+              "audit: [Your content here]",
+              "audit: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "audit: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Conduct quality audits and reviews"
+            }
+          },
+          {
+            "code": "stand",
+            "description": "Establish quality standards and guidelines",
+            "usage_examples": [
+              "stand: [Your content here]",
+              "stand: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "stand: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish quality standards and guidelines"
+            }
+          },
+          {
+            "code": "proc",
+            "description": "Define QA processes and workflows",
+            "usage_examples": [
+              "proc: [Your content here]",
+              "proc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "proc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Define QA processes and workflows"
+            }
+          },
+          {
+            "code": "tool",
+            "description": "Evaluate and select QA tools",
+            "usage_examples": [
+              "tool: [Your content here]",
+              "tool: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "tool: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Evaluate and select QA tools"
+            }
+          },
+          {
+            "code": "train",
+            "description": "Develop QA training programs",
+            "usage_examples": [
+              "train: [Your content here]",
+              "train: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "train: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop QA training programs"
+            }
+          },
+          {
+            "code": "repo",
+            "description": "Generate quality reports and analysis",
+            "usage_examples": [
+              "repo: [Your content here]",
+              "repo: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "repo: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Generate quality reports and analysis"
+            }
+          },
+          {
+            "code": "valid",
+            "description": "Validate requirements and specifications",
+            "usage_examples": [
+              "valid: [Your content here]",
+              "valid: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "valid: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Validate requirements and specifications"
+            }
+          },
+          {
+            "code": "review",
+            "description": "Review code and documentation quality",
+            "usage_examples": [
+              "review: [Your content here]",
+              "review: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "review: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Review code and documentation quality"
+            }
+          },
+          {
+            "code": "compl",
+            "description": "Ensure compliance with standards",
+            "usage_examples": [
+              "compl: [Your content here]",
+              "compl: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "compl: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Ensure compliance with standards"
+            }
+          },
+          {
+            "code": "impr",
+            "description": "Implement quality improvements",
+            "usage_examples": [
+              "impr: [Your content here]",
+              "impr: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "impr: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Implement quality improvements"
+            }
+          },
+          {
+            "code": "mon",
+            "description": "Monitor quality metrics and trends",
+            "usage_examples": [
+              "mon: [Your content here]",
+              "mon: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mon: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Monitor quality metrics and trends"
+            }
+          },
+          {
+            "code": "comm",
+            "description": "Communicate quality issues and status",
+            "usage_examples": [
+              "comm: [Your content here]",
+              "comm: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "comm: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Communicate quality issues and status"
+            }
+          },
+          {
+            "code": "coord",
+            "description": "Coordinate QA activities across teams",
+            "usage_examples": [
+              "coord: [Your content here]",
+              "coord: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "coord: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Coordinate QA activities across teams"
+            }
+          },
+          {
+            "code": "eval",
+            "description": "Evaluate product quality and readiness",
+            "usage_examples": [
+              "eval: [Your content here]",
+              "eval: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "eval: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Evaluate product quality and readiness"
+            }
+          },
+          {
+            "code": "spec",
+            "description": "Review requirements and specifications",
+            "usage_examples": [
+              "spec: [Your content here]",
+              "spec: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "spec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Review requirements and specifications"
+            }
+          },
+          {
+            "code": "sign",
+            "description": "Manage sign-off and approval processes",
+            "usage_examples": [
+              "sign: [Your content here]",
+              "sign: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sign: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Manage sign-off and approval processes"
+            }
+          },
+          {
+            "code": "rel",
+            "description": "Assess release readiness and criteria",
+            "usage_examples": [
+              "rel: [Your content here]",
+              "rel: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rel: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Assess release readiness and criteria"
+            }
+          },
+          {
+            "code": "user",
+            "description": "Coordinate user acceptance testing",
+            "usage_examples": [
+              "user: User login functionality",
+              "user: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "user: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Coordinate user acceptance testing"
+            }
+          },
+          {
+            "code": "beta",
+            "description": "Manage beta testing and feedback",
+            "usage_examples": [
+              "beta: User login functionality",
+              "beta: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "beta: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Manage beta testing and feedback"
+            }
+          },
+          {
+            "code": "prod",
+            "description": "Validate production readiness",
+            "usage_examples": [
+              "prod: [Your content here]",
+              "prod: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "prod: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Validate production readiness"
+            }
+          },
+          {
+            "code": "qa+plan",
+            "description": "QA processes + test planning",
+            "usage_examples": [
+              "qa+plan: User login functionality",
+              "qa+plan: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "qa+plan: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "QA processes + test planning"
+            }
+          },
+          {
+            "code": "case+bug",
+            "description": "Test cases + bug tracking",
+            "usage_examples": [
+              "case+bug: User login functionality",
+              "case+bug: Payment processing system"
+            ],
+            "instructions": {
+              "input_format": "case+bug: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Test cases + bug tracking"
+            }
+          },
+          {
+            "code": "risk+metr",
+            "description": "Risk assessment + metrics",
+            "usage_examples": [
+              "risk+metr: [Your content here]",
+              "risk+metr: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "risk+metr: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Risk assessment + metrics"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

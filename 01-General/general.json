@@ -1,0 +1,789 @@
+{
+  "promptkit_dictionary": {
+    "title": "General Dictionary",
+    "version": "1.0",
+    "description": "Structured PromptKit dictionary for General Dictionary",
+    "source_file": ".\\01-General\\general.md",
+    "total_codes": 55,
+    "instructions": {
+      "for_llm": [
+        "These are shorthand codes that expand into full instructions when used with a colon (:)",
+        "Codes are input-only - they should not be displayed in responses",
+        "When a code is used, replace it with the full instruction from the description",
+        "Maintain the context and intent of the original code",
+        "Provide comprehensive, actionable responses based on the code's purpose"
+      ],
+      "for_users": [
+        "Use codes with a colon (:) followed by your content",
+        "Example: 'cg: This text needs correction'",
+        "Codes can be combined with + for multiple instructions",
+        "Example: 'cp+sm: Long document to correct and summarize'"
+      ]
+    },
+    "sections": {
+      "Corrections & Improvements": {
+        "description": "Codes related to corrections & improvements",
+        "code_count": 8,
+        "codes": [
+          {
+            "code": "cg",
+            "description": "Correct grammar only",
+            "usage_examples": [
+              "cg: This sentence need fixing.",
+              "cg: Please review this text for errors."
+            ],
+            "instructions": {
+              "input_format": "cg: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Correct grammar only"
+            }
+          },
+          {
+            "code": "cp",
+            "description": "Correct text professionally (tone + clarity)",
+            "usage_examples": [
+              "cp: This sentence need fixing.",
+              "cp: Please review this text for errors."
+            ],
+            "instructions": {
+              "input_format": "cp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Correct text professionally (tone + clarity)"
+            }
+          },
+          {
+            "code": "cl",
+            "description": "Make text clearer and simpler",
+            "usage_examples": [
+              "cl: [Your content here]",
+              "cl: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cl: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Make text clearer and simpler"
+            }
+          },
+          {
+            "code": "sp",
+            "description": "Fix spelling only",
+            "usage_examples": [
+              "sp: [Your content here]",
+              "sp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Fix spelling only"
+            }
+          },
+          {
+            "code": "pf",
+            "description": "Proofread full text",
+            "usage_examples": [
+              "pf: [Your content here]",
+              "pf: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pf: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Proofread full text"
+            }
+          },
+          {
+            "code": "co",
+            "description": "Concise version (remove filler words)",
+            "usage_examples": [
+              "co: [Your content here]",
+              "co: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "co: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Concise version (remove filler words)"
+            }
+          },
+          {
+            "code": "fx",
+            "description": "Fix any errors in the text",
+            "usage_examples": [
+              "fx: [Your content here]",
+              "fx: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fx: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Fix any errors in the text"
+            }
+          },
+          {
+            "code": "im",
+            "description": "Improve the overall quality",
+            "usage_examples": [
+              "im: [Your content here]",
+              "im: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "im: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Improve the overall quality"
+            }
+          }
+        ]
+      },
+      "Summarization & Restructuring": {
+        "description": "Codes related to summarization & restructuring",
+        "code_count": 6,
+        "codes": [
+          {
+            "code": "sm",
+            "description": "Summarize in bullet points",
+            "usage_examples": [
+              "sm: Long article about climate change",
+              "sm: Meeting notes from yesterday's session"
+            ],
+            "instructions": {
+              "input_format": "sm: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Summarize in bullet points"
+            }
+          },
+          {
+            "code": "sh",
+            "description": "Shorten text without losing meaning",
+            "usage_examples": [
+              "sh: [Your content here]",
+              "sh: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sh: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Shorten text without losing meaning"
+            }
+          },
+          {
+            "code": "ex",
+            "description": "Expand text with more detail",
+            "usage_examples": [
+              "ex: [Your content here]",
+              "ex: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ex: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Expand text with more detail"
+            }
+          },
+          {
+            "code": "rw",
+            "description": "Rewrite in different words (paraphrase)",
+            "usage_examples": [
+              "rw: [Your content here]",
+              "rw: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rw: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Rewrite in different words (paraphrase)"
+            }
+          },
+          {
+            "code": "tl",
+            "description": "Timeline summary (step by step order)",
+            "usage_examples": [
+              "tl: Long article about climate change",
+              "tl: Meeting notes from yesterday's session"
+            ],
+            "instructions": {
+              "input_format": "tl: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Timeline summary (step by step order)"
+            }
+          },
+          {
+            "code": "bk",
+            "description": "Break down into sections/headings",
+            "usage_examples": [
+              "bk: [Your content here]",
+              "bk: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "bk: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Break down into sections/headings"
+            }
+          }
+        ]
+      },
+      "Explanation & Learning": {
+        "description": "Codes related to explanation & learning",
+        "code_count": 8,
+        "codes": [
+          {
+            "code": "es",
+            "description": "Explain simply (like to a beginner)",
+            "usage_examples": [
+              "es: How does machine learning work?",
+              "es: Explain quantum computing in simple terms"
+            ],
+            "instructions": {
+              "input_format": "es: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Explain simply (like to a beginner)"
+            }
+          },
+          {
+            "code": "ed",
+            "description": "Explain in detail (step by step)",
+            "usage_examples": [
+              "ed: How does machine learning work?",
+              "ed: Explain quantum computing in simple terms"
+            ],
+            "instructions": {
+              "input_format": "ed: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Explain in detail (step by step)"
+            }
+          },
+          {
+            "code": "def",
+            "description": "Define the term clearly",
+            "usage_examples": [
+              "def: [Your content here]",
+              "def: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "def: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Define the term clearly"
+            }
+          },
+          {
+            "code": "exm",
+            "description": "Give real-world examples",
+            "usage_examples": [
+              "exm: [Your content here]",
+              "exm: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "exm: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Give real-world examples"
+            }
+          },
+          {
+            "code": "cmp",
+            "description": "Compare differences/similarities",
+            "usage_examples": [
+              "cmp: [Your content here]",
+              "cmp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cmp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Compare differences/similarities"
+            }
+          },
+          {
+            "code": "qa",
+            "description": "Generate questions & answers from text",
+            "usage_examples": [
+              "qa: [Your content here]",
+              "qa: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "qa: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Generate questions & answers from text"
+            }
+          },
+          {
+            "code": "tf",
+            "description": "Teach as if for a test (quiz format)",
+            "usage_examples": [
+              "tf: Python programming basics",
+              "tf: World War II history"
+            ],
+            "instructions": {
+              "input_format": "tf: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Teach as if for a test (quiz format)"
+            }
+          },
+          {
+            "code": "hlp",
+            "description": "Help me understand this topic",
+            "usage_examples": [
+              "hlp: [Your content here]",
+              "hlp: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hlp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Help me understand this topic"
+            }
+          }
+        ]
+      },
+      "Formatting & Styling": {
+        "description": "Codes related to formatting & styling",
+        "code_count": 6,
+        "codes": [
+          {
+            "code": "fr",
+            "description": "Format text neatly (paragraphs, bullets)",
+            "usage_examples": [
+              "fr: [Your content here]",
+              "fr: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fr: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Format text neatly (paragraphs, bullets)"
+            }
+          },
+          {
+            "code": "st",
+            "description": "Change style (formal, casual, witty, etc.)",
+            "usage_examples": [
+              "st: [Your content here]",
+              "st: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "st: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Change style (formal, casual, witty, etc.)"
+            }
+          },
+          {
+            "code": "qt",
+            "description": "Quote the important part only",
+            "usage_examples": [
+              "qt: [Your content here]",
+              "qt: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "qt: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Quote the important part only"
+            }
+          },
+          {
+            "code": "hl",
+            "description": "Highlight the key points",
+            "usage_examples": [
+              "hl: [Your content here]",
+              "hl: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hl: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Highlight the key points"
+            }
+          },
+          {
+            "code": "em",
+            "description": "Emphasize (bold/stronger language)",
+            "usage_examples": [
+              "em: [Your content here]",
+              "em: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "em: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Emphasize (bold/stronger language)"
+            }
+          },
+          {
+            "code": "fl",
+            "description": "Flow better (improve transitions)",
+            "usage_examples": [
+              "fl: [Your content here]",
+              "fl: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "fl: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Flow better (improve transitions)"
+            }
+          }
+        ]
+      },
+      "Translation & Localization": {
+        "description": "Codes related to translation & localization",
+        "code_count": 4,
+        "codes": [
+          {
+            "code": "tr",
+            "description": "Translate into English",
+            "usage_examples": [
+              "tr: [Your content here]",
+              "tr: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "tr: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Translate into English"
+            }
+          },
+          {
+            "code": "trl",
+            "description": "Translate into [target language]",
+            "usage_examples": [
+              "trl: [Your content here]",
+              "trl: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "trl: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Translate into [target language]"
+            }
+          },
+          {
+            "code": "ml",
+            "description": "Multilingual version (2–3 languages)",
+            "usage_examples": [
+              "ml: [Your content here]",
+              "ml: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ml: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Multilingual version (2–3 languages)"
+            }
+          },
+          {
+            "code": "lc",
+            "description": "Localize for culture/region",
+            "usage_examples": [
+              "lc: [Your content here]",
+              "lc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "lc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Localize for culture/region"
+            }
+          }
+        ]
+      },
+      "Idea Generation & Creativity": {
+        "description": "Codes related to idea generation & creativity",
+        "code_count": 7,
+        "codes": [
+          {
+            "code": "id",
+            "description": "Generate new ideas/alternatives",
+            "usage_examples": [
+              "id: [Your content here]",
+              "id: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "id: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Generate new ideas/alternatives"
+            }
+          },
+          {
+            "code": "eg",
+            "description": "Give an example use case",
+            "usage_examples": [
+              "eg: [Your content here]",
+              "eg: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "eg: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Give an example use case"
+            }
+          },
+          {
+            "code": "cr",
+            "description": "Creative rewrite (make it fun/engaging)",
+            "usage_examples": [
+              "cr: [Your content here]",
+              "cr: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "cr: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Creative rewrite (make it fun/engaging)"
+            }
+          },
+          {
+            "code": "op",
+            "description": "List pros and cons",
+            "usage_examples": [
+              "op: [Your content here]",
+              "op: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "op: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "List pros and cons"
+            }
+          },
+          {
+            "code": "br",
+            "description": "Brainstorm variations",
+            "usage_examples": [
+              "br: [Your content here]",
+              "br: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "br: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Brainstorm variations"
+            }
+          },
+          {
+            "code": "sc",
+            "description": "Scenario-based explanation",
+            "usage_examples": [
+              "sc: [Your content here]",
+              "sc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "sc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Scenario-based explanation"
+            }
+          },
+          {
+            "code": "in",
+            "description": "Insights/implications (what it means)",
+            "usage_examples": [
+              "in: [Your content here]",
+              "in: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "in: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Insights/implications (what it means)"
+            }
+          }
+        ]
+      },
+      "Decision Support & Structuring": {
+        "description": "Codes related to decision support & structuring",
+        "code_count": 6,
+        "codes": [
+          {
+            "code": "ls",
+            "description": "Make a list of key points",
+            "usage_examples": [
+              "ls: [Your content here]",
+              "ls: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ls: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Make a list of key points"
+            }
+          },
+          {
+            "code": "rk",
+            "description": "Rank or prioritize items",
+            "usage_examples": [
+              "rk: [Your content here]",
+              "rk: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rk: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Rank or prioritize items"
+            }
+          },
+          {
+            "code": "mt",
+            "description": "Make a table version",
+            "usage_examples": [
+              "mt: [Your content here]",
+              "mt: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "mt: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Make a table version"
+            }
+          },
+          {
+            "code": "ch",
+            "description": "Checklist format",
+            "usage_examples": [
+              "ch: [Your content here]",
+              "ch: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ch: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Checklist format"
+            }
+          },
+          {
+            "code": "pl",
+            "description": "Plan/steps to execute",
+            "usage_examples": [
+              "pl: [Your content here]",
+              "pl: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pl: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Plan/steps to execute"
+            }
+          },
+          {
+            "code": "rs",
+            "description": "Risk/downsides list",
+            "usage_examples": [
+              "rs: [Your content here]",
+              "rs: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rs: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Risk/downsides list"
+            }
+          }
+        ]
+      },
+      "Engagement & Communication": {
+        "description": "Codes related to engagement & communication",
+        "code_count": 10,
+        "codes": [
+          {
+            "code": "eml",
+            "description": "Draft an email version",
+            "usage_examples": [
+              "eml: [Your content here]",
+              "eml: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "eml: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Draft an email version"
+            }
+          },
+          {
+            "code": "msg",
+            "description": "Make it a short message/post",
+            "usage_examples": [
+              "msg: [Your content here]",
+              "msg: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "msg: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Make it a short message/post"
+            }
+          },
+          {
+            "code": "soc",
+            "description": "Social media–friendly version",
+            "usage_examples": [
+              "soc: [Your content here]",
+              "soc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "soc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Social media–friendly version"
+            }
+          },
+          {
+            "code": "pr",
+            "description": "Press-release style",
+            "usage_examples": [
+              "pr: [Your content here]",
+              "pr: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pr: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Press-release style"
+            }
+          },
+          {
+            "code": "pit",
+            "description": "Pitch-style version (convincing tone)",
+            "usage_examples": [
+              "pit: [Your content here]",
+              "pit: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pit: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Pitch-style version (convincing tone)"
+            }
+          },
+          {
+            "code": "cp+sm",
+            "description": "Correct professionally + summarize",
+            "usage_examples": [
+              "cp+sm: This sentence need fixing.",
+              "cp+sm: Please review this text for errors."
+            ],
+            "instructions": {
+              "input_format": "cp+sm: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Correct professionally + summarize"
+            }
+          },
+          {
+            "code": "pf+cl",
+            "description": "Proofread + make clearer",
+            "usage_examples": [
+              "pf+cl: [Your content here]",
+              "pf+cl: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "pf+cl: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Proofread + make clearer"
+            }
+          },
+          {
+            "code": "es+exm",
+            "description": "Explain simply + give examples",
+            "usage_examples": [
+              "es+exm: How does machine learning work?",
+              "es+exm: Explain quantum computing in simple terms"
+            ],
+            "instructions": {
+              "input_format": "es+exm: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Explain simply + give examples"
+            }
+          },
+          {
+            "code": "st+fr",
+            "description": "Change style + format neatly",
+            "usage_examples": [
+              "st+fr: [Your content here]",
+              "st+fr: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "st+fr: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Change style + format neatly"
+            }
+          },
+          {
+            "code": "im+hl",
+            "description": "Improve + highlight key points",
+            "usage_examples": [
+              "im+hl: [Your content here]",
+              "im+hl: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "im+hl: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Improve + highlight key points"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

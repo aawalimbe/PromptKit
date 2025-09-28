@@ -1,0 +1,596 @@
+{
+  "promptkit_dictionary": {
+    "title": "People & Culture",
+    "version": "1.0",
+    "description": "Structured PromptKit dictionary for People & Culture",
+    "source_file": ".\\08-Advance\\people and culture\\people_and_culture.md",
+    "total_codes": 42,
+    "instructions": {
+      "for_llm": [
+        "These are shorthand codes that expand into full instructions when used with a colon (:)",
+        "Codes are input-only - they should not be displayed in responses",
+        "When a code is used, replace it with the full instruction from the description",
+        "Maintain the context and intent of the original code",
+        "Provide comprehensive, actionable responses based on the code's purpose"
+      ],
+      "for_users": [
+        "Use codes with a colon (:) followed by your content",
+        "Example: 'cg: This text needs correction'",
+        "Codes can be combined with + for multiple instructions",
+        "Example: 'cp+sm: Long document to correct and summarize'"
+      ]
+    },
+    "sections": {
+      "Human Resources": {
+        "description": "Codes related to human resources",
+        "code_count": 11,
+        "codes": [
+          {
+            "code": "hr.pol",
+            "description": "Develop comprehensive HR policies with implementation guidelines",
+            "usage_examples": [
+              "hr.pol: [Your content here]",
+              "hr.pol: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hr.pol: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop comprehensive HR policies with implementation guidelines"
+            }
+          },
+          {
+            "code": "hr.onb",
+            "description": "Create structured onboarding program with checklists and timelines",
+            "usage_examples": [
+              "hr.onb: [Your content here]",
+              "hr.onb: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hr.onb: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create structured onboarding program with checklists and timelines"
+            }
+          },
+          {
+            "code": "hr.off",
+            "description": "Draft professional offer letter template with terms and conditions",
+            "usage_examples": [
+              "hr.off: [Your content here]",
+              "hr.off: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hr.off: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Draft professional offer letter template with terms and conditions"
+            }
+          },
+          {
+            "code": "hr.hnd",
+            "description": "Prepare detailed employee handbook sections with policies and procedures",
+            "usage_examples": [
+              "hr.hnd: [Your content here]",
+              "hr.hnd: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hr.hnd: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Prepare detailed employee handbook sections with policies and procedures"
+            }
+          },
+          {
+            "code": "hr.com",
+            "description": "Write clear internal communications with appropriate tone and messaging",
+            "usage_examples": [
+              "hr.com: [Your content here]",
+              "hr.com: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hr.com: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write clear internal communications with appropriate tone and messaging"
+            }
+          },
+          {
+            "code": "hr.cul",
+            "description": "Design workplace culture improvement activities with engagement strategies",
+            "usage_examples": [
+              "hr.cul: [Your content here]",
+              "hr.cul: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hr.cul: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design workplace culture improvement activities with engagement strategies"
+            }
+          },
+          {
+            "code": "hr.per",
+            "description": "Establish performance review process with evaluation criteria and feedback",
+            "usage_examples": [
+              "hr.per: [Your content here]",
+              "hr.per: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hr.per: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish performance review process with evaluation criteria and feedback"
+            }
+          },
+          {
+            "code": "hr.dis",
+            "description": "Create disciplinary action procedures with progressive steps and documentation",
+            "usage_examples": [
+              "hr.dis: [Your content here]",
+              "hr.dis: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hr.dis: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create disciplinary action procedures with progressive steps and documentation"
+            }
+          },
+          {
+            "code": "hr.exit",
+            "description": "Develop exit interview process with questions and analysis framework",
+            "usage_examples": [
+              "hr.exit: [Your content here]",
+              "hr.exit: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hr.exit: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop exit interview process with questions and analysis framework"
+            }
+          },
+          {
+            "code": "hr.ben",
+            "description": "Design benefits administration system with enrollment and management procedures",
+            "usage_examples": [
+              "hr.ben: [Your content here]",
+              "hr.ben: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hr.ben: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design benefits administration system with enrollment and management procedures"
+            }
+          },
+          {
+            "code": "hr.pay",
+            "description": "Create payroll structure guidance with compensation and classification systems",
+            "usage_examples": [
+              "hr.pay: [Your content here]",
+              "hr.pay: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hr.pay: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create payroll structure guidance with compensation and classification systems"
+            }
+          }
+        ]
+      },
+      "Recruitment / Talent Acquisition": {
+        "description": "Codes related to recruitment / talent acquisition",
+        "code_count": 10,
+        "codes": [
+          {
+            "code": "rc.jd",
+            "description": "Create detailed job description with responsibilities, requirements, and qualifications",
+            "usage_examples": [
+              "rc.jd: [Your content here]",
+              "rc.jd: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rc.jd: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create detailed job description with responsibilities, requirements, and qualifications"
+            }
+          },
+          {
+            "code": "rc.req",
+            "description": "Develop comprehensive requisition request with business justification",
+            "usage_examples": [
+              "rc.req: [Your content here]",
+              "rc.req: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rc.req: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop comprehensive requisition request with business justification"
+            }
+          },
+          {
+            "code": "rc.scr",
+            "description": "Design candidate screening questionnaire with evaluation criteria",
+            "usage_examples": [
+              "rc.scr: [Your content here]",
+              "rc.scr: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rc.scr: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design candidate screening questionnaire with evaluation criteria"
+            }
+          },
+          {
+            "code": "rc.int",
+            "description": "Generate structured interview questions with behavioral and technical focus",
+            "usage_examples": [
+              "rc.int: [Your content here]",
+              "rc.int: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rc.int: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Generate structured interview questions with behavioral and technical focus"
+            }
+          },
+          {
+            "code": "rc.sel",
+            "description": "Establish candidate selection criteria with scoring and evaluation methods",
+            "usage_examples": [
+              "rc.sel: [Your content here]",
+              "rc.sel: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rc.sel: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish candidate selection criteria with scoring and evaluation methods"
+            }
+          },
+          {
+            "code": "rc.rjt",
+            "description": "Draft professional rejection communication with feedback and future opportunities",
+            "usage_examples": [
+              "rc.rjt: [Your content here]",
+              "rc.rjt: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rc.rjt: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Draft professional rejection communication with feedback and future opportunities"
+            }
+          },
+          {
+            "code": "rc.bg",
+            "description": "Create background check process with verification steps and compliance",
+            "usage_examples": [
+              "rc.bg: [Your content here]",
+              "rc.bg: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rc.bg: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create background check process with verification steps and compliance"
+            }
+          },
+          {
+            "code": "rc.ref",
+            "description": "Develop reference check procedures with questions and evaluation framework",
+            "usage_examples": [
+              "rc.ref: [Your content here]",
+              "rc.ref: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rc.ref: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop reference check procedures with questions and evaluation framework"
+            }
+          },
+          {
+            "code": "rc.neg",
+            "description": "Provide salary negotiation guidance with market data and strategies",
+            "usage_examples": [
+              "rc.neg: [Your content here]",
+              "rc.neg: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rc.neg: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Provide salary negotiation guidance with market data and strategies"
+            }
+          },
+          {
+            "code": "rc.ret",
+            "description": "Design talent retention strategy with engagement and development programs",
+            "usage_examples": [
+              "rc.ret: Digital transformation strategy",
+              "rc.ret: Market expansion plan"
+            ],
+            "instructions": {
+              "input_format": "rc.ret: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design talent retention strategy with engagement and development programs"
+            }
+          }
+        ]
+      },
+      "Learning & Development": {
+        "description": "Codes related to learning & development",
+        "code_count": 9,
+        "codes": [
+          {
+            "code": "ld.trn",
+            "description": "Develop comprehensive training program with objectives, content, and assessment",
+            "usage_examples": [
+              "ld.trn: [Your content here]",
+              "ld.trn: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ld.trn: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop comprehensive training program with objectives, content, and assessment"
+            }
+          },
+          {
+            "code": "ld.qz",
+            "description": "Create knowledge assessment quiz with questions and answer explanations",
+            "usage_examples": [
+              "ld.qz: Python programming basics",
+              "ld.qz: World War II history"
+            ],
+            "instructions": {
+              "input_format": "ld.qz: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create knowledge assessment quiz with questions and answer explanations"
+            }
+          },
+          {
+            "code": "ld.crs",
+            "description": "Design course structure with modules, learning objectives, and outcomes",
+            "usage_examples": [
+              "ld.crs: [Your content here]",
+              "ld.crs: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ld.crs: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design course structure with modules, learning objectives, and outcomes"
+            }
+          },
+          {
+            "code": "ld.mat",
+            "description": "Develop training materials with presentations, handouts, and activities",
+            "usage_examples": [
+              "ld.mat: [Your content here]",
+              "ld.mat: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ld.mat: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop training materials with presentations, handouts, and activities"
+            }
+          },
+          {
+            "code": "ld.fbk",
+            "description": "Create training evaluation form with feedback collection and analysis",
+            "usage_examples": [
+              "ld.fbk: [Your content here]",
+              "ld.fbk: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ld.fbk: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create training evaluation form with feedback collection and analysis"
+            }
+          },
+          {
+            "code": "ld.ass",
+            "description": "Design skills assessment framework with evaluation criteria and scoring",
+            "usage_examples": [
+              "ld.ass: [Your content here]",
+              "ld.ass: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ld.ass: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design skills assessment framework with evaluation criteria and scoring"
+            }
+          },
+          {
+            "code": "ld.ment",
+            "description": "Establish mentorship program with matching, guidelines, and support",
+            "usage_examples": [
+              "ld.ment: [Your content here]",
+              "ld.ment: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ld.ment: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish mentorship program with matching, guidelines, and support"
+            }
+          },
+          {
+            "code": "ld.car",
+            "description": "Create career development planning process with goals and progression paths",
+            "usage_examples": [
+              "ld.car: [Your content here]",
+              "ld.car: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ld.car: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create career development planning process with goals and progression paths"
+            }
+          },
+          {
+            "code": "ld.cert",
+            "description": "Design certification tracking system with requirements and renewal processes",
+            "usage_examples": [
+              "ld.cert: [Your content here]",
+              "ld.cert: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ld.cert: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Design certification tracking system with requirements and renewal processes"
+            }
+          }
+        ]
+      },
+      "Administration / Office Management": {
+        "description": "Codes related to administration / office management",
+        "code_count": 12,
+        "codes": [
+          {
+            "code": "ad.sch",
+            "description": "Create comprehensive office schedule with meetings, events, and resource allocation",
+            "usage_examples": [
+              "ad.sch: [Your content here]",
+              "ad.sch: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ad.sch: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create comprehensive office schedule with meetings, events, and resource allocation"
+            }
+          },
+          {
+            "code": "ad.min",
+            "description": "Generate detailed meeting minutes with action items and decisions",
+            "usage_examples": [
+              "ad.min: [Your content here]",
+              "ad.min: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ad.min: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Generate detailed meeting minutes with action items and decisions"
+            }
+          },
+          {
+            "code": "ad.ntc",
+            "description": "Write clear office communications with announcements and updates",
+            "usage_examples": [
+              "ad.ntc: [Your content here]",
+              "ad.ntc: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ad.ntc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write clear office communications with announcements and updates"
+            }
+          },
+          {
+            "code": "ad.inv",
+            "description": "Develop office inventory management system with tracking and maintenance",
+            "usage_examples": [
+              "ad.inv: [Your content here]",
+              "ad.inv: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ad.inv: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop office inventory management system with tracking and maintenance"
+            }
+          },
+          {
+            "code": "ad.fac",
+            "description": "Document facilities management procedures with maintenance and operations",
+            "usage_examples": [
+              "ad.fac: [Your content here]",
+              "ad.fac: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ad.fac: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Document facilities management procedures with maintenance and operations"
+            }
+          },
+          {
+            "code": "ad.bud",
+            "description": "Create office budget planning process with allocation and monitoring",
+            "usage_examples": [
+              "ad.bud: Q4 marketing budget proposal",
+              "ad.bud: Annual IT infrastructure budget"
+            ],
+            "instructions": {
+              "input_format": "ad.bud: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create office budget planning process with allocation and monitoring"
+            }
+          },
+          {
+            "code": "ad.sup",
+            "description": "Establish supplier management system with evaluation and performance tracking",
+            "usage_examples": [
+              "ad.sup: [Your content here]",
+              "ad.sup: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ad.sup: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Establish supplier management system with evaluation and performance tracking"
+            }
+          },
+          {
+            "code": "ad.sec",
+            "description": "Develop security procedures with access control and safety protocols",
+            "usage_examples": [
+              "ad.sec: [Your content here]",
+              "ad.sec: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ad.sec: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop security procedures with access control and safety protocols"
+            }
+          },
+          {
+            "code": "ad.eme",
+            "description": "Create emergency response procedures with evacuation and communication plans",
+            "usage_examples": [
+              "ad.eme: [Your content here]",
+              "ad.eme: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ad.eme: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create emergency response procedures with evacuation and communication plans"
+            }
+          },
+          {
+            "code": "hr.onb+ld.trn",
+            "description": "Onboarding plan + training",
+            "usage_examples": [
+              "hr.onb+ld.trn: [Your content here]",
+              "hr.onb+ld.trn: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "hr.onb+ld.trn: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Onboarding plan + training"
+            }
+          },
+          {
+            "code": "rc.jd+rc.int",
+            "description": "Job description + interview questions",
+            "usage_examples": [
+              "rc.jd+rc.int: [Your content here]",
+              "rc.jd+rc.int: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "rc.jd+rc.int: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Job description + interview questions"
+            }
+          },
+          {
+            "code": "ld.ass+ld.car",
+            "description": "Skills assessment + career development",
+            "usage_examples": [
+              "ld.ass+ld.car: [Your content here]",
+              "ld.ass+ld.car: [Specific task or topic]"
+            ],
+            "instructions": {
+              "input_format": "ld.ass+ld.car: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Skills assessment + career development"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
