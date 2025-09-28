@@ -87,12 +87,31 @@ PromptKit is both a **system** (the rules for creating and using codes) and a **
 
 ---
 
-## 📦 What’s Inside
+## 📦 What's Inside
 
+### **Core Dictionaries**
 * **General Dictionary** → universal codes (grammar, summarization, rewriting, etc.)
 * **Student Dictionary** → study aids, quizzes, interview prep
-* **Work Dictionaries** → office department–wise codes (HR, Marketing, Finance, etc.)
-* **Custom Dictionary** → build your own for personal workflows
+
+### **Business Operations (Advance/)**
+* **Core Business Operations** → executive, operations, project management
+* **People & Culture** → HR, recruitment, learning & development, administration
+* **Finance & Legal** → accounting, payroll, procurement, compliance
+* **Commercial & Client Facing** → sales, business development, marketing, customer support
+* **Product & Service** → product management, design, QA, manufacturing, supply chain
+* **Technology & Data** → IT, software development, data analytics, AI/R&D, cybersecurity
+
+### **Industry-Specific**
+* **R&D** → research methodology, patents, funding, technology transfer
+* **Regulatory Affairs** → compliance, submissions, approvals, audits
+* **Health & Safety** → safety protocols, incident response, training, compliance
+* **Facilities** → maintenance, security, utilities, space management
+
+### **Software Development Pipeline**
+* **Developers** → coding, debugging, optimization, Git operations
+* **Testers** → testing, validation, automation, environment setup
+* **QA** → quality processes, planning, standards, release management
+* **DevOps** → deployment, infrastructure, monitoring, automation
 
 ---
 
@@ -126,12 +145,33 @@ int: Data Analyst role
 
 → Generates interview-style questions
 
-**Workplace Examples**
+**Business Operations Examples**
 
 ```
+ex.str: Digital transformation strategy
 hr.jd: Draft a job description for a sales manager
-mkt.sm: Summarize social media engagement data
-fin.rep: Generate a financial report summary
+fa.bud: Create Q4 marketing budget proposal
+sl.pit: Design sales pitch for enterprise software
+pm.road: Create product roadmap for mobile app
+it.sup: Develop IT support procedures
+```
+
+**Industry-Specific Examples**
+
+```
+rd.res: Drug discovery research methodology
+ra.sub: FDA approval process submission
+hs.saf: Chemical handling safety procedures
+fm.main: Building maintenance schedule
+```
+
+**Software Development Examples**
+
+```
+dev: User authentication system
+test: E-commerce checkout flow testing
+qa: Mobile app quality assurance
+ops.deploy: Production release pipeline
 ```
 
 **Real-World Use Cases**
@@ -182,13 +222,30 @@ Prompting should feel like second nature — not a chore.
 2. Paste into ChatGPT Custom Instructions
 3. Try: `qz: Python basics` or `int: Data Analyst role`
 
-### **For Professionals**
+### **For General Users**
 1. Start with **General Dictionary** codes from `general/general.md`
 2. Add to your AI tool's system prompt
 3. Try: `cp+sm: [your text]` for professional correction + summary
 
+### **For Business Professionals**
+1. Choose relevant **Advance/** dictionaries for your department
+2. Copy codes from specific files (e.g., `Advance/Finance & Legal/finance_legal.md`)
+3. Combine with General Dictionary for comprehensive coverage
+
+### **For Industry Professionals**
+1. Select your **Industry-Specific** dictionary (R&D, Regulatory, Health & Safety, Facilities)
+2. Copy codes from your specialized file
+3. Use for industry-specific workflows and compliance
+
+### **For Software Development Teams**
+1. Choose your role-specific dictionary from **Software Development Pipeline/**
+2. **Developers**: Use `developers.md` for coding and Git operations
+3. **Testers**: Use `testers.md` for testing and validation
+4. **QA**: Use `qa.md` for quality processes and planning
+5. **DevOps**: Use `devops.md` for deployment and infrastructure
+
 ### **For Teams**
-1. Choose relevant codes from both dictionaries
+1. Combine multiple dictionaries based on your needs
 2. Create a shared custom dictionary
 3. Standardize across your organization
 
@@ -211,10 +268,11 @@ We welcome contributions to make PromptKit better for everyone!
 - Follow existing naming patterns
 
 ### **What We're Looking For**
-- **Specialized dictionaries** (HR, Marketing, Finance, etc.)
+- **Additional industry dictionaries** (Healthcare, Education, Manufacturing, etc.)
 - **Language-specific** codes
-- **Industry-specific** prompt patterns
+- **Regional compliance** patterns
 - **Integration examples** with popular tools
+- **Role-specific** dictionaries for specialized professions
 
 ---
 
@@ -264,10 +322,11 @@ def expand_prompt_codes(text, dictionary):
 - [ ] **Multi-language Support** - Codes in different languages
 
 ### **Community Requests**
-- [ ] **HR Dictionary** - Recruitment and employee management
-- [ ] **Marketing Dictionary** - Content creation and campaigns
-- [ ] **Finance Dictionary** - Reports and analysis
-- [ ] **Legal Dictionary** - Document review and drafting
+- [ ] **Healthcare Dictionary** - Medical procedures and compliance
+- [ ] **Education Dictionary** - Teaching and curriculum development
+- [ ] **Manufacturing Dictionary** - Production and quality control
+- [ ] **Retail Dictionary** - Customer service and inventory management
+- [ ] **Consulting Dictionary** - Client engagement and project delivery
 
 ---
 
