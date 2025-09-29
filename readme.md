@@ -2,7 +2,7 @@
 
 A **new trend in prompting**: use a PromptKit to enhance your prompts, get consistent and better-quality responses, and cut down the number of tokens wasted as input.
 
-PromptKit is a **shorthand prompt system** — a set of codes you can use inside ChatGPT and other AI models to save time, improve consistency, and make prompting easier. Each code expands into a clear instruction for the AI. The best part? **It’s customizable.** You can adapt PromptKit to your personal workflow, your team, or your entire organization.
+PromptKit is a **shorthand prompt system** a set of codes you can use inside ChatGPT and other AI models to save time, improve consistency, and make prompting easier. Each code expands into a clear instruction for the AI. The best part? **It’s customizable.** You can adapt PromptKit to your personal workflow, your team, or your entire organization.
 
 ---
 
