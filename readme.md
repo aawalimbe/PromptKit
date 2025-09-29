@@ -121,6 +121,9 @@ PromptKit is both a **system** (the rules for creating and using codes) and a **
 * **Product & Service** → product management, design, QA, manufacturing, supply chain
 * **Technology & Data** → IT, software development, data analytics, AI/R&D, cybersecurity
 
+### **09-Content Writers**
+* **Content Writers & Copy Writers** → blog writing, copywriting, social media, technical writing, marketing content, creative writing
+
 ---
 
 ## ✨ Usage Examples
@@ -180,6 +183,15 @@ dev: User authentication system
 test: E-commerce checkout flow testing
 qa: Mobile app quality assurance
 ops.deploy: Production release pipeline
+```
+
+**Content Writing Examples**
+
+```
+cw.blg: Sustainable energy trends in 2024
+cw.cpy: New smartphone features
+cw.soc: Company milestone announcement
+cw.tch: API integration guide
 ```
 
 **Real-World Use Cases**
@@ -251,6 +263,11 @@ Prompting should feel like second nature — not a chore.
 1. Choose relevant **08-Advance** dictionaries for your department
 2. Copy codes from specific files (e.g., `08-Advance/Finance & Legal/finance_legal.md`)
 3. Combine with 01-General Dictionary for comprehensive coverage
+
+### **For Content Writers & Copywriters**
+1. Use **09-Content Writers** dictionary from `09-Content Writers/content_writers.md`
+2. Copy codes for blog writing, copywriting, social media, and technical writing
+3. Try: `cw.blg: AI trends` or `cw.cpy: product launch`
 
 ### **For Teams**
 1. Combine multiple dictionaries based on your needs

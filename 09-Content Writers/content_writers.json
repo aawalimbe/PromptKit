@@ -1,0 +1,458 @@
+{
+  "promptkit_dictionary": {
+    "title": "Content Writers Dictionary",
+    "version": "1.0",
+    "description": "Structured PromptKit dictionary for Content Writers Dictionary",
+    "source_file": "09-Content Writers/content_writers.md",
+    "total_codes": 30,
+    "instructions": {
+      "for_llm": [
+        "These are shorthand codes that expand into full instructions when used with a colon (:)",
+        "Codes are input-only - they should not be displayed in responses",
+        "When a code is used, replace it with the full instruction from the description",
+        "Maintain the context and intent of the original code",
+        "Provide comprehensive, actionable responses based on the code's purpose"
+      ],
+      "for_users": [
+        "Use codes with a colon (:) followed by your content",
+        "Example: 'cw.blg: Write about AI trends'",
+        "Codes can be combined with + for multiple instructions",
+        "Example: 'cw.blg+cw.seo: AI trends with SEO optimization'"
+      ]
+    },
+    "sections": {
+      "Blog Writing": {
+        "description": "Codes related to blog writing",
+        "code_count": 4,
+        "codes": [
+          {
+            "code": "cw.blg",
+            "description": "Write comprehensive blog posts with proper structure, engaging content, and SEO optimization",
+            "usage_examples": [
+              "cw.blg: Sustainable energy trends in 2024",
+              "cw.blg: Remote work productivity tips"
+            ],
+            "instructions": {
+              "input_format": "cw.blg: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write comprehensive blog posts with proper structure, engaging content, and SEO optimization"
+            }
+          },
+          {
+            "code": "cw.out",
+            "description": "Create detailed blog post outlines with headlines, sections, and key points",
+            "usage_examples": [
+              "cw.out: Sustainable energy trends in 2024",
+              "cw.out: Remote work productivity tips"
+            ],
+            "instructions": {
+              "input_format": "cw.out: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create detailed blog post outlines with headlines, sections, and key points"
+            }
+          },
+          {
+            "code": "cw.int",
+            "description": "Write compelling blog post introductions that hook the reader and establish context",
+            "usage_examples": [
+              "cw.int: Sustainable energy trends in 2024",
+              "cw.int: Remote work productivity tips"
+            ],
+            "instructions": {
+              "input_format": "cw.int: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write compelling blog post introductions that hook the reader and establish context"
+            }
+          },
+          {
+            "code": "cw.con",
+            "description": "Write strong blog post conclusions with clear takeaways and call-to-action",
+            "usage_examples": [
+              "cw.con: Sustainable energy trends in 2024",
+              "cw.con: Remote work productivity tips"
+            ],
+            "instructions": {
+              "input_format": "cw.con: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write strong blog post conclusions with clear takeaways and call-to-action"
+            }
+          }
+        ]
+      },
+      "Copywriting": {
+        "description": "Codes related to copywriting",
+        "code_count": 5,
+        "codes": [
+          {
+            "code": "cw.cpy",
+            "description": "Write persuasive sales copy with compelling headlines and calls-to-action",
+            "usage_examples": [
+              "cw.cpy: New smartphone features and benefits",
+              "cw.cpy: Software subscription service"
+            ],
+            "instructions": {
+              "input_format": "cw.cpy: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write persuasive sales copy with compelling headlines and calls-to-action"
+            }
+          },
+          {
+            "code": "cw.hdl",
+            "description": "Create attention-grabbing headlines for marketing content and campaigns",
+            "usage_examples": [
+              "cw.hdl: Revolutionary new product launch",
+              "cw.hdl: Industry breakthrough announcement"
+            ],
+            "instructions": {
+              "input_format": "cw.hdl: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create attention-grabbing headlines for marketing content and campaigns"
+            }
+          },
+          {
+            "code": "cw.eml",
+            "description": "Write effective email marketing content with compelling subject lines",
+            "usage_examples": [
+              "cw.eml: Monthly newsletter content",
+              "cw.eml: Product update announcement"
+            ],
+            "instructions": {
+              "input_format": "cw.eml: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write effective email marketing content with compelling subject lines"
+            }
+          },
+          {
+            "code": "cw.lnd",
+            "description": "Create high-converting landing page copy with clear value propositions",
+            "usage_examples": [
+              "cw.lnd: New smartphone features and benefits",
+              "cw.lnd: Software subscription service"
+            ],
+            "instructions": {
+              "input_format": "cw.lnd: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create high-converting landing page copy with clear value propositions"
+            }
+          },
+          {
+            "code": "cw.cta",
+            "description": "Write compelling call-to-action buttons and phrases for conversions",
+            "usage_examples": [
+              "cw.cta: Download free trial",
+              "cw.cta: Get started today"
+            ],
+            "instructions": {
+              "input_format": "cw.cta: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write compelling call-to-action buttons and phrases for conversions"
+            }
+          }
+        ]
+      },
+      "Social Media Content": {
+        "description": "Codes related to social media content",
+        "code_count": 4,
+        "codes": [
+          {
+            "code": "cw.soc",
+            "description": "Create engaging social media posts optimized for specific platforms",
+            "usage_examples": [
+              "cw.soc: Company milestone announcement",
+              "cw.soc: Product launch celebration"
+            ],
+            "instructions": {
+              "input_format": "cw.soc: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create engaging social media posts optimized for specific platforms"
+            }
+          },
+          {
+            "code": "cw.cap",
+            "description": "Write compelling Instagram captions with relevant hashtags",
+            "usage_examples": [
+              "cw.cap: Behind-the-scenes office tour",
+              "cw.cap: Team building event photos"
+            ],
+            "instructions": {
+              "input_format": "cw.cap: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write compelling Instagram captions with relevant hashtags"
+            }
+          },
+          {
+            "code": "cw.lin",
+            "description": "Create professional LinkedIn content for thought leadership",
+            "usage_examples": [
+              "cw.lin: Industry insights and trends",
+              "cw.lin: Professional achievement post"
+            ],
+            "instructions": {
+              "input_format": "cw.lin: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create professional LinkedIn content for thought leadership"
+            }
+          },
+          {
+            "code": "cw.tag",
+            "description": "Generate relevant hashtags for social media content",
+            "usage_examples": [
+              "cw.tag: Company milestone announcement",
+              "cw.tag: Product launch celebration"
+            ],
+            "instructions": {
+              "input_format": "cw.tag: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Generate relevant hashtags for social media content"
+            }
+          }
+        ]
+      },
+      "Technical Writing": {
+        "description": "Codes related to technical writing",
+        "code_count": 4,
+        "codes": [
+          {
+            "code": "cw.tch",
+            "description": "Write clear technical documentation with step-by-step instructions",
+            "usage_examples": [
+              "cw.tch: API integration guide for developers",
+              "cw.tch: Database setup instructions"
+            ],
+            "instructions": {
+              "input_format": "cw.tch: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write clear technical documentation with step-by-step instructions"
+            }
+          },
+          {
+            "code": "cw.man",
+            "description": "Create user-friendly instruction manuals and guides",
+            "usage_examples": [
+              "cw.man: Software installation guide",
+              "cw.man: Equipment setup instructions"
+            ],
+            "instructions": {
+              "input_format": "cw.man: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create user-friendly instruction manuals and guides"
+            }
+          },
+          {
+            "code": "cw.api",
+            "description": "Write comprehensive API documentation with examples",
+            "usage_examples": [
+              "cw.api: REST API documentation",
+              "cw.api: Authentication endpoints"
+            ],
+            "instructions": {
+              "input_format": "cw.api: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write comprehensive API documentation with examples"
+            }
+          },
+          {
+            "code": "cw.tsh",
+            "description": "Create troubleshooting guides with common issues and solutions",
+            "usage_examples": [
+              "cw.tsh: Login issues and solutions",
+              "cw.tsh: Performance optimization"
+            ],
+            "instructions": {
+              "input_format": "cw.tsh: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create troubleshooting guides with common issues and solutions"
+            }
+          }
+        ]
+      },
+      "Marketing Content": {
+        "description": "Codes related to marketing content",
+        "code_count": 4,
+        "codes": [
+          {
+            "code": "cw.prs",
+            "description": "Write professional press releases with compelling headlines",
+            "usage_examples": [
+              "cw.prs: Product launch announcement",
+              "cw.prs: Company acquisition news"
+            ],
+            "instructions": {
+              "input_format": "cw.prs: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write professional press releases with compelling headlines"
+            }
+          },
+          {
+            "code": "cw.prd",
+            "description": "Create compelling product descriptions with key benefits",
+            "usage_examples": [
+              "cw.prd: Smartphone specifications",
+              "cw.prd: Software features overview"
+            ],
+            "instructions": {
+              "input_format": "cw.prd: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create compelling product descriptions with key benefits"
+            }
+          },
+          {
+            "code": "cw.cas",
+            "description": "Write detailed case studies with metrics and results",
+            "usage_examples": [
+              "cw.cas: Customer success story",
+              "cw.cas: ROI improvement case study"
+            ],
+            "instructions": {
+              "input_format": "cw.cas: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write detailed case studies with metrics and results"
+            }
+          },
+          {
+            "code": "cw.prp",
+            "description": "Create persuasive business proposals and presentations",
+            "usage_examples": [
+              "cw.prp: Marketing campaign proposal",
+              "cw.prp: Technology upgrade plan"
+            ],
+            "instructions": {
+              "input_format": "cw.prp: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create persuasive business proposals and presentations"
+            }
+          }
+        ]
+      },
+      "Creative Writing": {
+        "description": "Codes related to creative writing",
+        "code_count": 4,
+        "codes": [
+          {
+            "code": "cw.str",
+            "description": "Develop compelling story concepts with characters and plot",
+            "usage_examples": [
+              "cw.str: Adventure novel concept",
+              "cw.str: Mystery thriller plot"
+            ],
+            "instructions": {
+              "input_format": "cw.str: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Develop compelling story concepts with characters and plot"
+            }
+          },
+          {
+            "code": "cw.chr",
+            "description": "Create detailed character profiles with backgrounds and motivations",
+            "usage_examples": [
+              "cw.chr: Protagonist character profile",
+              "cw.chr: Antagonist backstory"
+            ],
+            "instructions": {
+              "input_format": "cw.chr: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create detailed character profiles with backgrounds and motivations"
+            }
+          },
+          {
+            "code": "cw.dlg",
+            "description": "Write natural, engaging dialogue between characters",
+            "usage_examples": [
+              "cw.dlg: Protagonist character profile",
+              "cw.dlg: Antagonist backstory"
+            ],
+            "instructions": {
+              "input_format": "cw.dlg: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Write natural, engaging dialogue between characters"
+            }
+          },
+          {
+            "code": "cw.scn",
+            "description": "Create vivid scene descriptions with atmosphere and details",
+            "usage_examples": [
+              "cw.scn: Forest setting description",
+              "cw.scn: Urban cityscape scene"
+            ],
+            "instructions": {
+              "input_format": "cw.scn: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Create vivid scene descriptions with atmosphere and details"
+            }
+          }
+        ]
+      },
+      "Code Combinations": {
+        "description": "Codes related to code combinations",
+        "code_count": 5,
+        "codes": [
+          {
+            "code": "cw.blg+cw.seo",
+            "description": "Blog post with SEO optimization",
+            "usage_examples": [
+              "cw.blg+cw.seo: Sustainable energy trends in 2024",
+              "cw.blg+cw.seo: Remote work productivity tips"
+            ],
+            "instructions": {
+              "input_format": "cw.blg+cw.seo: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Blog post with SEO optimization"
+            }
+          },
+          {
+            "code": "cw.cpy+cw.cta",
+            "description": "Sales copy with strong call-to-action",
+            "usage_examples": [
+              "cw.cpy+cw.cta: New smartphone features and benefits",
+              "cw.cpy+cw.cta: Software subscription service"
+            ],
+            "instructions": {
+              "input_format": "cw.cpy+cw.cta: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Sales copy with strong call-to-action"
+            }
+          },
+          {
+            "code": "cw.soc+cw.tag",
+            "description": "Social media post with hashtags",
+            "usage_examples": [
+              "cw.soc+cw.tag: Company milestone announcement",
+              "cw.soc+cw.tag: Product launch celebration"
+            ],
+            "instructions": {
+              "input_format": "cw.soc+cw.tag: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Social media post with hashtags"
+            }
+          },
+          {
+            "code": "cw.tch+cw.man",
+            "description": "Technical documentation with user manual",
+            "usage_examples": [
+              "cw.tch+cw.man: API integration guide for developers",
+              "cw.tch+cw.man: Database setup instructions"
+            ],
+            "instructions": {
+              "input_format": "cw.tch+cw.man: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Technical documentation with user manual"
+            }
+          },
+          {
+            "code": "cw.prs+cw.prd",
+            "description": "Press release with product description",
+            "usage_examples": [
+              "cw.prs+cw.prd: Product launch announcement",
+              "cw.prs+cw.prd: Company acquisition news"
+            ],
+            "instructions": {
+              "input_format": "cw.prs+cw.prd: [your content]",
+              "output_behavior": "Expand code into full instruction and process the content accordingly",
+              "context": "Press release with product description"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

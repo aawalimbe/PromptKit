@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="595" height="842" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .header { font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold; fill: white; }
+      .section { font-family: 'Arial', sans-serif; font-size: 16px; font-weight: bold; fill: white; }
+      .code { font-family: 'Courier New', monospace; font-size: 12px; font-weight: bold; fill: #1f2937; }
+      .description { font-family: 'Arial', sans-serif; font-size: 11px; fill: #4b5563; }
+      .footer { font-family: 'Arial', sans-serif; font-size: 10px; fill: #6b7280; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="595" height="842" fill="#ffffff"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="595" height="60" fill="#2563eb"/>
+  <text x="297" y="35" text-anchor="middle" class="header">Content Writers Dictionary</text>
+  
+  <!-- Content -->
+  <g transform="translate(20, 80)">
+    <!-- Blog Writing Section -->
+    <rect x="0" y="0" width="555" height="25" fill="#1e40af"/>
+    <text x="10" y="17" class="section">Blog Writing</text>
+    <text x="10" y="35" class="code">cw.blg</text>
+    <text x="120" y="35" class="description">Write comprehensive blog posts with proper structure, engaging content, and SEO optimization</text>
+    <text x="10" y="55" class="code">cw.out</text>
+    <text x="120" y="55" class="description">Create detailed blog post outlines with headlines, sections, and key points</text>
+    <text x="10" y="75" class="code">cw.int</text>
+    <text x="120" y="75" class="description">Write compelling blog post introductions that hook the reader and establish context</text>
+    <text x="10" y="95" class="code">cw.con</text>
+    <text x="120" y="95" class="description">Write strong blog post conclusions with clear takeaways and call-to-action</text>
+    <!-- Copywriting Section -->
+    <rect x="0" y="115" width="555" height="25" fill="#1e40af"/>
+    <text x="10" y="132" class="section">Copywriting</text>
+    <text x="10" y="150" class="code">cw.cpy</text>
+    <text x="120" y="150" class="description">Write persuasive sales copy with compelling headlines and calls-to-action</text>
+    <text x="10" y="170" class="code">cw.hdl</text>
+    <text x="120" y="170" class="description">Create attention-grabbing headlines for marketing content and campaigns</text>
+    <text x="10" y="190" class="code">cw.eml</text>
+    <text x="120" y="190" class="description">Write effective email marketing content with compelling subject lines</text>
+    <text x="10" y="210" class="code">cw.lnd</text>
+    <text x="120" y="210" class="description">Create high-converting landing page copy with clear value propositions</text>
+    <text x="10" y="230" class="code">cw.cta</text>
+    <text x="120" y="230" class="description">Write compelling call-to-action buttons and phrases for conversions</text>
+    <!-- Social Media Content Section -->
+    <rect x="0" y="250" width="555" height="25" fill="#1e40af"/>
+    <text x="10" y="267" class="section">Social Media Content</text>
+    <text x="10" y="285" class="code">cw.soc</text>
+    <text x="120" y="285" class="description">Create engaging social media posts optimized for specific platforms</text>
+    <text x="10" y="305" class="code">cw.cap</text>
+    <text x="120" y="305" class="description">Write compelling Instagram captions with relevant hashtags</text>
+    <text x="10" y="325" class="code">cw.lin</text>
+    <text x="120" y="325" class="description">Create professional LinkedIn content for thought leadership</text>
+    <text x="10" y="345" class="code">cw.tag</text>
+    <text x="120" y="345" class="description">Generate relevant hashtags for social media content</text>
+    <!-- Technical Writing Section -->
+    <rect x="0" y="365" width="555" height="25" fill="#1e40af"/>
+    <text x="10" y="382" class="section">Technical Writing</text>
+    <text x="10" y="400" class="code">cw.tch</text>
+    <text x="120" y="400" class="description">Write clear technical documentation with step-by-step instructions</text>
+    <text x="10" y="420" class="code">cw.man</text>
+    <text x="120" y="420" class="description">Create user-friendly instruction manuals and guides</text>
+    <text x="10" y="440" class="code">cw.api</text>
+    <text x="120" y="440" class="description">Write comprehensive API documentation with examples</text>
+    <text x="10" y="460" class="code">cw.tsh</text>
+    <text x="120" y="460" class="description">Create troubleshooting guides with common issues and solutions</text>
+    <!-- Marketing Content Section -->
+    <rect x="0" y="480" width="555" height="25" fill="#1e40af"/>
+    <text x="10" y="497" class="section">Marketing Content</text>
+    <text x="10" y="515" class="code">cw.prs</text>
+    <text x="120" y="515" class="description">Write professional press releases with compelling headlines</text>
+    <text x="10" y="535" class="code">cw.prd</text>
+    <text x="120" y="535" class="description">Create compelling product descriptions with key benefits</text>
+    <text x="10" y="555" class="code">cw.cas</text>
+    <text x="120" y="555" class="description">Write detailed case studies with metrics and results</text>
+    <text x="10" y="575" class="code">cw.prp</text>
+    <text x="120" y="575" class="description">Create persuasive business proposals and presentations</text>
+    <!-- Creative Writing Section -->
+    <rect x="0" y="595" width="555" height="25" fill="#1e40af"/>
+    <text x="10" y="612" class="section">Creative Writing</text>
+    <text x="10" y="630" class="code">cw.str</text>
+    <text x="120" y="630" class="description">Develop compelling story concepts with characters and plot</text>
+    <text x="10" y="650" class="code">cw.chr</text>
+    <text x="120" y="650" class="description">Create detailed character profiles with backgrounds and motivations</text>
+    <text x="10" y="670" class="code">cw.dlg</text>
+    <text x="120" y="670" class="description">Write natural, engaging dialogue between characters</text>
+    <text x="10" y="690" class="code">cw.scn</text>
+    <text x="120" y="690" class="description">Create vivid scene descriptions with atmosphere and details</text>
+  </g>
+  <g transform="translate(300, 80)">
+    <!-- Code Combinations Section -->
+    <rect x="0" y="0" width="555" height="25" fill="#1e40af"/>
+    <text x="10" y="17" class="section">Code Combinations</text>
+    <text x="10" y="35" class="code">cw.blg+cw.seo</text>
+    <text x="120" y="35" class="description">Blog post with SEO optimization</text>
+    <text x="10" y="55" class="code">cw.cpy+cw.cta</text>
+    <text x="120" y="55" class="description">Sales copy with strong call-to-action</text>
+    <text x="10" y="75" class="code">cw.soc+cw.tag</text>
+    <text x="120" y="75" class="description">Social media post with hashtags</text>
+    <text x="10" y="95" class="code">cw.tch+cw.man</text>
+    <text x="120" y="95" class="description">Technical documentation with user manual</text>
+    <text x="10" y="115" class="code">cw.prs+cw.prd</text>
+    <text x="120" y="115" class="description">Press release with product description</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="297" y="822" text-anchor="middle" class="footer">
+    PromptKit - Content Writers Dictionary | Total Codes: 30 | Generated: 7 sections
+  </text>
+</svg>
