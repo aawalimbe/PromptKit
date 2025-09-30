@@ -1,0 +1,147 @@
+{
+  "promptkit_master_dictionary": {
+    "title": "PromptKit Master Dictionary",
+    "version": "1.0",
+    "description": "Master dictionary combining all departmental code dictionaries",
+    "generated_date": "2025-09-30",
+    "total_departments": 9,
+    "total_codes": 0,
+    "departments": {
+      "general": {
+        "title": "General Dictionary",
+        "file": "01-General/general.json",
+        "description": "General purpose codes for corrections, improvements, and basic operations",
+        "code_count": 55,
+        "codes": {}
+      },
+      "students": {
+        "title": "Students Dictionary", 
+        "file": "02-Students/students.json",
+        "description": "Codes for student-related tasks and educational content",
+        "code_count": 0,
+        "codes": {}
+      },
+      "research_development": {
+        "title": "Research & Development Dictionary",
+        "file": "03-R&D/research_development.json", 
+        "description": "Codes for research, development, and innovation tasks",
+        "code_count": 0,
+        "codes": {}
+      },
+      "regulatory_affairs": {
+        "title": "Regulatory Affairs Dictionary",
+        "file": "04-Regulatory Affairs/regulatory_affairs.json",
+        "description": "Codes for regulatory compliance and affairs management",
+        "code_count": 0,
+        "codes": {}
+      },
+      "health_safety": {
+        "title": "Health & Safety Dictionary",
+        "file": "05-Health & Safety/health_safety_ehs.json",
+        "description": "Codes for health, safety, and environmental management",
+        "code_count": 0,
+        "codes": {}
+      },
+      "facilities": {
+        "title": "Facilities Dictionary",
+        "file": "06-Facilities/facilities_maintenance.json",
+        "description": "Codes for facilities management and maintenance",
+        "code_count": 0,
+        "codes": {}
+      },
+      "developers": {
+        "title": "Developers Dictionary",
+        "file": "07-Software Development Pipeline/Developers/developers.json",
+        "description": "Codes for software development and programming tasks",
+        "code_count": 29,
+        "codes": {}
+      },
+      "devops": {
+        "title": "DevOps Dictionary",
+        "file": "07-Software Development Pipeline/DevOps/devops.json",
+        "description": "Codes for DevOps, deployment, and infrastructure management",
+        "code_count": 0,
+        "codes": {}
+      },
+      "qa": {
+        "title": "QA Dictionary",
+        "file": "07-Software Development Pipeline/QA/qa.json",
+        "description": "Codes for quality assurance and testing",
+        "code_count": 0,
+        "codes": {}
+      },
+      "testers": {
+        "title": "Testers Dictionary",
+        "file": "07-Software Development Pipeline/Testers/testers.json",
+        "description": "Codes for software testing and validation",
+        "code_count": 0,
+        "codes": {}
+      },
+      "commercial_client": {
+        "title": "Commercial & Client Facing Dictionary",
+        "file": "08-Advance/Commercial & Client Facing/commercial_client.json",
+        "description": "Codes for commercial operations and client-facing activities",
+        "code_count": 0,
+        "codes": {}
+      },
+      "core_business": {
+        "title": "Core Business Operations Dictionary",
+        "file": "08-Advance/core_business/core_business_ops.json",
+        "description": "Codes for core business operations and management",
+        "code_count": 0,
+        "codes": {}
+      },
+      "finance_legal": {
+        "title": "Finance & Legal Dictionary",
+        "file": "08-Advance/Finance & Legal/finance_legal.json",
+        "description": "Codes for financial and legal operations",
+        "code_count": 0,
+        "codes": {}
+      },
+      "people_culture": {
+        "title": "People & Culture Dictionary",
+        "file": "08-Advance/people and culture/people_and_culture.json",
+        "description": "Codes for human resources and organizational culture",
+        "code_count": 0,
+        "codes": {}
+      },
+      "product_service": {
+        "title": "Product & Service Dictionary",
+        "file": "08-Advance/Product & Service/product_service.json",
+        "description": "Codes for product and service management",
+        "code_count": 0,
+        "codes": {}
+      },
+      "tech_data": {
+        "title": "Technology & Data Dictionary",
+        "file": "08-Advance/Technology & Data/tech_data.json",
+        "description": "Codes for technology and data management",
+        "code_count": 0,
+        "codes": {}
+      },
+      "content_writers": {
+        "title": "Content Writers Dictionary",
+        "file": "09-Content Writers/content_writers.json",
+        "description": "Codes for content writing, copywriting, and marketing communications",
+        "code_count": 25,
+        "codes": {}
+      }
+    },
+    "code_index": {},
+    "usage_instructions": {
+      "format": "Use codes with colon: code: your content",
+      "combinations": "Combine codes with +: code1+code2: your content",
+      "examples": [
+        "cg: Fix grammar in this text",
+        "dev+test: Create a login function with tests",
+        "cw.blg: Write about AI trends in healthcare"
+      ]
+    },
+    "validation_rules": {
+      "max_code_length": 4,
+      "required_colon": true,
+      "no_duplicates": true,
+      "format_pattern": "^[a-z]{2,4}:$"
+    }
+  }
+}
