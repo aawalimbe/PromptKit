@@ -235,6 +235,31 @@ Prompting should feel like second nature — not a chore.
 
 ---
 
+## 🛠️ Utilities
+
+### **SVG to PNG Converter**
+Located in `svg_to_png_utility/` - A simple Python script to convert SVG files to PNG format for printing.
+
+**Quick Usage:**
+```bash
+# Windows (double-click)
+svg_to_png_utility/convert.bat
+
+# Command line
+python svg_to_png_utility/convert_svgs.py
+```
+
+**Features:**
+- Converts all SVG files in directories 01-09 to PNG
+- Adds white backgrounds for print optimization
+- Works with or without ImageMagick
+- Creates HTML files for manual conversion if needed
+- 300 DPI output for professional printing
+
+**Output:** PNG files saved alongside SVG files in each directory.
+
+---
+
 ## 🚀 Quick Start Guide
 
 ### **For Beginners**
@@ -333,6 +358,12 @@ def expand_prompt_codes(text, dictionary):
 ---
 
 ## 📈 Roadmap
+
+### **Recently Added**
+- [x] **SVG to PNG Converter** - Convert diagrams to print-ready format
+- [x] **Master Dictionary** - Combined JSON file with all codes
+- [x] **Catalog System** - Easy browsing of all modules
+- [x] **Cheat Sheet** - Quick reference guide
 
 ### **Coming Soon**
 - [ ] **Web Interface** - Browse and search codes online
