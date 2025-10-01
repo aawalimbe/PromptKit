@@ -258,6 +258,13 @@ python svg_to_png_utility/convert_svgs.py
 
 **Output:** PNG files saved alongside SVG files in each directory.
 
+### Static Site Browser
+- Open `index.html` in your browser or host via GitHub Pages to browse all dictionaries.
+- Each section has an `index.html` with:
+  - Navigation across sections and subsections
+  - One-click copy for `.md` and `.json` dictionary content
+  - Download links for `.svg` sheets, plus client-side PNG export
+
 ---
 
 ## 🚀 Quick Start Guide

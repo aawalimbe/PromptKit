@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SVG to PNG Conversion</title>
+    <style>
+        body { margin: 20px; font-family: Arial, sans-serif; background: white; }
+        .instructions { 
+            background: #f0f8ff; 
+            padding: 15px; 
+            border: 1px solid #ccc; 
+            margin-bottom: 20px; 
+            border-radius: 5px; 
+        }
+        svg { 
+            max-width: 100%; 
+            height: auto; 
+            border: 1px solid #ddd; 
+            background: white; 
+        }
+    </style>
+</head>
+<body>
+    <div class="instructions">
+        <h3>📋 PNG Conversion Instructions</h3>
+        <p><strong>File:</strong> general.svg</p>
+        <p><strong>Target PNG:</strong> general.png</p>
+        <ol>
+            <li>Right-click on the SVG image below</li>
+            <li>Select "Save image as..." or "Copy image"</li>
+            <li>Choose PNG format</li>
+            <li>Save as: <code>general.png</code></li>
+            <li>Place in directory: <code>/workspace/01-General</code></li>
+        </ol>
+        <p><strong>Or use online converter:</strong> <a href="https://convertio.co/svg-png/" target="_blank">convertio.co/svg-png</a></p>
+    </div>
+    <?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="1720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1720" fill="white"/>
+  <defs>
+    <style>
+      .title { font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold; fill: #2c3e50; }
+      .section { font-family: 'Arial', sans-serif; font-size: 14px; font-weight: bold; fill: #34495e; }
+      .code { font-family: 'Courier New', monospace; font-size: 12px; font-weight: bold; fill: #e74c3c; }
+      .description { font-family: 'Arial', sans-serif; font-size: 10px; fill: #2c3e50; }
+      .header-bg { fill: #ecf0f1; stroke: #bdc3c7; stroke-width: 2; }
+      .cell-bg { fill: #ffffff; stroke: #ecf0f1; stroke-width: 1; }
+      .section-bg { fill: #f8f9fa; stroke: #dee2e6; stroke-width: 1; }
+    </style>
+  </defs>
+  
+  <!-- Header -->
+  <rect x="20" y="20" width="760" height="100" class="header-bg" rx="10"/>
+  <text x="400" y="60" text-anchor="middle" class="title">General Dictionary</text>
+  <text x="400" y="85" text-anchor="middle" class="section">PromptKit Reference Card</text>
+  <text x="400" y="105" text-anchor="middle" class="description">Use codes with : followed by your content</text>
+  
+  <!-- Content Grid -->
+  <rect x="30" y="140" width="740" height="25" class="section-bg" rx="5"/>
+  <text x="40" y="157" class="section">Corrections & Improvements</text>
+  <rect x="30" y="175" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="190" class="code">cg:</text>
+  <text x="35" y="205" class="description">Correct grammar only</text>
+  <rect x="276" y="175" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="190" class="code">cp:</text>
+  <text x="281" y="205" class="description">Correct text professionally (tone + clarity)</text>
+  <rect x="522" y="175" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="190" class="code">cl:</text>
+  <text x="527" y="205" class="description">Make text clearer and simpler</text>
+  <rect x="30" y="245" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="260" class="code">sp:</text>
+  <text x="35" y="275" class="description">Fix spelling only</text>
+  <rect x="276" y="245" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="260" class="code">pf:</text>
+  <text x="281" y="275" class="description">Proofread full text</text>
+  <rect x="522" y="245" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="260" class="code">co:</text>
+  <text x="527" y="275" class="description">Concise version (remove filler words)</text>
+  <rect x="30" y="315" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="330" class="code">fx:</text>
+  <text x="35" y="345" class="description">Fix any errors in the text</text>
+  <rect x="276" y="315" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="330" class="code">im:</text>
+  <text x="281" y="345" class="description">Improve the overall quality</text>
+  <rect x="30" y="405" width="740" height="25" class="section-bg" rx="5"/>
+  <text x="40" y="422" class="section">Summarization & Restructuring</text>
+  <rect x="30" y="440" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="455" class="code">sm:</text>
+  <text x="35" y="470" class="description">Summarize in bullet points</text>
+  <rect x="276" y="440" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="455" class="code">sh:</text>
+  <text x="281" y="470" class="description">Shorten text without losing meaning</text>
+  <rect x="522" y="440" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="455" class="code">ex:</text>
+  <text x="527" y="470" class="description">Expand text with more detail</text>
+  <rect x="30" y="510" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="525" class="code">rw:</text>
+  <text x="35" y="540" class="description">Rewrite in different words (paraphrase)</text>
+  <rect x="276" y="510" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="525" class="code">tl:</text>
+  <text x="281" y="540" class="description">Timeline summary (step by step order)</text>
+  <rect x="522" y="510" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="525" class="code">bk:</text>
+  <text x="527" y="540" class="description">Break down into sections/headings</text>
+  <rect x="30" y="600" width="740" height="25" class="section-bg" rx="5"/>
+  <text x="40" y="617" class="section">Explanation & Learning</text>
+  <rect x="30" y="635" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="650" class="code">es:</text>
+  <text x="35" y="665" class="description">Explain simply (like to a beginner)</text>
+  <rect x="276" y="635" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="650" class="code">ed:</text>
+  <text x="281" y="665" class="description">Explain in detail (step by step)</text>
+  <rect x="522" y="635" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="650" class="code">def:</text>
+  <text x="527" y="665" class="description">Define the term clearly</text>
+  <rect x="30" y="705" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="720" class="code">exm:</text>
+  <text x="35" y="735" class="description">Give real-world examples</text>
+  <rect x="276" y="705" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="720" class="code">cmp:</text>
+  <text x="281" y="735" class="description">Compare differences/similarities</text>
+  <rect x="522" y="705" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="720" class="code">qa:</text>
+  <text x="527" y="735" class="description">Generate questions & answers from text</text>
+  <rect x="30" y="775" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="790" class="code">tf:</text>
+  <text x="35" y="805" class="description">Teach as if for a test (quiz format)</text>
+  <rect x="276" y="775" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="790" class="code">hlp:</text>
+  <text x="281" y="805" class="description">Help me understand this topic</text>
+  <rect x="30" y="865" width="740" height="25" class="section-bg" rx="5"/>
+  <text x="40" y="882" class="section">Formatting & Styling</text>
+  <rect x="30" y="900" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="915" class="code">fr:</text>
+  <text x="35" y="930" class="description">Format text neatly (paragraphs, bullets)</text>
+  <rect x="276" y="900" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="915" class="code">st:</text>
+  <text x="281" y="930" class="description">Change style (formal, casual, witty, etc.)</text>
+  <rect x="522" y="900" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="915" class="code">qt:</text>
+  <text x="527" y="930" class="description">Quote the important part only</text>
+  <rect x="30" y="970" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="985" class="code">hl:</text>
+  <text x="35" y="1000" class="description">Highlight the key points</text>
+  <rect x="276" y="970" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="985" class="code">em:</text>
+  <text x="281" y="1000" class="description">Emphasize (bold/stronger language)</text>
+  <rect x="522" y="970" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="985" class="code">fl:</text>
+  <text x="527" y="1000" class="description">Flow better (improve transitions)</text>
+  <rect x="30" y="1060" width="740" height="25" class="section-bg" rx="5"/>
+  <text x="40" y="1077" class="section">Translation & Localization</text>
+  <rect x="30" y="1095" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="1110" class="code">tr:</text>
+  <text x="35" y="1125" class="description">Translate into English</text>
+  <rect x="276" y="1095" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="1110" class="code">trl:</text>
+  <text x="281" y="1125" class="description">Translate into [target language]</text>
+  <rect x="522" y="1095" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="1110" class="code">ml:</text>
+  <text x="527" y="1125" class="description">Multilingual version (2–3 languages)</text>
+  <rect x="30" y="1165" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="1180" class="code">lc:</text>
+  <text x="35" y="1195" class="description">Localize for culture/region</text>
+  <rect x="30" y="1255" width="740" height="25" class="section-bg" rx="5"/>
+  <text x="40" y="1272" class="section">Idea Generation & Creativity</text>
+  <rect x="30" y="1290" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="1305" class="code">id:</text>
+  <text x="35" y="1320" class="description">Generate new ideas/alternatives</text>
+  <rect x="276" y="1290" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="1305" class="code">eg:</text>
+  <text x="281" y="1320" class="description">Give an example use case</text>
+  <rect x="522" y="1290" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="1305" class="code">cr:</text>
+  <text x="527" y="1320" class="description">Creative rewrite (make it fun/engaging)</text>
+  <rect x="30" y="1360" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="1375" class="code">op:</text>
+  <text x="35" y="1390" class="description">List pros and cons</text>
+  <rect x="276" y="1360" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="1375" class="code">br:</text>
+  <text x="281" y="1390" class="description">Brainstorm variations</text>
+  <rect x="522" y="1360" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="1375" class="code">sc:</text>
+  <text x="527" y="1390" class="description">Scenario-based explanation</text>
+  <rect x="30" y="1430" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="1445" class="code">in:</text>
+  <text x="35" y="1460" class="description">Insights/implications (what it means)</text>
+  <rect x="30" y="1520" width="740" height="25" class="section-bg" rx="5"/>
+  <text x="40" y="1537" class="section">Decision Support & Structuring</text>
+  <rect x="30" y="1555" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="1570" class="code">ls:</text>
+  <text x="35" y="1585" class="description">Make a list of key points</text>
+  <rect x="276" y="1555" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="1570" class="code">rk:</text>
+  <text x="281" y="1585" class="description">Rank or prioritize items</text>
+  <rect x="522" y="1555" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="1570" class="code">mt:</text>
+  <text x="527" y="1585" class="description">Make a table version</text>
+  <rect x="30" y="1625" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="1640" class="code">ch:</text>
+  <text x="35" y="1655" class="description">Checklist format</text>
+  <rect x="276" y="1625" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="1640" class="code">pl:</text>
+  <text x="281" y="1655" class="description">Plan/steps to execute</text>
+  <rect x="522" y="1625" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="1640" class="code">rs:</text>
+  <text x="527" y="1655" class="description">Risk/downsides list</text>
+  <rect x="30" y="1715" width="740" height="25" class="section-bg" rx="5"/>
+  <text x="40" y="1732" class="section">Engagement & Communication</text>
+  <rect x="30" y="1750" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="1765" class="code">eml:</text>
+  <text x="35" y="1780" class="description">Draft an email version</text>
+  <rect x="276" y="1750" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="1765" class="code">msg:</text>
+  <text x="281" y="1780" class="description">Make it a short message/post</text>
+  <rect x="522" y="1750" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="1765" class="code">soc:</text>
+  <text x="527" y="1780" class="description">Social media–friendly version</text>
+  <rect x="30" y="1820" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="1835" class="code">pr:</text>
+  <text x="35" y="1850" class="description">Press-release style</text>
+  <rect x="276" y="1820" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="1835" class="code">pit:</text>
+  <text x="281" y="1850" class="description">Pitch-style version (convincing tone)</text>
+  <rect x="522" y="1820" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="1835" class="code">cp+sm:</text>
+  <text x="527" y="1850" class="description">Correct professionally + summarize</text>
+  <rect x="30" y="1890" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="1905" class="code">pf+cl:</text>
+  <text x="35" y="1920" class="description">Proofread + make clearer</text>
+  <rect x="276" y="1890" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="281" y="1905" class="code">es+exm:</text>
+  <text x="281" y="1920" class="description">Explain simply + give examples</text>
+  <rect x="522" y="1890" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="527" y="1905" class="code">st+fr:</text>
+  <text x="527" y="1920" class="description">Change style + format neatly</text>
+  <rect x="30" y="1960" width="236" height="65" class="cell-bg" rx="3"/>
+  <text x="35" y="1975" class="code">im+hl:</text>
+  <text x="35" y="1990" class="description">Improve + highlight key points</text>
+
+  <!-- Footer -->
+  <text x="400" y="1700" text-anchor="middle" class="description">
+    Generated from: .\01-General\general.md | PromptKit - AI Prompt Shorthand System
+  </text>
+</svg>
+</body>
+</html>
