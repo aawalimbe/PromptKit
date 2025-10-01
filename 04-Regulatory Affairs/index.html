@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>04 – Regulatory Affairs | PromptKit</title>
+  <link rel="stylesheet" href="../assets/style.css">
+  <script defer src="../assets/site.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand"><a href="../index.html">PromptKit</a></div>
+      <nav class="breadcrumbs">
+        <a href="../index.html">Home</a>
+        <span class="sep">›</span>
+        <span>04 – Regulatory Affairs</span>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <h1>04 – Regulatory Affairs</h1>
+    <p class="muted">Compliance, submissions, approvals, audits.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Printable Sheet</h3>
+        <ul class="file-list">
+          <li>
+            <a href="regulatory_affairs_printable_code_sheet.html">Open HTML sheet</a>
+            <div class="actions">
+              <a class="btn" href="regulatory_affairs.svg" download>Download SVG</a>
+              <button class="btn" data-svg-png="regulatory_affairs.svg" data-filename="regulatory_affairs.png">Download PNG</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Markdown Dictionary</h3>
+        <div class="actions">
+          <a class="btn" href="regulatory_affairs.md" download>Download .md</a>
+          <button class="btn" data-copy="md-src">Copy all</button>
+        </div>
+        <textarea id="md-src" style="width:100%;height:260px;margin-top:8px;" readonly></textarea>
+      </div>
+
+      <div class="card">
+        <h3>JSON Dictionary</h3>
+        <div class="actions">
+          <a class="btn" href="regulatory_affairs.json" download>Download .json</a>
+          <button class="btn" data-copy="json-src">Copy all</button>
+        </div>
+        <textarea id="json-src" style="width:100%;height:260px;margin-top:8px;" readonly></textarea>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:16px;">
+      <h3>Navigate</h3>
+      <ul class="file-list">
+        <li><a href="../01-General/index.html">01 – General</a></li>
+        <li><a href="../02-Students/index.html">02 – Students</a></li>
+        <li><a href="../03-R&amp;D/index.html">03 – R&amp;D</a></li>
+        <li><a href="../05-Health &amp; Safety/index.html">05 – Health &amp; Safety</a></li>
+        <li><a href="../06-Facilities/index.html">06 – Facilities</a></li>
+        <li><a href="../07-Software Development Pipeline/index.html">07 – Software Dev Pipeline</a></li>
+        <li><a href="../08-Advance/index.html">08 – Advance</a></li>
+        <li><a href="../09-Content Writers/index.html">09 – Content Writers</a></li>
+      </ul>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container"><p class="muted">© PromptKit</p></div></footer>
+
+  <script>
+  fetch('regulatory_affairs.md').then(r=>r.text()).then(t=>{ document.getElementById('md-src').value = t; });
+  fetch('regulatory_affairs.json').then(r=>r.text()).then(t=>{ document.getElementById('json-src').value = t; });
+  </script>
+</body>
+</html>
+
