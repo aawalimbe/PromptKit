@@ -3,61 +3,253 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>08 – Advance (Business Ops) | PromptKit</title>
+  <title>08 – Advance | PromptKit</title>
   <link rel="stylesheet" href="../assets/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
   <script defer src="../assets/site.js"></script>
 </head>
-<body>
+<body class="directory-page">
   <header class="site-header">
     <div class="container">
-      <div class="brand"><a href="../index.html">PromptKit</a></div>
-      <nav class="breadcrumbs">
-        <a href="../index.html">Home</a>
-        <span class="sep">›</span>
-        <span>08 – Advance</span>
-      </nav>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="brand-section">
+          <div class="brand">
+            <a href="../index.html">
+              <i class="bi bi-lightning-charge-fill me-2"></i>PromptKit
+            </a>
+          </div>
+          <nav class="breadcrumbs">
+            <a href="../index.html">Home</a>
+            <span class="sep">›</span>
+            <span>08 – Advance</span>
+          </nav>
+        </div>
+        <div class="download-images-section">
+          <div class="download-buttons">
+            <a href="core_business_ops_printable_code_sheet.html" download class="btn btn-outline-primary btn-sm me-2">
+              <i class="bi bi-file-earmark-text me-1"></i>HTML
+            </a>
+            <a href="core_business_ops.svg" download class="btn btn-outline-primary btn-sm me-2">
+              <i class="bi bi-image me-1"></i>SVG
+            </a>
+            <button class="btn btn-primary btn-sm" data-svg-png="core_business_ops.svg" data-filename="core_business_ops.png">
+              <i class="bi bi-download me-1"></i>PNG
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
+  
   <main class="container">
-    <h1>08 – Advance (Business Operations)</h1>
-    <p class="muted">Core ops, People & Culture, Finance & Legal, Product & Service, Technology & Data, Commercial & Client Facing.</p>
-
-    <div class="grid">
-      <div class="card">
-        <h3><span>Commercial &amp; Client Facing</span> <a href="Commercial &amp; Client Facing/index.html" class="btn">Open</a></h3>
-      </div>
-      <div class="card">
-        <h3><span>Core Business</span> <a href="core_business/index.html" class="btn">Open</a></h3>
-      </div>
-      <div class="card">
-        <h3><span>Finance &amp; Legal</span> <a href="Finance &amp; Legal/index.html" class="btn">Open</a></h3>
-      </div>
-      <div class="card">
-        <h3><span>People &amp; Culture</span> <a href="people and culture/index.html" class="btn">Open</a></h3>
-      </div>
-      <div class="card">
-        <h3><span>Product &amp; Service</span> <a href="Product &amp; Service/index.html" class="btn">Open</a></h3>
-      </div>
-      <div class="card">
-        <h3><span>Technology &amp; Data</span> <a href="Technology &amp; Data/index.html" class="btn">Open</a></h3>
+    <div class="page-header">
+      <h1 class="display-4 fw-bold mb-3">
+        <i class="bi bi-briefcase text-primary me-3"></i>08 – Advance
+      </h1>
+      <p class="lead text-muted mb-4">Business operations across all departments.</p>
+      <div class="stats-row">
+        <div class="stat-badge">
+          <span class="stat-number">402</span>
+          <span class="stat-label">Codes</span>
+        </div>
+        <div class="stat-badge">
+          <span class="stat-number">6</span>
+          <span class="stat-label">Departments</span>
+        </div>
       </div>
     </div>
 
-    <div class="card" style="margin-top:16px;">
-      <h3>Navigate</h3>
-      <ul class="file-list">
-        <li><a href="../01-General/index.html">01 – General</a></li>
-        <li><a href="../02-Students/index.html">02 – Students</a></li>
-        <li><a href="../03-R&amp;D/index.html">03 – R&amp;D</a></li>
-        <li><a href="../04-Regulatory Affairs/index.html">04 – Regulatory Affairs</a></li>
-        <li><a href="../05-Health &amp; Safety/index.html">05 – Health &amp; Safety</a></li>
-        <li><a href="../06-Facilities/index.html">06 – Facilities</a></li>
-        <li><a href="../07-Software Development Pipeline/index.html">07 – Software Dev Pipeline</a></li>
-        <li><a href="../09-Content Writers/index.html">09 – Content Writers</a></li>
-      </ul>
+    <div class="grid two-column">
+      <div class="card enhanced-card">
+        <div class="card-header">
+          <i class="bi bi-markdown text-success me-2"></i>
+          <h3>Markdown Dictionary</h3>
+        </div>
+        <div class="card-body">
+          <p class="card-description">Copy-paste ready markdown format for easy integration</p>
+          <div class="actions">
+            <a href="core_business_ops.md" download class="btn btn-outline-success">
+              <i class="bi bi-download me-2"></i>Download .md
+            </a>
+            <button class="btn btn-success" data-copy="md-src">
+              <i class="bi bi-clipboard me-2"></i>Copy All
+            </button>
+          </div>
+          <div class="code-preview">
+            <textarea id="md-src" readonly placeholder="Loading markdown content..."></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="card enhanced-card">
+        <div class="card-header">
+          <i class="bi bi-filetype-json text-warning me-2"></i>
+          <h3>JSON Dictionary</h3>
+        </div>
+        <div class="card-body">
+          <p class="card-description">Structured JSON format for programmatic integration</p>
+          <div class="actions">
+            <a href="core_business_ops.json" download class="btn btn-outline-warning">
+              <i class="bi bi-download me-2"></i>Download .json
+            </a>
+            <button class="btn btn-warning" data-copy="json-src">
+              <i class="bi bi-clipboard me-2"></i>Copy All
+            </button>
+          </div>
+          <div class="code-preview">
+            <textarea id="json-src" readonly placeholder="Loading JSON content..."></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="json-display-section">
+      <div class="card enhanced-card">
+        <div class="card-header">
+          <i class="bi bi-code-square text-info me-2"></i>
+          <h3>Codes and Applications</h3>
+        </div>
+        <div class="card-body">
+          <div class="actions-right">
+            <button class="btn btn-info" id="copy-readme-btn">
+              <i class="bi bi-clipboard me-2"></i>Copy all Codes
+            </button>
+          </div>
+          <div id="json-display" class="json-display">
+            <!-- JSON content will be loaded here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="back-section">
+      <div class="back-button-container">
+        <a href="../index.html" class="btn btn-outline-light btn-lg">
+          <i class="bi bi-arrow-left me-2"></i>Back to Home
+        </a>
+      </div>
     </div>
   </main>
   <footer class="site-footer"><div class="container"><p class="muted">© PromptKit</p></div></footer>
+
+  <script>
+  // Load markdown and JSON content
+  fetch('core_business_ops.md').then(r=>r.text()).then(t=>{ document.getElementById('md-src').value = t; });
+  fetch('core_business_ops.json').then(r=>r.text()).then(t=>{ 
+    document.getElementById('json-src').value = t; 
+    parseAndDisplayJSON(t);
+  });
+
+  // Parse and display JSON data
+  function parseAndDisplayJSON(jsonText) {
+    try {
+      const data = JSON.parse(jsonText);
+      const display = document.getElementById('json-display');
+      
+      let html = '';
+      
+      // Get the main dictionary object
+      const dictionary = data.promptkit_dictionary || data;
+      
+      // Check if we have sections
+      if (dictionary.sections) {
+        Object.entries(dictionary.sections).forEach(([sectionName, section]) => {
+          html += `
+            <div class="json-category">
+              <h4 class="category-title">
+                <i class="bi bi-tag-fill me-2"></i>${sectionName}
+              </h4>
+              <p class="category-description">${section.description || 'No description available'}</p>
+              <div class="codes-grid">
+          `;
+          
+          // Display codes from the codes array
+          if (section.codes && Array.isArray(section.codes)) {
+            section.codes.forEach(codeObj => {
+              const code = codeObj.code;
+              const description = codeObj.description;
+              const usageExamples = codeObj.usage_examples;
+              const instructions = codeObj.instructions;
+              
+              html += `
+                <div class="code-item">
+                  <div class="code-header">
+                    <span class="code-name">${code}</span>
+                    <button class="btn btn-sm btn-outline-primary copy-code-btn" data-code="${code}">
+                      <i class="bi bi-clipboard"></i>
+                    </button>
+                  </div>
+                  <div class="code-content">
+                    <p class="code-description">${description || 'No description'}</p>
+                    ${usageExamples && usageExamples.length > 0 ? `<p class="code-examples"><strong>Examples:</strong> ${usageExamples.join(', ')}</p>` : ''}
+                    ${instructions ? `<p class="code-instructions"><strong>Instructions:</strong> ${JSON.stringify(instructions)}</p>` : ''}
+                  </div>
+                </div>
+              `;
+            });
+          }
+          
+          html += `
+              </div>
+            </div>
+          `;
+        });
+      } else {
+        // Fallback for different JSON structure
+        html = '<p class="text-muted">No sections found in JSON data</p>';
+      }
+      
+      display.innerHTML = html;
+      
+      // Add click handlers for copy buttons
+      document.querySelectorAll('.copy-code-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const code = e.target.closest('.copy-code-btn').dataset.code;
+          navigator.clipboard.writeText(code).then(() => {
+            btn.innerHTML = '<i class="bi bi-check"></i>';
+            setTimeout(() => {
+              btn.innerHTML = '<i class="bi bi-clipboard"></i>';
+            }, 1000);
+          });
+        });
+      });
+      
+    } catch (error) {
+      console.error('JSON parsing error:', error);
+      document.getElementById('json-display').innerHTML = '<p class="text-danger">Error parsing JSON data: ' + error.message + '</p>';
+    }
+  }
+
+  // Copy README content
+  document.getElementById('copy-readme-btn').addEventListener('click', () => {
+    fetch('core_business_ops.md')
+      .then(r => r.text())
+      .then(content => {
+        navigator.clipboard.writeText(content).then(() => {
+          const btn = document.getElementById('copy-readme-btn');
+          const originalText = btn.innerHTML;
+          btn.innerHTML = '<i class="bi bi-check me-2"></i>Copied!';
+          setTimeout(() => {
+            btn.innerHTML = originalText;
+          }, 2000);
+        });
+      });
+  });
+
+  // Copy functionality for existing buttons
+  document.querySelectorAll('[data-copy]').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const targetId = e.target.dataset.copy;
+      const content = document.getElementById(targetId).value;
+      navigator.clipboard.writeText(content).then(() => {
+        e.target.innerHTML = '<i class="bi bi-check me-2"></i>Copied!';
+        setTimeout(() => {
+          e.target.innerHTML = '<i class="bi bi-clipboard me-2"></i>Copy All';
+        }, 2000);
+      });
+    });
+  });
+  </script>
 </body>
 </html>
-

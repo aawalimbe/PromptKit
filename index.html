@@ -1,86 +1,687 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PromptKit – Browse</title>
-  <link rel="stylesheet" href="assets/style.css">
-  <meta name="description" content="Static browsable view of PromptKit dictionaries and assets.">
-  <link rel="icon" href="data:,">
-  <script defer src="assets/site.js"></script>
-  <style>
-    .dir-grid .card h3 { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
-  </style>
-  </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PromptKit - AI Shorthand Code System</title>
+    <meta name="description" content="Professional shorthand code system for AI interactions across business departments and functions.">
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="assets/style.css" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <div class="brand"><a href="/">PromptKit</a></div>
-      <nav class="breadcrumbs">
-        <span>Home</span>
-      </nav>
-    </div>
-  </header>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="bi bi-lightning-charge-fill me-2"></i>PromptKit
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-to-use">How to Use</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dictionaries">Dictionaries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-  <main class="container">
-    <h1>PromptKit – Static Browser</h1>
-    <p class="muted">Browse shorthand code dictionaries, copy full code blocks, and download printable PNGs.</p>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section" style="padding-top: 100px;">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="display-4 fw-bold text-white mb-4">
+                            <span class="text-gradient">PromptKit</span>
+                        </h1>
+                        <p class="lead text-white-50 mb-4">
+                            Professional shorthand code system for AI interactions. Save time, improve consistency, and enhance your AI workflow across all business departments.
+                        </p>
+                        <div class="free-badge-container mb-4">
+                            <span class="free-badge">
+                                <i class="bi bi-gift-fill me-2"></i>It's Free!
+                            </span>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <span class="stat-number" id="total-codes">Loading...</span>
+                                <span class="stat-label">Codes</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" id="total-departments">Loading...</span>
+                                <span class="stat-label">Departments</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" id="total-dictionaries">Loading...</span>
+                                <span class="stat-label">Dictionaries</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Hero Actions -->
+                        <div class="hero-actions mt-4">
+                            <a href="https://github.com/aawalimbe/PromptKit" target="_blank" class="btn btn-outline-light btn-lg me-3">
+                                <i class="bi bi-github me-2"></i>View on GitHub
+                            </a>
+                            <a href="#dictionaries" class="btn btn-light btn-lg me-3">
+                                <i class="bi bi-collection me-2"></i>Explore
+                            </a>
+                            <a href="readme.md" class="btn btn-outline-light btn-lg" download>
+                                <i class="bi bi-download me-2"></i>Download Guide
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-visual">
+                        <div class="code-preview">
+                            <div class="code-header">
+                                <div class="code-dots">
+                                    <span class="dot red"></span>
+                                    <span class="dot yellow"></span>
+                                    <span class="dot green"></span>
+                                </div>
+                                <span class="code-title">AI Interaction</span>
+                            </div>
+                            <div class="code-content">
+                                <div class="code-line">
+                                    <span class="code-prompt">cg:</span>
+                                    <span class="code-text">Fix grammar in this text</span>
+                                </div>
+                                <div class="code-line">
+                                    <span class="code-prompt">dev:</span>
+                                    <span class="code-text">Create a login function</span>
+                                </div>
+                                <div class="code-line">
+                                    <span class="code-prompt">cw.blg:</span>
+                                    <span class="code-text">Write about AI trends</span>
+                                </div>
+                                <div class="code-line">
+                                    <span class="code-prompt">dev+test:</span>
+                                    <span class="code-text">Create login with tests</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="grid dir-grid">
-      <div class="card">
-        <h3><span>01 – General</span> <a href="01-General/index.html" class="btn">Open</a></h3>
-        <p>Universal codes: grammar, summarization, rewriting, etc.</p>
-      </div>
-      <div class="card">
-        <h3><span>02 – Students</span> <a href="02-Students/index.html" class="btn">Open</a></h3>
-        <p>Study aids, quizzes, interview prep.</p>
-      </div>
-      <div class="card">
-        <h3><span>03 – R&amp;D</span> <a href="03-R&amp;D/index.html" class="btn">Open</a></h3>
-        <p>Research methodology, patents, funding, tech transfer.</p>
-      </div>
-      <div class="card">
-        <h3><span>04 – Regulatory Affairs</span> <a href="04-Regulatory Affairs/index.html" class="btn">Open</a></h3>
-        <p>Compliance, submissions, approvals, audits.</p>
-      </div>
-      <div class="card">
-        <h3><span>05 – Health &amp; Safety</span> <a href="05-Health &amp; Safety/index.html" class="btn">Open</a></h3>
-        <p>Safety protocols, incident response, training, compliance.</p>
-      </div>
-      <div class="card">
-        <h3><span>06 – Facilities</span> <a href="06-Facilities/index.html" class="btn">Open</a></h3>
-        <p>Maintenance, security, utilities, space management.</p>
-      </div>
-      <div class="card">
-        <h3><span>07 – Software Development Pipeline</span> <a href="07-Software Development Pipeline/index.html" class="btn">Open</a></h3>
-        <p>Developers, Testers, QA, DevOps dictionaries.</p>
-      </div>
-      <div class="card">
-        <h3><span>08 – Advance (Business Ops)</span> <a href="08-Advance/index.html" class="btn">Open</a></h3>
-        <p>Core ops, HR, finance &amp; legal, product, tech &amp; data.</p>
-      </div>
-      <div class="card">
-        <h3><span>09 – Content Writers</span> <a href="09-Content Writers/index.html" class="btn">Open</a></h3>
-        <p>Blog writing, copywriting, social, technical, marketing content.</p>
-      </div>
-    </div>
+    <!-- How to Use Section -->
+    <section id="how-to-use" class="py-5" style="background: rgba(0, 0, 0, 0.6); backdrop-filter: blur(20px);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="text-center mb-5">
+                        <h2 class="display-5 fw-bold text-white mb-4" style="text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);">How to Use PromptKit</h2>
+                        <p class="lead text-white" style="text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);">Get started with shorthand codes in minutes</p>
+                    </div>
+                    
+                    <!-- GitHub Link -->
+                    <div class="row justify-content-center mb-5">
+                        <div class="col-lg-8">
+                            <div class="text-center">
+                                <a href="https://github.com/aawalimbe/PromptKit" target="_blank" class="btn btn-outline-light btn-lg">
+                                    <i class="bi bi-github me-2"></i>View on GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row g-4">
+                        <!-- Step 1: Setup -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 border-0" style="background: rgba(0, 0, 0, 0.7); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.3) !important;">
+                                <div class="card-body text-center p-4">
+                                    <div class="mb-3">
+                                        <div class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                                            <i class="bi bi-gear-fill text-white fs-4"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-white mb-3" style="text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);">1. Setup</h5>
+                                    <p class="card-text text-white mb-3" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">Drop codes into any chat and use them across all conversations</p>
+                                    <div class="bg-dark rounded p-3 mb-3">
+                                        <code class="text-success">
+                                            cg: Correct grammar<br>
+                                            sm: Summarize in bullet points<br>
+                                            ex: Expand details with examples
+                                        </code>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Step 2: Use -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 border-0" style="background: rgba(0, 0, 0, 0.7); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.3) !important;">
+                                <div class="card-body text-center p-4">
+                                    <div class="mb-3">
+                                        <div class="bg-success rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                                            <i class="bi bi-chat-dots-fill text-white fs-4"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-white mb-3" style="text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);">2. Use Codes</h5>
+                                    <p class="card-text text-white mb-3" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">Type shorthand codes in your prompts</p>
+                                    <div class="bg-dark rounded p-3 mb-3">
+                                        <code class="text-warning">cg: This text need correction.</code>
+                                    </div>
+                                    <small class="text-white" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">→ Becomes: "Correct grammar: This text need correction."</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Step 3: Combine -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 border-0" style="background: rgba(0, 0, 0, 0.7); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.3) !important;">
+                                <div class="card-body text-center p-4">
+                                    <div class="mb-3">
+                                        <div class="bg-warning rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                                            <i class="bi bi-plus-circle-fill text-white fs-4"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-white mb-3" style="text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);">3. Combine Codes</h5>
+                                    <p class="card-text text-white mb-3" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">Chain multiple codes with + for complex tasks</p>
+                                    <div class="bg-dark rounded p-3 mb-3">
+                                        <code class="text-info">cp+sm: Long document text...</code>
+                                    </div>
+                                    <small class="text-white" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">→ Correct professionally + summarize</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- ChatGPT Compatibility Note -->
+                    <div class="row mt-5">
+                        <div class="col-12 mb-4">
+                            <div class="alert alert-info border-0" style="background: linear-gradient(135deg, rgba(13, 110, 253, 0.2), rgba(13, 202, 240, 0.2)); backdrop-filter: blur(10px); border: 1px solid rgba(13, 110, 253, 0.3);">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-info-circle-fill text-info fs-4 me-3"></i>
+                                    <div>
+                                        <strong class="text-white" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">Pro Tip:</strong>
+                                        <span class="text-white ms-2" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">PromptKit works best with ChatGPT due to its shared memory feature. Once you paste the codes in one chat, they're remembered across all your conversations!</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Quick Examples -->
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card border-0" style="background: rgba(0, 0, 0, 0.7); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.3) !important;">
+                                <div class="card-body p-4">
+                                    <h6 class="text-white mb-3" style="text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);"><i class="bi bi-lightning-fill text-warning me-2"></i>Quick Examples</h6>
+                                    <div class="mb-3">
+                                        <code class="d-block" style="color: #0dcaf0; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);">qz: Python basics</code>
+                                        <small class="text-white" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">→ Generate a quiz</small>
+                                    </div>
+                                    <div class="mb-3">
+                                        <code class="d-block" style="color: #0dcaf0; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);">int: Data Analyst role</code>
+                                        <small class="text-white" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">→ Interview questions</small>
+                                    </div>
+                                    <div class="mb-3">
+                                        <code class="d-block" style="color: #0dcaf0; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);">dev: User authentication</code>
+                                        <small class="text-white" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">→ Code generation</small>
+                                    </div>
+                                    <div>
+                                        <code class="d-block" style="color: #0dcaf0; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);">cw.blg: AI trends 2024</code>
+                                        <small class="text-white" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">→ Blog content</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="card border-0" style="background: rgba(0, 0, 0, 0.7); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.3) !important;">
+                                <div class="card-body p-4">
+                                    <h6 class="text-white mb-3" style="text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);"><i class="bi bi-tools text-info me-2"></i>Compatibility & Setup</h6>
+                                    <div class="mb-3">
+                                        <strong class="text-white" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">ChatGPT (Best):</strong>
+                                        <small class="text-white d-block" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">Works seamlessly with shared memory across chats</small>
+                                    </div>
+                                    <div class="mb-3">
+                                        <strong class="text-white" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">Claude/Gemini:</strong>
+                                        <small class="text-white d-block" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">Paste codes once per conversation</small>
+                                    </div>
+                                    <div class="mb-3">
+                                        <strong class="text-white" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">Other Models:</strong>
+                                        <small class="text-white d-block" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">Add to system prompt or custom instructions</small>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a href="readme.md" class="btn btn-outline-light btn-sm" download>
+                                            <i class="bi bi-download me-2"></i>Download Full Guide
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="card" style="margin-top:16px;">
-      <h3>Project Docs</h3>
-      <ul class="file-list">
-        <li><a href="readme.md">README (raw)</a></li>
-        <li><a href="catalog.md">Catalog</a></li>
-        <li><a href="cheat_sheet.md">Cheat Sheet</a></li>
-        <li><a href="dicts/master.json">Master Dictionary (JSON)</a></li>
-      </ul>
-    </div>
-  </main>
+    <!-- Dictionaries Section -->
+    <section id="dictionaries" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold mb-3">PromptKit Codes</h2>
+                    <p class="lead text-muted">Choose from specialized code collections for different business functions</p>
+                </div>
+            </div>
+            
+            <div class="row g-4" id="dictionaries-grid">
+                <!-- Dictionaries will be loaded here -->
+            </div>
+        </div>
+    </section>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p class="muted">© PromptKit. Use responsibly. See LICENSE and disclaimer in README.</p>
-    </div>
-  </footer>
+    <!-- Features Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold mb-3">Why Choose PromptKit?</h2>
+                    <p class="lead text-muted">Professional features for enterprise AI workflows</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon">
+                            <i class="bi bi-lightning-charge-fill"></i>
+                        </div>
+                        <h4>Lightning Fast</h4>
+                        <p class="text-muted">Reduce prompt length by 80% while maintaining clarity and precision.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <h4>Enterprise Ready</h4>
+                        <p class="text-muted">Structured codes following professional naming conventions and standards.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon">
+                            <i class="bi bi-puzzle"></i>
+                        </div>
+                        <h4>Modular Design</h4>
+                        <p class="text-muted">Mix and match codes across departments for comprehensive workflows.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+                    <h2 class="display-5 fw-bold mb-4">About PromptKit</h2>
+                    <p class="lead text-muted mb-4">
+                        PromptKit is a comprehensive shorthand code system designed for professional AI interactions. 
+                        It provides structured, consistent, and efficient ways to communicate with AI models across 
+                        various business departments and functions.
+                    </p>
+                    <div class="row g-3">
+                        <div class="col-sm-6 col-12">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                <span>Professional Standards</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                <span>Enterprise Ready</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                <span>Cross-Platform</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                <span>Open Source</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="about-visual">
+                        <div class="profile-card">
+                            <div class="profile-image">
+                                <img src="https://avatars.githubusercontent.com/u/13807054?v=4" alt="Developer Profile" class="img-fluid rounded-circle">
+                            </div>
+                            <div class="profile-info text-center">
+                                <h5 class="mb-1">Created by</h5>
+                                <p class="text-muted mb-0">Akshay Walimbe</p>
+                                <div class="social-links mt-3">
+                                    <a href="https://github.com/aawalimbe" class="btn btn-outline-primary btn-sm me-2" target="_blank">
+                                        <i class="bi bi-github me-1"></i>GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="fw-bold mb-3">
+                        <i class="bi bi-lightning-charge-fill me-2"></i>PromptKit
+                    </h5>
+                    <p class="text-white-50">Professional shorthand code system for AI interactions across business departments.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="text-white-50 mb-0">&copy; 2024 PromptKit. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5.3 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/site.js"></script>
+    
+    <script>
+        // Load dictionaries dynamically
+        document.addEventListener('DOMContentLoaded', function() {
+            loadDictionaries();
+            loadStats();
+        });
+
+        async function loadStats() {
+            try {
+                const response = await fetch('dicts/master.json');
+                const data = await response.json();
+                const master = data.promptkit_master_dictionary;
+                
+                // Update stats
+                document.getElementById('total-codes').textContent = master.total_codes || '300+';
+                document.getElementById('total-departments').textContent = master.total_departments || '9';
+                document.getElementById('total-dictionaries').textContent = Object.keys(master.departments).length || '16';
+            } catch (error) {
+                console.log('Stats loading failed, using fallback values');
+                // Fallback to hardcoded values if JSON fails
+                document.getElementById('total-codes').textContent = '300+';
+                document.getElementById('total-departments').textContent = '9';
+                document.getElementById('total-dictionaries').textContent = '16';
+            }
+        }
+
+
+        function loadDictionaries() {
+            const dictionaries = [
+                {
+                    id: '01-General',
+                    title: 'General',
+                    description: 'Universal codes: grammar, summarization, rewriting, and more.',
+                    icon: 'bi-globe',
+                    color: 'primary',
+                    codes: 55,
+                    path: '01-General/'
+                },
+                {
+                    id: '02-Students',
+                    title: 'Students',
+                    description: 'Study aids, quizzes, interview prep, and educational content.',
+                    icon: 'bi-mortarboard',
+                    color: 'success',
+                    codes: 37,
+                    path: '02-Students/'
+                },
+                {
+                    id: '03-R&D',
+                    title: 'R&D',
+                    description: 'Research methodology, patents, funding, and technology transfer.',
+                    icon: 'bi-flask',
+                    color: 'info',
+                    codes: 21,
+                    path: '03-R&D/'
+                },
+                {
+                    id: '04-Regulatory Affairs',
+                    title: 'Regulatory Affairs',
+                    description: 'Compliance, submissions, approvals, and audits.',
+                    icon: 'bi-shield-check',
+                    color: 'warning',
+                    codes: 21,
+                    path: '04-Regulatory Affairs/'
+                },
+                {
+                    id: '05-Health & Safety',
+                    title: 'Health & Safety',
+                    description: 'Safety protocols, incident response, training, and compliance.',
+                    icon: 'bi-heart-pulse',
+                    color: 'danger',
+                    codes: 21,
+                    path: '05-Health & Safety/'
+                },
+                {
+                    id: '06-Facilities',
+                    title: 'Facilities',
+                    description: 'Maintenance, security, utilities, and space management.',
+                    icon: 'bi-building',
+                    color: 'secondary',
+                    codes: 21,
+                    path: '06-Facilities/'
+                },
+                {
+                    id: 'developers',
+                    title: 'Developers',
+                    description: 'Coding, debugging, optimization, and Git operations.',
+                    icon: 'bi-code-slash',
+                    color: 'dark',
+                    codes: 29,
+                    path: '07-Software Development Pipeline/Developers/'
+                },
+                {
+                    id: 'testers',
+                    title: 'Testers',
+                    description: 'Testing, validation, automation, and environment setup.',
+                    icon: 'bi-bug',
+                    color: 'dark',
+                    codes: 29,
+                    path: '07-Software Development Pipeline/Testers/'
+                },
+                {
+                    id: 'qa',
+                    title: 'QA',
+                    description: 'Quality processes, planning, standards, and release management.',
+                    icon: 'bi-check-circle',
+                    color: 'dark',
+                    codes: 29,
+                    path: '07-Software Development Pipeline/QA/'
+                },
+                {
+                    id: 'devops',
+                    title: 'DevOps',
+                    description: 'Deployment, infrastructure, monitoring, and automation.',
+                    icon: 'bi-gear',
+                    color: 'dark',
+                    codes: 29,
+                    path: '07-Software Development Pipeline/DevOps/'
+                },
+                {
+                    id: 'core-business',
+                    title: 'Core Business',
+                    description: 'Executive, operations, and project management functions.',
+                    icon: 'bi-briefcase',
+                    color: 'primary',
+                    codes: 67,
+                    path: '08-Advance/core_business/'
+                },
+                {
+                    id: 'people-culture',
+                    title: 'People & Culture',
+                    description: 'HR, recruitment, learning & development, and administration.',
+                    icon: 'bi-people',
+                    color: 'primary',
+                    codes: 67,
+                    path: '08-Advance/people and culture/'
+                },
+                {
+                    id: 'finance-legal',
+                    title: 'Finance & Legal',
+                    description: 'Accounting, payroll, procurement, and compliance.',
+                    icon: 'bi-calculator',
+                    color: 'primary',
+                    codes: 67,
+                    path: '08-Advance/Finance & Legal/'
+                },
+                {
+                    id: 'commercial-client',
+                    title: 'Commercial & Client',
+                    description: 'Sales, business development, marketing, and customer support.',
+                    icon: 'bi-handshake',
+                    color: 'primary',
+                    codes: 67,
+                    path: '08-Advance/Commercial & Client Facing/'
+                },
+                {
+                    id: 'product-service',
+                    title: 'Product & Service',
+                    description: 'Product management, design, QA, manufacturing, and supply chain.',
+                    icon: 'bi-box',
+                    color: 'primary',
+                    codes: 67,
+                    path: '08-Advance/Product & Service/'
+                },
+                {
+                    id: 'tech-data',
+                    title: 'Technology & Data',
+                    description: 'IT, software development, data analytics, AI/R&D, and cybersecurity.',
+                    icon: 'bi-database',
+                    color: 'primary',
+                    codes: 67,
+                    path: '08-Advance/Technology & Data/'
+                },
+                {
+                    id: '09-Content Writers',
+                    title: 'Content Writers',
+                    description: 'Blog writing, copywriting, social media, and technical writing.',
+                    icon: 'bi-pen',
+                    color: 'success',
+                    codes: 30,
+                    path: '09-Content Writers/'
+                }
+            ];
+
+            const grid = document.getElementById('dictionaries-grid');
+            grid.innerHTML = '';
+
+            dictionaries.forEach(dict => {
+                const card = document.createElement('div');
+                card.className = 'col-lg-4 col-md-6';
+                card.innerHTML = `
+                    <div class="dictionary-card h-100" data-aos="fade-up">
+                        <div class="card-header bg-${dict.color} text-white">
+                            <div class="d-flex align-items-center">
+                                <i class="bi ${dict.icon} fs-3 me-3"></i>
+                                <div>
+                                    <h5 class="mb-0">${dict.title}</h5>
+                                    <small class="opacity-75">${dict.codes} codes</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-muted">${dict.description}</p>
+                            <div class="d-flex gap-2">
+                                <a href="${dict.path}" class="btn btn-${dict.color} btn-sm">
+                                    <i class="bi bi-eye me-1"></i>View Codes
+                                </a>
+                                <a href="${dict.path}${getMarkdownFile(dict.id)}.md" class="btn btn-outline-${dict.color} btn-sm" download>
+                                    <i class="bi bi-download me-1"></i>Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function getMarkdownFile(id) {
+            const fileMap = {
+                '01-General': 'general',
+                '02-Students': 'students',
+                '03-R&D': 'research_development',
+                '04-Regulatory Affairs': 'regulatory_affairs',
+                '05-Health & Safety': 'health_safety_ehs',
+                '06-Facilities': 'facilities_maintenance',
+                'developers': 'developers',
+                'testers': 'testers',
+                'qa': 'qa',
+                'devops': 'devops',
+                'core-business': 'core_business_ops',
+                'people-culture': 'people_and_culture',
+                'finance-legal': 'finance_legal',
+                'commercial-client': 'commercial_client',
+                'product-service': 'product_service',
+                'tech-data': 'tech_data',
+                '09-Content Writers': 'content_writers'
+            };
+            return fileMap[id] || 'index';
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
-

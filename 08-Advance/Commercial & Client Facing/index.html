@@ -3,74 +3,283 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Commercial &amp; Client Facing | PromptKit</title>
-  <link rel="stylesheet" href="../../assets/style.css">
-  <script defer src="../../assets/site.js"></script>
+  <title>Commercial & Client Facing | PromptKit</title>
+  <link rel="stylesheet" href="../../../assets/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <script defer src="../../../assets/site.js"></script>
 </head>
-<body>
+<body class="directory-page">
   <header class="site-header">
     <div class="container">
-      <div class="brand"><a href="../../index.html">PromptKit</a></div>
-      <nav class="breadcrumbs">
-        <a href="../../index.html">Home</a>
-        <span class="sep">›</span>
-        <a href="../index.html">08 – Advance</a>
-        <span class="sep">›</span>
-        <span>Commercial &amp; Client Facing</span>
-      </nav>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="brand-section">
+          <div class="brand">
+            <a href="../../../index.html">
+              <i class="bi bi-lightning-charge-fill me-2"></i>PromptKit
+            </a>
+          </div>
+          <nav class="breadcrumbs">
+            <a href="../../../index.html">Home</a>
+            <span class="sep">›</span>
+            <a href="../index.html">08 – Advance</a>
+            <span class="sep">›</span>
+            <span>Commercial & Client Facing</span>
+          </nav>
+        </div>
+        <div class="download-images-section">
+          <div class="download-buttons">
+            <a href="commercial_client_printable_code_sheet.html" download class="btn btn-outline-primary btn-sm me-2">
+              <i class="bi bi-file-earmark-text me-1"></i>HTML
+            </a>
+            <a href="commercial_client.svg" download class="btn btn-outline-primary btn-sm me-2">
+              <i class="bi bi-image me-1"></i>SVG
+            </a>
+            <button class="btn btn-primary btn-sm" data-svg-png="commercial_client.svg" data-filename="commercial_client.png">
+              <i class="bi bi-download me-1"></i>PNG
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
+  
   <main class="container">
-    <h1>Commercial &amp; Client Facing</h1>
-    <div class="grid">
-      <div class="card">
-        <h3>Printable Sheet</h3>
-        <ul class="file-list">
-          <li>
-            <a href="commercial_client_printable_code_sheet.html">Open HTML sheet</a>
-            <div class="actions">
-              <a class="btn" href="commercial_client.svg" download>Download SVG</a>
-              <button class="btn" data-svg-png="commercial_client.svg" data-filename="commercial_client.png">Download PNG</button>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>Markdown Dictionary</h3>
-        <div class="actions">
-          <a class="btn" href="commercial_client.md" download>Download .md</a>
-          <button class="btn" data-copy="md-src">Copy all</button>
+    <div class="page-header">
+      <h1 class="display-4 fw-bold mb-3">
+        <i class="bi bi-handshake text-primary me-3"></i>Commercial & Client Facing
+      </h1>
+      <p class="lead text-muted mb-4">Sales, business development, marketing, and customer support.</p>
+      <div class="stats-row">
+        <div class="stat-badge">
+          <span class="stat-number">67</span>
+          <span class="stat-label">Codes</span>
         </div>
-        <textarea id="md-src" style="width:100%;height:260px;margin-top:8px;" readonly></textarea>
-      </div>
-      <div class="card">
-        <h3>JSON Dictionary</h3>
-        <div class="actions">
-          <a class="btn" href="commercial_client.json" download>Download .json</a>
-          <button class="btn" data-copy="json-src">Copy all</button>
+        <div class="stat-badge">
+          <span class="stat-number">3</span>
+          <span class="stat-label">Formats</span>
         </div>
-        <textarea id="json-src" style="width:100%;height:260px;margin-top:8px;" readonly></textarea>
       </div>
     </div>
 
-    <div class="card" style="margin-top:16px;">
-      <h3>Navigate</h3>
-      <ul class="file-list">
-        <li><a href="../core_business/index.html">Core Business</a></li>
-        <li><a href="../Finance &amp; Legal/index.html">Finance &amp; Legal</a></li>
-        <li><a href="../Product &amp; Service/index.html">Product &amp; Service</a></li>
-        <li><a href="../Technology &amp; Data/index.html">Technology &amp; Data</a></li>
-        <li><a href="../people and culture/index.html">People &amp; Culture</a></li>
-        <li><a href="../index.html">Back to 08 – Advance</a></li>
-      </ul>
+    <div class="grid two-column">
+      <div class="card enhanced-card">
+        <div class="card-header">
+          <i class="bi bi-markdown text-success me-2"></i>
+          <h3>Markdown Dictionary</h3>
+        </div>
+        <div class="card-body">
+          <p class="card-description">Copy-paste ready markdown format for easy integration</p>
+          <div class="actions">
+            <a href="commercial_client.md" download class="btn btn-outline-success">
+              <i class="bi bi-download me-2"></i>Download .md
+            </a>
+            <button class="btn btn-success" data-copy="md-src">
+              <i class="bi bi-clipboard me-2"></i>Copy All
+            </button>
+          </div>
+          <div class="code-preview">
+            <textarea id="md-src" readonly placeholder="Loading markdown content..."></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="card enhanced-card">
+        <div class="card-header">
+          <i class="bi bi-filetype-json text-warning me-2"></i>
+          <h3>JSON Dictionary</h3>
+        </div>
+        <div class="card-body">
+          <p class="card-description">Structured JSON format for programmatic integration</p>
+          <div class="actions">
+            <a href="commercial_client.json" download class="btn btn-outline-warning">
+              <i class="bi bi-download me-2"></i>Download .json
+            </a>
+            <button class="btn btn-warning" data-copy="json-src">
+              <i class="bi bi-clipboard me-2"></i>Copy All
+            </button>
+          </div>
+          <div class="code-preview">
+            <textarea id="json-src" readonly placeholder="Loading JSON content..."></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="json-display-section">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="h3 mb-0">
+          <i class="bi bi-code-slash text-info me-2"></i>Codes and Applications
+        </h2>
+        <div class="actions-right">
+          <button class="btn btn-info" id="copy-all-codes">
+            <i class="bi bi-clipboard me-2"></i>Copy all Codes
+          </button>
+        </div>
+      </div>
+      <div class="json-display" id="json-display"></div>
+    </div>
+
+    <div class="back-section text-center mt-5">
+      <a href="../../../index.html" class="btn btn-outline-primary btn-lg">
+        <i class="bi bi-house me-2"></i>Back to Home
+      </a>
     </div>
   </main>
-  <footer class="site-footer"><div class="container"><p class="muted">© PromptKit</p></div></footer>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="muted">© 2024 PromptKit. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="muted">Created with ❤️ for the AI community</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script>
-  fetch('commercial_client.md').then(r=>r.text()).then(t=>{ document.getElementById('md-src').value = t; });
-  fetch('commercial_client.json').then(r=>r.text()).then(t=>{ document.getElementById('json-src').value = t; });
+    // Load markdown content
+    fetch('commercial_client.md')
+      .then(response => response.text())
+      .then(content => {
+        document.getElementById('md-src').value = content;
+      })
+      .catch(error => {
+        console.error('Error loading markdown:', error);
+        document.getElementById('md-src').value = 'Error loading content';
+      });
+
+    // Load JSON content
+    fetch('commercial_client.json')
+      .then(response => response.text())
+      .then(content => {
+        document.getElementById('json-src').value = content;
+      })
+      .catch(error => {
+        console.error('Error loading JSON:', error);
+        document.getElementById('json-src').value = 'Error loading content';
+      });
+
+    // Parse and display JSON data
+    fetch('commercial_client.json')
+      .then(response => response.json())
+      .then(data => {
+        const display = document.getElementById('json-display');
+        display.innerHTML = '';
+
+        if (data.promptkit_dictionary && data.promptkit_dictionary.sections) {
+          const sections = data.promptkit_dictionary.sections;
+          
+          Object.keys(sections).forEach(sectionName => {
+            const section = sections[sectionName];
+            const sectionDiv = document.createElement('div');
+            sectionDiv.className = 'json-category mb-4';
+            
+            sectionDiv.innerHTML = `
+              <h4 class="category-title">
+                <i class="bi bi-tag text-primary me-2"></i>${sectionName}
+              </h4>
+              <p class="category-description">${section.description || ''}</p>
+              <div class="codes-grid">
+                ${section.codes.map(code => `
+                  <div class="code-item">
+                    <div class="code-header">
+                      <span class="code-name">${code.code}</span>
+                      <button class="copy-code-btn" data-code="${code.code}">
+                        <i class="bi bi-clipboard"></i>
+                      </button>
+                    </div>
+                    <div class="code-content">
+                      <p class="code-description">${code.description}</p>
+                      ${code.usage_examples ? `
+                        <div class="code-examples">
+                          <strong>Examples:</strong>
+                          <ul>
+                            ${code.usage_examples.map(example => `<li>${example}</li>`).join('')}
+                          </ul>
+                        </div>
+                      ` : ''}
+                      ${code.instructions ? `
+                        <div class="code-instructions">
+                          <strong>Instructions:</strong>
+                          <p>${code.instructions}</p>
+                        </div>
+                      ` : ''}
+                    </div>
+                  </div>
+                `).join('')}
+              </div>
+            `;
+            
+            display.appendChild(sectionDiv);
+          });
+        }
+      })
+      .catch(error => {
+        console.error('Error loading JSON:', error);
+        document.getElementById('json-display').innerHTML = '<p>Error loading codes</p>';
+      });
+
+    // Copy functionality
+    document.addEventListener('click', function(e) {
+      if (e.target.matches('[data-copy]')) {
+        const targetId = e.target.getAttribute('data-copy');
+        const target = document.getElementById(targetId);
+        if (target) {
+          target.select();
+          document.execCommand('copy');
+          
+          // Visual feedback
+          const originalText = e.target.innerHTML;
+          e.target.innerHTML = '<i class="bi bi-check me-2"></i>Copied!';
+          e.target.classList.add('btn-success');
+          e.target.classList.remove('btn-outline-success', 'btn-warning', 'btn-outline-warning');
+          
+          setTimeout(() => {
+            e.target.innerHTML = originalText;
+            e.target.classList.remove('btn-success');
+            e.target.classList.add(targetId === 'md-src' ? 'btn-outline-success' : 'btn-outline-warning');
+          }, 2000);
+        }
+      }
+      
+      if (e.target.matches('.copy-code-btn')) {
+        const code = e.target.getAttribute('data-code');
+        navigator.clipboard.writeText(code).then(() => {
+          const icon = e.target.querySelector('i');
+          const originalClass = icon.className;
+          icon.className = 'bi bi-check';
+          e.target.classList.add('copied');
+          
+          setTimeout(() => {
+            icon.className = originalClass;
+            e.target.classList.remove('copied');
+          }, 2000);
+        });
+      }
+      
+      if (e.target.matches('#copy-all-codes')) {
+        fetch('commercial_client.md')
+          .then(response => response.text())
+          .then(content => {
+            navigator.clipboard.writeText(content).then(() => {
+              const originalText = e.target.innerHTML;
+              e.target.innerHTML = '<i class="bi bi-check me-2"></i>Copied!';
+              e.target.classList.add('btn-success');
+              e.target.classList.remove('btn-info');
+              
+              setTimeout(() => {
+                e.target.innerHTML = originalText;
+                e.target.classList.remove('btn-success');
+                e.target.classList.add('btn-info');
+              }, 2000);
+            });
+          });
+      }
+    });
   </script>
 </body>
 </html>
-
