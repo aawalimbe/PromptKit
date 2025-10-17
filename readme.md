@@ -124,6 +124,9 @@ PromptKit is both a **system** (the rules for creating and using codes) and a **
 ### **09-Content Writers**
 * **Content Writers & Copy Writers** → blog writing, copywriting, social media, technical writing, marketing content, creative writing
 
+### **10-Teachers**
+* **Teachers & Educators** → lesson planning, assessment creation, classroom management, professional development, technology integration, student support
+
 ---
 
 ## ✨ Usage Examples
@@ -306,6 +309,11 @@ python svg_to_png_utility/convert_svgs.py
 1. Use **09-Content Writers** dictionary from `09-Content Writers/content_writers.md`
 2. Copy codes for blog writing, copywriting, social media, and technical writing
 3. Try: `cw.blg: AI trends` or `cw.cpy: product launch`
+
+### **For Teachers & Educators**
+1. Use **10-Teachers** dictionary from `10-Teachers/teachers.md`
+2. Copy codes for lesson planning, assessment, classroom management, and professional development
+3. Try: `lpl: photosynthesis lesson` or `quiz: algebra basics`
 
 ### **For Teams**
 1. Combine multiple dictionaries based on your needs

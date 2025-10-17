@@ -4,7 +4,7 @@
     "version": "1.0",
     "description": "Master dictionary combining all departmental code dictionaries",
     "generated_date": "2025-09-30",
-    "total_departments": 9,
+    "total_departments": 10,
     "total_codes": 0,
     "departments": {
       "general": {
@@ -124,6 +124,13 @@
         "file": "09-Content Writers/content_writers.json",
         "description": "Codes for content writing, copywriting, and marketing communications",
         "code_count": 25,
+        "codes": {}
+      },
+      "teachers": {
+        "title": "Teachers Dictionary",
+        "file": "10-Teachers/teachers.json",
+        "description": "Codes for educators across school, college, and university levels",
+        "code_count": 53,
         "codes": {}
       }
     },

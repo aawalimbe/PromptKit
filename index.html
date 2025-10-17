@@ -607,8 +607,17 @@
                     description: 'Blog writing, copywriting, social media, and technical writing.',
                     icon: 'bi-pen',
                     color: 'success',
-                    codes: 30,
+                    codes: 25,
                     path: '09-Content Writers/'
+                },
+                {
+                    id: '10-Teachers',
+                    title: 'Teachers',
+                    description: 'Lesson planning, assessment, classroom management, and professional development.',
+                    icon: 'bi-mortarboard-fill',
+                    color: 'info',
+                    codes: 53,
+                    path: '10-Teachers/'
                 }
             ];
 
@@ -664,7 +673,8 @@
                 'commercial-client': 'commercial_client',
                 'product-service': 'product_service',
                 'tech-data': 'tech_data',
-                '09-Content Writers': 'content_writers'
+                '09-Content Writers': 'content_writers',
+                '10-Teachers': 'teachers'
             };
             return fileMap[id] || 'index';
         }

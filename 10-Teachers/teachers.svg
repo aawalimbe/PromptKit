@@ -1,0 +1,144 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f3e5f5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    Teachers Dictionary - Educational Excellence
+  </text>
+  
+  <!-- Central Teacher Icon -->
+  <circle cx="400" cy="300" r="60" fill="url(#cardGradient)" stroke="#3498db" stroke-width="3"/>
+  <text x="400" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#3498db">👨‍🏫</text>
+  
+  <!-- Lesson Planning & Curriculum -->
+  <rect x="50" y="100" width="140" height="120" rx="10" fill="url(#cardGradient)" stroke="#e74c3c" stroke-width="2"/>
+  <text x="120" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#e74c3c">
+    Lesson Planning &amp; Curriculum
+  </text>
+  <text x="60" y="145" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">lpl: Lesson Plans</text>
+  <text x="60" y="160" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">cur: Curriculum</text>
+  <text x="60" y="175" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">obj: Objectives</text>
+  <text x="60" y="190" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">act: Activities</text>
+  <text x="60" y="205" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">mat: Materials</text>
+  <text x="60" y="220" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">fact: Facts &amp; Data</text>
+  <text x="60" y="235" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">exam: Examples</text>
+  
+  <!-- Assessment & Evaluation -->
+  <rect x="210" y="100" width="140" height="120" rx="10" fill="url(#cardGradient)" stroke="#f39c12" stroke-width="2"/>
+  <text x="280" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f39c12">
+    Assessment &amp; Evaluation
+  </text>
+  <text x="220" y="145" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">quiz: Quizzes</text>
+  <text x="220" y="160" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">exam: Exams</text>
+  <text x="220" y="175" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">rub: Rubrics</text>
+  <text x="220" y="190" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">proj: Projects</text>
+  <text x="220" y="205" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">peer: Peer Review</text>
+  <text x="220" y="220" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">qa: Q&amp;A Generation</text>
+  
+  <!-- Classroom Management -->
+  <rect x="370" y="100" width="140" height="120" rx="10" fill="url(#cardGradient)" stroke="#27ae60" stroke-width="2"/>
+  <text x="440" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27ae60">
+    Classroom Management
+  </text>
+  <text x="380" y="145" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">beh: Behavior</text>
+  <text x="380" y="160" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">eng: Engagement</text>
+  <text x="380" y="175" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">grp: Group Work</text>
+  <text x="380" y="190" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">diff: Differentiation</text>
+  <text x="380" y="205" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">time: Time Mgmt</text>
+  <text x="380" y="220" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">ind: Independent</text>
+  <text x="380" y="235" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">coll: Collaborative</text>
+  
+  <!-- Communication & Feedback -->
+  <rect x="530" y="100" width="140" height="120" rx="10" fill="url(#cardGradient)" stroke="#9b59b6" stroke-width="2"/>
+  <text x="600" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#9b59b6">
+    Communication &amp; Feedback
+  </text>
+  <text x="540" y="145" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">par: Parents</text>
+  <text x="540" y="160" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">feed: Feedback</text>
+  <text x="540" y="175" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">rep: Reports</text>
+  <text x="540" y="190" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">let: Letters</text>
+  <text x="540" y="205" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">conf: Conferences</text>
+  <text x="540" y="220" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">brk: Breakout</text>
+  
+  <!-- Professional Development -->
+  <rect x="50" y="380" width="140" height="120" rx="10" fill="url(#cardGradient)" stroke="#34495e" stroke-width="2"/>
+  <text x="120" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#34495e">
+    Professional Development
+  </text>
+  <text x="60" y="425" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">train: Training</text>
+  <text x="60" y="440" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">res: Research</text>
+  <text x="60" y="455" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">ref: Reflection</text>
+  <text x="60" y="470" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">plan: Planning</text>
+  <text x="60" y="485" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">eval: Evaluation</text>
+  <text x="60" y="500" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">simp: Simplification</text>
+  
+  <!-- Technology Integration -->
+  <rect x="210" y="380" width="140" height="120" rx="10" fill="url(#cardGradient)" stroke="#16a085" stroke-width="2"/>
+  <text x="280" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a085">
+    Technology Integration
+  </text>
+  <text x="220" y="425" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">tech: Technology</text>
+  <text x="220" y="440" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">dig: Digital Skills</text>
+  <text x="220" y="455" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">onl: Online Learning</text>
+  <text x="220" y="470" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">app: Apps &amp; Tools</text>
+  <text x="220" y="485" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">blen: Blended Learning</text>
+  
+  <!-- Subject-Specific Teaching -->
+  <rect x="370" y="380" width="140" height="120" rx="10" fill="url(#cardGradient)" stroke="#e67e22" stroke-width="2"/>
+  <text x="440" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#e67e22">
+    Subject-Specific Teaching
+  </text>
+  <text x="380" y="425" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">math: Mathematics</text>
+  <text x="380" y="440" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">sci: Science</text>
+  <text x="380" y="455" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">lang: Language Arts</text>
+  <text x="380" y="470" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">hist: History</text>
+  <text x="380" y="485" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">art: Arts</text>
+  
+  <!-- Student Support -->
+  <rect x="530" y="380" width="140" height="120" rx="10" fill="url(#cardGradient)" stroke="#c0392b" stroke-width="2"/>
+  <text x="600" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c0392b">
+    Student Support
+  </text>
+  <text x="540" y="425" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">tut: Tutoring</text>
+  <text x="540" y="440" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">mot: Motivation</text>
+  <text x="540" y="455" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">study: Study Skills</text>
+  <text x="540" y="470" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">care: Career Guidance</text>
+  <text x="540" y="485" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">well: Well-being</text>
+  
+  <!-- Administrative Tasks -->
+  <rect x="290" y="250" width="140" height="80" rx="10" fill="url(#cardGradient)" stroke="#7f8c8d" stroke-width="2"/>
+  <text x="360" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7f8c8d">
+    Administrative Tasks
+  </text>
+  <text x="300" y="295" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">rec: Records</text>
+  <text x="300" y="310" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">grad: Grading</text>
+  <text x="300" y="325" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">att: Attendance</text>
+  
+  <!-- Connection lines -->
+  <line x1="120" y1="220" x2="400" y2="240" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="280" y1="220" x2="400" y2="240" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="440" y1="220" x2="400" y2="240" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="600" y1="220" x2="400" y2="240" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="120" y1="380" x2="400" y2="360" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="280" y1="380" x2="400" y2="360" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="440" y1="380" x2="400" y2="360" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="600" y1="380" x2="400" y2="360" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="360" y1="330" x2="400" y2="360" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Footer -->
+  <text x="400" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">
+    53 Codes for Educational Excellence • School • College • University
+  </text>
+</svg>

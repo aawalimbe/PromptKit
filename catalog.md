@@ -143,6 +143,31 @@ dev+test: Create login function with tests
 - `cw.dlg:` - Write natural, engaging dialogue between characters
 - `cw.scn:` - Create vivid scene descriptions with atmosphere and details
 
+### 10. Teachers (53 codes)
+**File:** `10-Teachers/teachers.json`  
+**Description:** Codes for educators across school, college, and university levels
+
+**Key Codes:**
+- `lpl:` - Create comprehensive lesson plans with objectives, activities, and assessments
+- `cur:` - Design curriculum or course outlines with learning progression
+- `quiz:` - Design quizzes with multiple choice, true/false, and short answer questions
+- `exam:` - Develop comprehensive exams with various question types
+- `rub:` - Create detailed assessment rubrics with clear criteria
+- `beh:` - Provide strategies for managing student behavior and classroom order
+- `eng:` - Suggest methods to increase student engagement and participation
+- `par:` - Draft professional communication for parents regarding student progress
+- `tech:` - Suggest effective ways to integrate technology into classroom instruction
+- `math:` - Develop strategies for teaching mathematical concepts and problem-solving
+- `tut:` - Design personalized tutoring strategies for students needing support
+- `train:` - Create comprehensive training programs for professional development
+- `fact:` - Get facts and data with citations and links to sources
+- `exam:` - Create simple examples from day-to-day life to explain concepts
+- `simp:` - Simplify complex concepts for easy understanding
+- `ind:` - Design independent in-class activities
+- `coll:` - Design collaborative group activities
+- `brk:` - Design breakout session activities
+- `qa:` - Generate quiz and Q&A questions on given topic
+
 ## Code Combinations
 
 ### Popular Combinations
@@ -213,6 +238,7 @@ prompt-kit/
 │   ├── Product & Service/
 │   └── Technology & Data/
 ├── 09-Content Writers/
+├── 10-Teachers/
 ├── catalog.md               # This file
 ├── validation.py            # Code validation script
 └── README.md
@@ -233,6 +259,6 @@ MIT License - see LICENSE file for details.
 
 ---
 
-**Total Departments:** 9  
-**Total Codes:** 109+ (and growing)  
-**Last Updated:** 2025-09-30
+**Total Departments:** 10  
+**Total Codes:** 162+ (and growing)  
+**Last Updated:** 2025-01-17

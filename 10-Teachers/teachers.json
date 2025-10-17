@@ -1,0 +1,373 @@
+{
+  "promptkit_dictionary": {
+    "metadata": {
+      "title": "Teachers Dictionary",
+      "description": "Comprehensive shorthand codes for educators across school, college, and university levels",
+      "version": "1.0",
+      "created": "2025-01-17",
+      "target_audience": "Teachers, Educators, Academic Staff",
+      "total_codes": 53
+    },
+    "instructions_for_llm": "These are shorthand codes that expand into full teaching instructions. When a user types a code followed by a colon and content, expand it into the full instruction for the AI to execute.",
+    "instructions_for_user": "Use these codes with a colon (:) followed by your content. For example: 'lpl: Create a lesson plan for photosynthesis' becomes 'Create a comprehensive lesson plan for teaching photosynthesis'",
+    "sections": {
+      "Lesson Planning & Curriculum": {
+        "description": "Codes for creating lesson plans, curriculum development, and instructional design",
+        "codes": [
+          {
+            "code": "lpl:",
+            "description": "Create a comprehensive lesson plan",
+            "usage_examples": ["lpl: Introduction to algebra", "lpl: World War II causes and effects"],
+            "instructions": "Develop a detailed lesson plan including objectives, activities, materials, assessment, and timing"
+          },
+          {
+            "code": "cur:",
+            "description": "Design curriculum or course outline",
+            "usage_examples": ["cur: Grade 10 biology course", "cur: Introduction to programming"],
+            "instructions": "Create a comprehensive curriculum with learning objectives, modules, and progression"
+          },
+          {
+            "code": "obj:",
+            "description": "Write learning objectives",
+            "usage_examples": ["obj: Students will understand photosynthesis", "obj: Learners will analyze historical events"],
+            "instructions": "Create clear, measurable learning objectives using Bloom's taxonomy"
+          },
+          {
+            "code": "act:",
+            "description": "Design engaging learning activities",
+            "usage_examples": ["act: Hands-on science experiment", "act: Group discussion on climate change"],
+            "instructions": "Create interactive, student-centered learning activities that promote engagement"
+          },
+          {
+            "code": "mat:",
+            "description": "List required teaching materials",
+            "usage_examples": ["mat: For chemistry lab", "mat: For history lesson on ancient Rome"],
+            "instructions": "Compile a comprehensive list of materials, resources, and equipment needed"
+          },
+          {
+            "code": "fact:",
+            "description": "Get facts and data with citations and links",
+            "usage_examples": ["fact: Climate change statistics", "fact: Historical data on World War II"],
+            "instructions": "Provide accurate facts, statistics, and data with proper citations, links to sources, and verification of information"
+          },
+          {
+            "code": "exam:",
+            "description": "Create simple examples from day-to-day life",
+            "usage_examples": ["exam: Photosynthesis in everyday plants", "exam: Gravity using falling objects"],
+            "instructions": "Generate relatable, real-world examples that students can easily understand and connect to their daily experiences"
+          },
+          {
+            "code": "simp:",
+            "description": "Simplify complex concepts for easy understanding",
+            "usage_examples": ["simp: Quantum physics basics", "simp: Economic principles"],
+            "instructions": "Break down complex topics into simple, digestible explanations using analogies, metaphors, and step-by-step processes"
+          }
+        ]
+      },
+      "Assessment & Evaluation": {
+        "description": "Codes for creating assessments, tests, rubrics, and evaluation methods",
+        "codes": [
+          {
+            "code": "quiz:",
+            "description": "Create a quiz or short assessment",
+            "usage_examples": ["quiz: Basic math concepts", "quiz: Vocabulary from chapter 5"],
+            "instructions": "Design a quiz with multiple choice, true/false, and short answer questions"
+          },
+          {
+            "code": "exam:",
+            "description": "Create a comprehensive exam",
+            "usage_examples": ["exam: Mid-term biology exam", "exam: Final literature assessment"],
+            "instructions": "Develop a comprehensive exam with various question types and appropriate difficulty levels"
+          },
+          {
+            "code": "rub:",
+            "description": "Create assessment rubric",
+            "usage_examples": ["rub: Essay writing rubric", "rub: Science project evaluation"],
+            "instructions": "Design a detailed rubric with clear criteria and performance levels"
+          },
+          {
+            "code": "proj:",
+            "description": "Design project assignment",
+            "usage_examples": ["proj: Research project on renewable energy", "proj: Creative writing portfolio"],
+            "instructions": "Create a project assignment with clear guidelines, deliverables, and evaluation criteria"
+          },
+          {
+            "code": "peer:",
+            "description": "Design peer assessment activity",
+            "usage_examples": ["peer: Group presentation feedback", "peer: Writing workshop peer review"],
+            "instructions": "Create peer assessment activities that promote collaborative learning"
+          },
+          {
+            "code": "qa:",
+            "description": "Generate quiz and Q&A questions on given topic",
+            "usage_examples": ["qa: Photosynthesis quiz questions", "qa: World War II Q&A session"],
+            "instructions": "Create comprehensive quiz questions and Q&A sessions with varying difficulty levels, multiple question types, and answer keys"
+          }
+        ]
+      },
+      "Classroom Management": {
+        "description": "Codes for classroom organization, behavior management, and student engagement",
+        "codes": [
+          {
+            "code": "beh:",
+            "description": "Address behavioral issues or strategies",
+            "usage_examples": ["beh: Student not participating", "beh: Classroom disruption management"],
+            "instructions": "Provide strategies for managing student behavior and maintaining classroom order"
+          },
+          {
+            "code": "eng:",
+            "description": "Increase student engagement",
+            "usage_examples": ["eng: Unmotivated students", "eng: Large class participation"],
+            "instructions": "Suggest methods to increase student engagement and active participation"
+          },
+          {
+            "code": "grp:",
+            "description": "Organize group activities",
+            "usage_examples": ["grp: Collaborative learning groups", "grp: Study buddy assignments"],
+            "instructions": "Design effective group work strategies and collaborative learning activities"
+          },
+          {
+            "code": "diff:",
+            "description": "Address diverse learning needs",
+            "usage_examples": ["diff: Mixed ability classroom", "diff: Special needs accommodations"],
+            "instructions": "Provide differentiated instruction strategies for diverse learners"
+          },
+          {
+            "code": "time:",
+            "description": "Manage classroom time effectively",
+            "usage_examples": ["time: 45-minute lesson pacing", "time: Transition between activities"],
+            "instructions": "Suggest time management strategies for effective classroom pacing"
+          },
+          {
+            "code": "ind:",
+            "description": "Design independent in-class activities",
+            "usage_examples": ["ind: Individual research project", "ind: Self-paced reading assignment"],
+            "instructions": "Create self-directed learning activities that students can complete independently during class time"
+          },
+          {
+            "code": "coll:",
+            "description": "Design collaborative group activities",
+            "usage_examples": ["coll: Team problem-solving exercise", "coll: Collaborative presentation project"],
+            "instructions": "Create engaging collaborative activities that promote teamwork, communication, and group learning"
+          },
+          {
+            "code": "brk:",
+            "description": "Design breakout session activities",
+            "usage_examples": ["brk: Small group discussions", "brk: Rotating station activities"],
+            "instructions": "Create structured breakout activities for small groups to work on specific tasks or discussions"
+          }
+        ]
+      },
+      "Communication & Feedback": {
+        "description": "Codes for parent communication, student feedback, and academic reporting",
+        "codes": [
+          {
+            "code": "par:",
+            "description": "Communicate with parents",
+            "usage_examples": ["par: Student progress update", "par: Parent-teacher conference preparation"],
+            "instructions": "Draft professional communication for parents regarding student progress and concerns"
+          },
+          {
+            "code": "feed:",
+            "description": "Provide student feedback",
+            "usage_examples": ["feed: Constructive criticism on essay", "feed: Positive reinforcement message"],
+            "instructions": "Write constructive, specific feedback that helps students improve"
+          },
+          {
+            "code": "rep:",
+            "description": "Write academic reports",
+            "usage_examples": ["rep: Student progress report", "rep: Academic achievement summary"],
+            "instructions": "Create comprehensive academic reports with specific examples and recommendations"
+          },
+          {
+            "code": "let:",
+            "description": "Write recommendation letters",
+            "usage_examples": ["let: College recommendation", "let: Scholarship application support"],
+            "instructions": "Draft compelling recommendation letters highlighting student strengths and achievements"
+          },
+          {
+            "code": "conf:",
+            "description": "Prepare for conferences or meetings",
+            "usage_examples": ["conf: Parent-teacher conference", "conf: IEP meeting preparation"],
+            "instructions": "Prepare talking points and materials for educational conferences and meetings"
+          }
+        ]
+      },
+      "Professional Development": {
+        "description": "Codes for teacher training, professional growth, and educational research",
+        "codes": [
+          {
+            "code": "train:",
+            "description": "Design teacher training program",
+            "usage_examples": ["train: New teacher orientation", "train: Technology integration workshop"],
+            "instructions": "Create comprehensive training programs for professional development"
+          },
+          {
+            "code": "res:",
+            "description": "Conduct educational research",
+            "usage_examples": ["res: Teaching methodology study", "res: Student learning outcomes analysis"],
+            "instructions": "Design research studies and analyze educational data for evidence-based practice"
+          },
+          {
+            "code": "ref:",
+            "description": "Reflect on teaching practice",
+            "usage_examples": ["ref: Lesson effectiveness analysis", "ref: Teaching philosophy development"],
+            "instructions": "Guide reflective practice for continuous improvement in teaching"
+          },
+          {
+            "code": "plan:",
+            "description": "Plan professional development",
+            "usage_examples": ["plan: Annual learning goals", "plan: Career advancement strategy"],
+            "instructions": "Create personalized professional development plans and learning objectives"
+          },
+          {
+            "code": "eval:",
+            "description": "Self-evaluate teaching performance",
+            "usage_examples": ["eval: Teaching effectiveness assessment", "eval: Student feedback analysis"],
+            "instructions": "Conduct systematic self-evaluation of teaching practices and outcomes"
+          }
+        ]
+      },
+      "Technology Integration": {
+        "description": "Codes for incorporating technology into teaching and learning",
+        "codes": [
+          {
+            "code": "tech:",
+            "description": "Integrate technology into lessons",
+            "usage_examples": ["tech: Interactive whiteboard activities", "tech: Online learning platform usage"],
+            "instructions": "Suggest effective ways to integrate technology tools into classroom instruction"
+          },
+          {
+            "code": "dig:",
+            "description": "Develop digital literacy skills",
+            "usage_examples": ["dig: Online research skills", "dig: Digital citizenship education"],
+            "instructions": "Create activities to develop students' digital literacy and responsible technology use"
+          },
+          {
+            "code": "onl:",
+            "description": "Design online learning experiences",
+            "usage_examples": ["onl: Virtual field trip", "onl: Asynchronous learning modules"],
+            "instructions": "Design engaging online learning experiences and virtual classroom activities"
+          },
+          {
+            "code": "app:",
+            "description": "Recommend educational apps and tools",
+            "usage_examples": ["app: Math learning apps", "app: Language learning tools"],
+            "instructions": "Suggest appropriate educational technology tools and applications"
+          },
+          {
+            "code": "blen:",
+            "description": "Create blended learning experiences",
+            "usage_examples": ["blen: Flipped classroom model", "blen: Hybrid learning approach"],
+            "instructions": "Design blended learning experiences combining online and face-to-face instruction"
+          }
+        ]
+      },
+      "Subject-Specific Teaching": {
+        "description": "Codes for specialized subject teaching strategies and content delivery",
+        "codes": [
+          {
+            "code": "math:",
+            "description": "Teach mathematical concepts",
+            "usage_examples": ["math: Algebra problem-solving", "math: Geometry proofs"],
+            "instructions": "Develop effective strategies for teaching mathematical concepts and problem-solving"
+          },
+          {
+            "code": "sci:",
+            "description": "Teach science concepts",
+            "usage_examples": ["sci: Chemistry experiments", "sci: Biology laboratory work"],
+            "instructions": "Create engaging science lessons with hands-on experiments and inquiry-based learning"
+          },
+          {
+            "code": "lang:",
+            "description": "Teach language arts and literacy",
+            "usage_examples": ["lang: Creative writing workshop", "lang: Reading comprehension strategies"],
+            "instructions": "Develop language arts lessons focusing on reading, writing, speaking, and listening skills"
+          },
+          {
+            "code": "hist:",
+            "description": "Teach history and social studies",
+            "usage_examples": ["hist: Ancient civilizations", "hist: Current events discussion"],
+            "instructions": "Create engaging history lessons using primary sources and critical thinking activities"
+          },
+          {
+            "code": "art:",
+            "description": "Teach arts and creative subjects",
+            "usage_examples": ["art: Visual art techniques", "art: Music appreciation"],
+            "instructions": "Design creative arts lessons that encourage self-expression and artistic development"
+          }
+        ]
+      },
+      "Student Support": {
+        "description": "Codes for supporting student learning, well-being, and academic success",
+        "codes": [
+          {
+            "code": "tut:",
+            "description": "Provide tutoring or extra help",
+            "usage_examples": ["tut: Struggling student support", "tut: Advanced student enrichment"],
+            "instructions": "Design personalized tutoring strategies for students who need additional support"
+          },
+          {
+            "code": "mot:",
+            "description": "Motivate and inspire students",
+            "usage_examples": ["mot: Unmotivated learners", "mot: Goal-setting activities"],
+            "instructions": "Develop strategies to increase student motivation and academic engagement"
+          },
+          {
+            "code": "study:",
+            "description": "Teach study skills and strategies",
+            "usage_examples": ["study: Test preparation techniques", "study: Note-taking methods"],
+            "instructions": "Provide study skills instruction and learning strategy development"
+          },
+          {
+            "code": "care:",
+            "description": "Provide career guidance",
+            "usage_examples": ["care: College preparation", "care: Career exploration activities"],
+            "instructions": "Offer career guidance and academic pathway planning for students"
+          },
+          {
+            "code": "well:",
+            "description": "Support student well-being",
+            "usage_examples": ["well: Stress management", "well: Social-emotional learning"],
+            "instructions": "Address student mental health and well-being through supportive strategies"
+          }
+        ]
+      },
+      "Administrative Tasks": {
+        "description": "Codes for administrative duties, record keeping, and institutional requirements",
+        "codes": [
+          {
+            "code": "rec:",
+            "description": "Maintain student records",
+            "usage_examples": ["rec: Grade book organization", "rec: Attendance tracking"],
+            "instructions": "Organize and maintain accurate student records and academic documentation"
+          },
+          {
+            "code": "grad:",
+            "description": "Grade assignments and assessments",
+            "usage_examples": ["grad: Essay evaluation", "grad: Project assessment"],
+            "instructions": "Provide fair, consistent grading with constructive feedback"
+          },
+          {
+            "code": "att:",
+            "description": "Manage attendance and participation",
+            "usage_examples": ["att: Attendance policy", "att: Participation tracking"],
+            "instructions": "Implement effective attendance tracking and participation management systems"
+          },
+          {
+            "code": "sched:",
+            "description": "Plan schedules and timetables",
+            "usage_examples": ["sched: Weekly lesson schedule", "sched: Exam timetable"],
+            "instructions": "Create organized schedules and timetables for effective time management"
+          },
+          {
+            "code": "bud:",
+            "description": "Manage classroom budget and resources",
+            "usage_examples": ["bud: Supply purchasing", "bud: Resource allocation"],
+            "instructions": "Plan and manage classroom budgets and educational resource allocation"
+          }
+        ]
+      }
+    }
+  }
+}
