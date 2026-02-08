@@ -274,6 +274,15 @@ python svg_to_png_utility/convert_svgs.py
   - Interactive JSON parsing and code display
   - Download links for `.svg` sheets and PNG exports
 
+### **Claude Skill / Agent Integration**
+Located in `claude-skill/` - Skill definition (`SKILL.md`) for teaching AI agents (like Claude or Gemini) to understand and expand PromptKit codes autonomously.
+
+**Features:**
+- Native interpretation of all PromptKit codes
+- Supports complex chaining (e.g., `cp+sm:`) and custom definitions
+- Comprehensive instructions for 10+ domains
+- Ideal for integrating PromptKit into agentic workflows
+
 ---
 
 ## 🚀 Quick Start Guide
